@@ -1,0 +1,41 @@
+# Piping Flange
+
+> Industrial pipe flange resource and supply covering the full pressure spectrum, from Class 125LW lightweight (86 PSI) through API 6BX wellhead (20,000 PSI). Carbon, stainless, alloy, and exotic materials. Built on the work of Texas Flange and Fitting Supply, an established Houston-area flange and fitting source serving oil and gas, waterworks, power, petrochemical, and general manufacturing since 1986.
+
+## Contact
+
+- Phone: (281) 484-8325
+- Email: sales@texasflange.com
+- Mailing: PO Box 2889, Pearland, TX 77588
+- Hours: Monday through Friday, 8 AM to 5 PM CST
+
+## Site Structure
+
+- /products: Flanges, pipe fittings, custom machining
+- /standards: ASME B16.5 and B16.47, AWWA C207, ANSI B16.1, DIN EN 1092-1, API 6A and 6BX
+- /materials: Carbon steel, stainless steel, alloy steel, exotic alloys
+- /industries: Oil and gas, petrochemical, power generation, waterworks, chemical processing, mining, pulp and paper, food and beverage, agriculture, HVAC, marine, data centers
+- /resources: Flange dimensions, CAD drawings, domestic vs import guidance, technical specs
+- /tools: Bolt torque calculator, flange dimension calculator, pressure-temperature rating lookup
+- /blog: Long-form technical articles on flange selection, API vs ASME standards, bolt torque practice
+
+## Key Capabilities
+
+- Sizes from 1/2 inch through 144 inch nominal pipe size
+- Pressure classes from Class 125LW (AWWA C207) through Class 2500 (ASME B16.5) through 20K (API 6BX)
+- Material grades: A105, A350 LF2/LF3, A516-70, A694 F42 through F70, F304/304L, F316/316L, F321, F11, F22, F91, plus Hastelloy, Inconel, Monel, duplex, and super duplex
+- Domestic melt and import options
+- Full mill test report traceability (EN 10204 3.1 and 3.2 available)
+- Custom machining: non-standard bores, overbore, special facings, RTJ grooves, weld overlay
+
+## Standards Reference
+
+- ASME B16.5: Pipe Flanges and Flanged Fittings, NPS 1/2 through 24
+- ASME B16.47: Large Diameter Steel Flanges, NPS 26 through 60, Series A and Series B
+- AWWA C207: Steel Pipe Flanges for Waterworks Service, Classes B/D/E/F
+- ANSI B16.1: Cast Iron Pipe Flanges and Flanged Fittings, Class 25/125/250
+- DIN EN 1092-1: Circular Flanges for Pipes, PN 6 through PN 400
+- API 6A: Wellhead and Christmas Tree Equipment, 2K through 20K
+- API 6BX: High-pressure flange dimensions for API 6A service
+- MSS SP-44: Steel Pipeline Flanges, high yield F42 through F70
+- NACE MR0175: Material restrictions for H2S sour service
