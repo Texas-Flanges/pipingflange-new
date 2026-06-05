@@ -34,15 +34,22 @@ export default function AsmeFlangesPage() {
             ASME B16.5: Pipe Flanges and Flanged Fittings, 1/2&quot; - 24&quot;
           </h2>
           <p className="text-gray-700 leading-relaxed mb-6 max-w-3xl">
-            B16.5 is the standard you bump into first when working with carbon
-            steel, stainless steel, and alloy flanges in process piping. It
-            covers nominal pipe sizes 1/2 inch through 24 inches in seven
-            pressure classes and four common face types.
+            B16.5 is the standard most often referenced when working with
+            carbon steel, stainless steel, and alloy flanges in process
+            piping. It covers nominal pipe sizes 1/2 inch through 24 inches
+            in seven pressure classes (150, 300, 400, 600, 900, 1500, and
+            2500) and four common face types.
           </p>
 
           <h3 className="text-xl font-bold text-[#1B1F23] mb-3 mt-8">
             Pressure Classes
           </h3>
+          <p className="text-gray-700 leading-relaxed mb-3 max-w-3xl">
+            ASME B16.5 defines seven pressure classes: 150, 300, 400, 600,
+            900, 1500, and 2500. Class 400 is part of the standard but is
+            uncommon in stock - it is normally substituted out to Class 600
+            unless a spec specifically requires it.
+          </p>
           <ul className="text-gray-700 leading-relaxed space-y-2 mb-6">
             <li>
               <strong>Class 150</strong> - the workhorse for moderate-pressure
@@ -52,6 +59,11 @@ export default function AsmeFlangesPage() {
             <li>
               <strong>Class 300</strong> - the next step up, common on steam
               and hot hydrocarbon lines.
+            </li>
+            <li>
+              <strong>Class 400</strong> - an intermediate class that exists
+              in the standard but is rarely specified. Class 600 typically
+              fills the same duty with more inventory availability.
             </li>
             <li>
               <strong>Class 600</strong> - higher pressure process service,
@@ -77,7 +89,10 @@ export default function AsmeFlangesPage() {
           <ul className="text-gray-700 leading-relaxed space-y-2 mb-6">
             <li>
               <strong>Raised Face (RF)</strong> - the default for most process
-              piping. Concentrated gasket load.
+              piping. Concentrates gasket load on the raised area. Class 150
+              and Class 300 carry a 1/16-inch raise height; Class 400 through
+              Class 2500 carry a 1/4-inch raise. The two are dimensionally
+              different and not interchangeable.
             </li>
             <li>
               <strong>Flat Face (FF)</strong> - used when bolting to a brittle
@@ -170,12 +185,12 @@ export default function AsmeFlangesPage() {
       <section className="bg-[#F8F6F0] py-16 px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-display font-bold mb-4 text-[#1B1F23]">
-            Materials We Commonly Supply
+            Materials Commonly Specified Under B16.5 and B16.47
           </h2>
           <p className="text-gray-700 leading-relaxed mb-6 max-w-3xl">
             B16.5 and B16.47 cover dimensional requirements. The material
             specification governs chemistry and mechanical properties. The
-            combination is what gives you a final pressure-temperature rating.
+            combination is what produces a final pressure-temperature rating.
           </p>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-white p-5 rounded border border-gray-200">
@@ -253,10 +268,10 @@ export default function AsmeFlangesPage() {
             Need ASME Flanges for Your Project?
           </h2>
           <p className="text-lg mb-8 max-w-2xl mx-auto">
-            We carry B16.5 through 24 inches and source B16.47 in both series
-            from the size and class that matches your spec. Send the line list
-            and we will confirm material, class, and face finish on every
-            line item.
+            Texas Flange supplies B16.5 through 24 inches and sources B16.47
+            in both series to the size and class on the line list. Send the
+            project and pricing comes back with material, class, and face
+            finish confirmed line by line.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <a

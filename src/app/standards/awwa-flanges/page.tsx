@@ -111,12 +111,14 @@ export default function AwwaFlangesPage() {
             section of cast iron pipe without an adapter or a custom drill.
           </p>
           <p className="text-gray-300 leading-relaxed mb-4 max-w-3xl">
-            What makes the 125LW different from a B16.5 Class 150 is the
-            cross-section. The flange is thinner and lighter, which keeps cost
-            and weight down. It is produced from AWWA C207 material
-            specifications (typically ASTM A36 plate or A105 forgings) rather
-            than the heavier-duty B16.5 material spec, and the result is a
-            flange purpose-built for low and moderate pressure water service.
+            What makes 125LW different from a B16.5 Class 150 is the
+            cross-section. The flange is thinner and lighter, which keeps
+            cost and weight down. 125LW is properly part of the ASME B16.1
+            lightweight family - the standard applies AWWA-style material
+            allowances (typically ASTM A36 plate or A105 forgings) to the
+            B16.1 lightweight dimensional pattern. AWWA C207 is a separate
+            waterworks specification with its own pressure classes; the two
+            overlap in drilling but they are not the same standard.
           </p>
           <p className="text-gray-300 leading-relaxed max-w-3xl">
             Class 125LW is supplied across the full configuration range:
@@ -164,7 +166,7 @@ export default function AwwaFlangesPage() {
             >
               stainless steel materials
             </Link>{" "}
-            for the grades we stock and source.
+            for the grades commonly used in C228 service.
           </p>
         </div>
       </section>
@@ -172,7 +174,7 @@ export default function AwwaFlangesPage() {
       <section className="bg-[#1B1F23] text-white py-16 px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-display font-bold text-white mb-6">
-            Materials We Supply Under AWWA C207
+            Materials Used Under AWWA C207
           </h2>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-[#2A2F35] p-6 rounded">
@@ -241,7 +243,7 @@ export default function AwwaFlangesPage() {
 
           <p className="text-gray-700 leading-relaxed mt-8 max-w-3xl">
             For more on the full range of waterworks fittings and flange
-            configurations we supply, see the{" "}
+            configurations covered on this site, see the{" "}
             <Link
               href="/products/flanges"
               className="text-[#B45309] underline"
@@ -263,9 +265,10 @@ export default function AwwaFlangesPage() {
             AWWA Flanges, From 4&quot; to 144&quot;
           </h2>
           <p className="text-lg mb-8 max-w-2xl mx-auto">
-            Class B through Class F, 125LW for the cast iron retrofit work,
-            C228 stainless when the water is aggressive. Send the schedule and
-            we will match class, drilling, and configuration line by line.
+            Class B through Class F, 125LW for cast-iron retrofit work, C228
+            stainless when the water is aggressive. Send the schedule to
+            Texas Flange to match class, drilling, and configuration line by
+            line.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <a

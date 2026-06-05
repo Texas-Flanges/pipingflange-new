@@ -12,14 +12,14 @@ export const metadata: Metadata = {
     "Comprehensive piping flange resource covering the full pressure spectrum. Class 125LW lightweight through API 6BX 20,000 psi. Carbon, stainless, alloy. ASME, ANSI, AWWA, API standards.",
   keywords:
     "piping flanges, pipe flanges, industrial flanges, weld neck flanges, blind flanges, slip on flanges, lightweight flanges, AWWA C207, API 6A flanges, ASME B16.5, ASME B16.47, carbon steel flanges, stainless steel flanges, alloy flanges, PVF",
-  metadataBase: new URL("https://pipingflange-new.vercel.app"),
+  metadataBase: new URL("https://pipingflange.texasflange.com"),
   openGraph: {
     type: "website",
     siteName: "Piping Flange",
     title: "Piping Flange | The Full Pressure Spectrum",
     description:
       "Lightweight Class 125LW through API 20K. Carbon, stainless, alloy. Every standard, every size, every pressure class.",
-    url: "https://pipingflange-new.vercel.app"
+    url: "https://pipingflange.texasflange.com"
   },
   robots: { index: true, follow: true }
 };
@@ -42,10 +42,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               "@context": "https://schema.org",
               "@type": "Organization",
               name: "Piping Flange",
-              url: "https://pipingflange-new.vercel.app",
-              logo: "https://pipingflange-new.vercel.app/logo.png",
+              url: "https://pipingflange.texasflange.com",
+              logo: "https://pipingflange.texasflange.com/logo.png",
               description:
-                "Industrial piping flange resource and supply. Lightweight to high-pressure API. Carbon, stainless, alloy materials.",
+                "Industrial piping flange reference. Lightweight to high-pressure API. Carbon, stainless, alloy materials.",
               telephone: "+1-281-484-8325",
               email: "sales@texasflange.com",
               address: {

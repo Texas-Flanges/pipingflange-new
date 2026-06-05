@@ -84,7 +84,7 @@ export default function AboutPage() {
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl font-display font-bold mb-4 text-white">Ready to Talk Flanges?</h2>
           <p className="text-lg text-white/90 mb-6">
-            The supply team is one phone call away.
+            The Texas Flange sales desk is one phone call away.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Link href="/contact" className="bg-white text-[#B45309] px-8 py-3 rounded font-bold hover:bg-cream transition">

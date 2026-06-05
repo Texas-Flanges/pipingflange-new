@@ -20,11 +20,11 @@ export default function CarbonSteelPage() {
           </h1>
           <p className="text-xl text-gray-300 leading-relaxed max-w-3xl">
             Carbon steel is still the default for the majority of process,
-            pipeline, and utility piping in North America. We stock the
-            standard ASTM A105 and A350 grades for general and low
-            temperature service, A516-70 plate for waterworks, and the
-            full A694 high yield range for transmission pipeline service
-            from Class 600 on up.
+            pipeline, and utility piping in North America. The reference
+            below covers the standard ASTM A105 and A350 grades for
+            general and low temperature service, A516-70 plate for
+            waterworks, and the full A694 high yield range for
+            transmission pipeline service from Class 600 on up.
           </p>
         </div>
       </section>
@@ -42,21 +42,21 @@ export default function CarbonSteelPage() {
               <p className="text-lg leading-relaxed text-[#1B1F23]">
                 A105 is the carbon steel forging grade that covers most
                 ASME B16.5 flanges in ambient and moderately elevated
-                service. It is suitable up to roughly 800F, but ASME
+                service. It is suitable up to roughly 800°F, but ASME
                 pressure-temperature tables derate the material steeply
-                above 500F, which is why high-temperature service typically
+                above 500°F, which is why high-temperature service typically
                 shifts to chrome-moly alloy. For minimum design metal
-                temperature below about -20F, A105 needs supplementary
+                temperature below about -20°F, A105 needs supplementary
                 impact testing or a switch to A350 LF2.
               </p>
             </div>
             <div>
               <h3 className="text-2xl font-display font-bold mb-2 text-[#1B1F23]">
-                ASTM A350 LF2 - Low Temperature To -50F
+                ASTM A350 LF2 - Low Temperature To -50°F
               </h3>
               <p className="text-lg leading-relaxed text-[#1B1F23]">
                 LF2 is the impact-tested forging that takes over below the
-                A105 limit. Charpy testing is performed at -50F as standard,
+                A105 limit. Charpy testing is performed at -50°F as standard,
                 making LF2 the workhorse for cold-climate gas processing,
                 LNG export trains, ethylene and propylene service, and
                 anywhere a low MDMT lands on the line list. Mechanically
@@ -66,11 +66,11 @@ export default function CarbonSteelPage() {
             </div>
             <div>
               <h3 className="text-2xl font-display font-bold mb-2 text-[#1B1F23]">
-                ASTM A350 LF3 - Low Temperature To -150F
+                ASTM A350 LF3 - Low Temperature To -150°F
               </h3>
               <p className="text-lg leading-relaxed text-[#1B1F23]">
                 LF3 carries about 3.5 percent nickel, which gives it
-                Charpy performance down around -150F. This is the spec
+                Charpy performance down around -150°F. This is the spec
                 for deep cryogenic carbon service before you have to step
                 up into austenitic stainless or 9 percent nickel plate.
                 Common on LNG and ethylene flange packages.
@@ -178,7 +178,7 @@ export default function CarbonSteelPage() {
           </p>
           <p className="text-lg leading-relaxed text-[#1B1F23]">
             For applications that step outside carbon's comfort zone -
-            temperatures above 800F, aggressive chemistry, sour gas, or
+            temperatures above 800°F, aggressive chemistry, sour gas, or
             cryogenic service - browse our{" "}
             <Link
               href="/materials/alloy-steel"
@@ -214,7 +214,7 @@ export default function CarbonSteelPage() {
             Carbon steel corrodes. In wet or chloride-bearing service it
             corrodes faster, and in sour service it is subject to sulfide
             stress cracking unless hardness is controlled to NACE MR0175.
-            Above roughly 800F it loses strength rapidly, and above 900F
+            Above roughly 800°F it loses strength rapidly, and above 900°F
             graphitization and creep become design concerns that push the
             spec into chrome-moly territory.
           </p>
@@ -230,11 +230,12 @@ export default function CarbonSteelPage() {
       <section className="bg-[#B45309] text-white py-16 px-4">
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-4xl font-display font-bold mb-4 text-white">
-            Need Carbon Steel On A Schedule?
+            Need Carbon Steel for a Project?
           </h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Standard A105 and LF2 ship same week. A694 in any grade,
-            quote turned around fast with mill test reports.
+            A105, LF2, LF3, A516-70, and the full A694 high-yield range.
+            Send the line list to Texas Flange for pricing, availability,
+            and mill test report scope.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

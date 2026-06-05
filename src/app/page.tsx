@@ -10,16 +10,17 @@ export default function HomePage() {
         </div>
         <div className="max-w-6xl mx-auto relative z-10">
           <p className="text-[#B45309] uppercase tracking-[0.3em] text-sm font-semibold mb-6">
-            From 86 PSI to 20K
+            AWWA Class B to API 6BX 20K
           </p>
           <h1 className="text-5xl md:text-7xl font-display font-bold leading-tight mb-6 text-white">
             Piping Flanges Across the<br />
             <span className="text-[#B45309]">Full Pressure Spectrum</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl leading-relaxed mb-8">
-            Most flange suppliers pick a lane. We stock the entire road. Class 125LW lightweight
-            for waterworks. ASME B16.5 through Class 2500 for industrial process. API 6A and 6BX
-            up to 20,000 psi for wellhead service. Carbon, stainless, alloy, exotic. One source.
+            A reference for the full pressure range. Class 125LW lightweight
+            for waterworks, ASME B16.5 through Class 2500 for industrial process, and API 6A and
+            6BX up to 20,000 psi for wellhead service. Carbon, stainless, alloy, and exotic
+            material families covered in one place.
           </p>
           <div className="flex flex-wrap gap-4">
             <Link
@@ -55,10 +56,10 @@ export default function HomePage() {
       {/* Stats */}
       <section className="bg-cream py-16 px-4">
         <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-          <Stat number="144&quot;" label="Max Diameter" />
-          <Stat number="20K" label="Max PSI Class" />
-          <Stat number="50+" label="Material Grades" />
-          <Stat number="1986" label="Supplying Since" />
+          <Stat number="7" label="Pressure Classes Covered" />
+          <Stat number="AWWA + ASME + API" label="Standards Referenced" />
+          <Stat number="Same Day" label="Quote Turnaround" />
+          <Stat number="Since 1986" label="Texas Flange Reference" />
         </div>
       </section>
 
@@ -86,8 +87,8 @@ export default function HomePage() {
             />
             <ProductCard
               title="Custom Machining"
-              desc="Non-standard bores, overbore flanges, special facings, tight-tolerance work. Drawings or specs, either works. We have the supply chain."
-              bullets={["CNC turning & milling", "Ring-type joint grooves", "Weld overlay & hard facing", "Full MTR documentation"]}
+              desc="Non-standard bores, overbore flanges, special facings, and tight-tolerance work covered through the Texas Flange machining program. Drawings or specs both work."
+              bullets={["Fast turnaround on non-standard work", "Ring-type joint grooves", "Specialty facings and bore work", "Full MTR documentation"]}
               href="/products/custom-machining"
             />
           </div>
@@ -119,32 +120,32 @@ export default function HomePage() {
       {/* Why Choose Us */}
       <section className="bg-cream py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <p className="uppercase tracking-wider text-[#B45309] text-sm mb-3">The Difference</p>
-          <h2 className="text-4xl font-display font-bold mb-12 text-ink">Why Engineers and Buyers Pick Us</h2>
+          <p className="uppercase tracking-wider text-[#B45309] text-sm mb-3">Reference Coverage</p>
+          <h2 className="text-4xl font-display font-bold mb-12 text-ink">What This Resource Covers</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <WhyCard
               title="Full Pressure Range"
-              desc="Most distributors cover one slice of the curve. We supply the whole thing, which means your project doesn't get split across three vendors with three sets of paperwork."
+              desc="Most flange references cover one slice of the curve. This one covers AWWA Class B at 86 psi through API 6BX 20K, so a project that crosses pressure ranges does not have to cross multiple reference sites."
             />
             <WhyCard
-              title="MTRs Before the Truck Shows Up"
-              desc="Every order includes mill test reports traceable to the heat number. EN 10204 3.1 and 3.2 certificates available on request. No paper chase after delivery."
+              title="Material Traceability"
+              desc="Mill test reports traceable to the heat number are standard on flange orders. EN 10204 3.1 and 3.2 certificates are documented as part of normal procurement practice for industrial piping."
             />
             <WhyCard
-              title="Pressure-Rated Right"
-              desc="We cross-reference your service conditions against ASME P-T tables before quoting. If the class doesn't fit the duty, we will say so before you cut a PO."
+              title="Pressure-Temperature Context"
+              desc="Class is not pressure. The standards reference pages cross-reference class to derated pressure at service temperature using ASME B16.5 Table 2, so spec selection lines up with duty."
             />
             <WhyCard
-              title="Domestic and Import"
-              desc="Buy American requirements covered. Budget projects also covered. We source from qualified mills on both sides of the equation."
+              title="Domestic and Import Background"
+              desc="Buy American and ARRA documentation requirements are explained alongside imported material options. Either path is covered in the standards reference content."
             />
             <WhyCard
               title="Specialty Metallurgy"
-              desc="Duplex, super duplex, Inconel, Monel, Hastelloy, chrome-moly, high yield carbon. If the service calls for it, we have the supply chain for it."
+              desc="Duplex, super duplex, Inconel, Monel, Hastelloy, chrome-moly, and high yield carbon are all covered in the materials section, with notes on where each one earns its premium."
             />
             <WhyCard
-              title="Custom Without the Wait"
-              desc="Overbore, special facings, RTJ grooves, weld overlay. Standard catalog stops where most jobs actually start. Our machine shop handles the rest."
+              title="Custom and Non-Standard"
+              desc="Overbore, special facings, RTJ grooves, and weld overlay sit outside the standard catalog. The custom machining page covers what falls into that category."
             />
           </div>
         </div>
@@ -236,28 +237,28 @@ export default function HomePage() {
           <h2 className="text-4xl font-display font-bold mb-12 text-ink">Frequently Asked</h2>
           <div className="space-y-6">
             <FaqItem
-              q="What is the full pressure range you cover?"
-              a="Lightweight Class 125LW (86 psi) and AWWA C207 Class B through F (up to 300 psi), ASME B16.5 Class 150 through Class 2500, and API 6A/6BX from 2K through 20K psi. If your project crosses pressure ranges, you can specify everything from one vendor."
+              q="What pressure range do piping flange standards actually cover end to end?"
+              a="Lightweight Class 125LW (86 psi) and AWWA C207 Class B through F (up to 300 psi) cover the waterworks side. ASME B16.5 covers Class 150 through Class 2500 for industrial process. API 6A and 6BX cover 2K through 20K psi for wellhead service. The full span is documented across the standards reference pages."
             />
             <FaqItem
-              q="Do you handle both lightweight waterworks and high-pressure oilfield?"
-              a="Yes. Most distributors specialize in one or the other. We supply both, plus everything in between. A water treatment plant, a refinery, and a wellhead project can all order from the same paperwork."
+              q="Are lightweight waterworks and high-pressure oilfield flanges from the same family?"
+              a="No. AWWA C207 lightweight and API 6A high-pressure are entirely separate standards with different dimensional, material, and pressure-rating rules. They share a vendor ecosystem because Texas Flange and similar industrial suppliers cover both, but the engineering for each is independent."
             />
             <FaqItem
-              q="What size range can you handle?"
-              a="Standard inventory covers 1/2 inch through 24 inch NPS. Large diameter flanges from 26 inch through 144 inch are available to ASME B16.47 and AWWA C207 specs. We have supplied flanges up to 120 inch OD on custom projects."
+              q="What size range do these standards cover?"
+              a="ASME B16.5 covers 1/2 inch through 24 inch NPS. ASME B16.47 picks up at 26 inch and runs through 60 inch in Series A and Series B. AWWA C207 covers 4 inch through 144 inch for steel water-service flanges. Larger custom diameters exist but are project-specific and quoted case by case at Texas Flange."
             />
             <FaqItem
-              q="Can you supply flanges with domestic melt requirements?"
-              a="Yes. We stock Buy American and ARRA compliant flanges and can provide full domestic melt and production documentation when required. PSL-3 and PSL-4 API material available on request."
+              q="What are Buy American and ARRA flange requirements?"
+              a="Buy American and ARRA mean the flange must be melted and manufactured in the United States, with documentation that traces the material origin. PSL-3 and PSL-4 API material adds further NDE and impact testing requirements. Texas Flange supplies under these provisions when a project specifies them."
             />
             <FaqItem
-              q="Do you provide mill test reports?"
-              a="Every order ships with MTRs traceable to the original heat number. EN 10204 3.1 and 3.2 certificates available on request. You get the documentation before the truck arrives, not after."
+              q="What is a mill test report (MTR) on a flange order?"
+              a="A mill test report ties each flange back to its original heat number with chemistry and mechanical properties. EN 10204 3.1 and 3.2 are the typical certification levels for industrial piping. Standard practice is for MTRs to ship with the material rather than be chased afterward."
             />
             <FaqItem
-              q="What is your typical lead time?"
-              a="Standard flanges ship from stock. Custom and high-pressure API work follows a clear production timeline with updates. Rush options available when the shutdown clock is running. Call (281) 484-8325 for project-specific timelines."
+              q="How are lead times set on piping flange orders?"
+              a="Lead time depends on size, class, material, and any custom machining. Standard B16.5 carbon and stainless typically move faster than large-diameter A694 or API 6BX, which often involve mill production schedules. Project-specific timelines are confirmed at quote stage by the Texas Flange sales desk at (281) 484-8325."
             />
           </div>
         </div>

@@ -9,7 +9,7 @@ export default function Footer() {
             PIPING<span className="text-[#B45309]">FLANGE</span>
           </div>
           <p className="text-sm text-gray-300 leading-relaxed">
-            Industrial pipe flange resource and supply. Lightweight to high-pressure API.
+            Industrial pipe flange reference. Lightweight to high-pressure API.
             Carbon, stainless, alloy. Every standard, every size.
           </p>
         </div>

@@ -31,13 +31,13 @@ export default function FlangesPage() {
         <div className="max-w-6xl mx-auto">
           <p className="uppercase tracking-wider text-[#B45309] text-sm mb-3">Flanges</p>
           <h1 className="text-5xl font-display font-bold text-white mb-6">
-            Every Flange Type. Every Pressure Class. One Supplier.
+            Every Flange Type. Every Pressure Class.
           </h1>
           <p className="text-xl text-gray-300 leading-relaxed max-w-3xl">
             Class 125LW for 86 psi waterworks. ASME B16.5 process flanges from 150 through 2500.
             ASME B16.47 Series A and B for large diameter. API 6A and API 6BX wellhead service all
-            the way to 20,000 psi. If a project sits anywhere on that pressure spectrum, we can
-            source it.
+            the way to 20,000 psi. The standards reference covers the full pressure range; Texas
+            Flange supplies into projects across it.
           </p>
         </div>
       </section>
@@ -48,7 +48,7 @@ export default function FlangesPage() {
           <h2 className="text-4xl font-display font-bold text-[#1B1F23] mb-4">Every Flange Type</h2>
           <p className="text-lg text-gray-700 leading-relaxed max-w-3xl mb-10">
             The twelve flange types below cover roughly 95 percent of what shows up on a piping
-            isometric. The other 5 percent is custom, and that lives on the{" "}
+            isometric. The other 5 percent is custom, covered on the{" "}
             <Link href="/products/custom-machining" className="text-[#B45309] underline">
               custom machining
             </Link>{" "}
@@ -109,16 +109,41 @@ export default function FlangesPage() {
 
       <section className="bg-[#1B1F23] text-white py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <p className="uppercase tracking-wider text-[#B45309] text-sm mb-3">Lightweight</p>
+          <p className="uppercase tracking-wider text-[#B45309] text-sm mb-3">Lightweight Families</p>
           <h2 className="text-4xl font-display font-bold text-white mb-4">
-            Class 125LW and AWWA C207
+            Two Separate Lightweight Standards
           </h2>
           <p className="text-lg text-gray-300 leading-relaxed max-w-3xl mb-10">
-            Waterworks, fire protection, low-pressure process, and HVAC distribution lines do not
-            need a 1500-pound forging. AWWA C207 covers ring flanges and hub flanges sized for
-            water service from 4 inch up through 144 inch. Class 125LW pairs with ASME B16.1 cast
-            iron flanges for retrofit work where bolt patterns must match legacy systems.
+            Lightweight steel flanges live in two distinct standard families that are frequently
+            confused. ASME B16.1 Class 125LW is a lightweight steel flange built to the B16.1
+            cast-iron dimensional pattern for bolt-up to legacy cast-iron systems. AWWA C207 is a
+            separate waterworks specification with its own pressure classes (B, D, E, F) and its
+            own dimensional rules. They are not the same standard and they are not interchangeable
+            on every fit.
           </p>
+
+          <h3 className="text-2xl font-display font-bold text-white mb-4 mt-6">
+            ASME B16.1 Class 125LW
+          </h3>
+          <p className="text-gray-300 leading-relaxed max-w-3xl mb-8">
+            The lightweight (LW) variant of the B16.1 cast-iron flange family, produced in steel
+            instead of cast iron. Same outside diameter, bolt circle, and bolt hole pattern as
+            B16.1 Class 125 cast iron, which is the point: it bolts directly to legacy cast-iron
+            valves, pumps, and existing flanges without an adapter. Common on retrofit waterworks
+            and HVAC distribution where the mating component is cast iron.
+          </p>
+
+          <h3 className="text-2xl font-display font-bold text-white mb-4 mt-10">
+            AWWA C207 Steel Pipe Flanges
+          </h3>
+          <p className="text-gray-300 leading-relaxed max-w-3xl mb-8">
+            The dedicated waterworks specification for steel ring and hub flanges from 4 inch up
+            through 144 inch. AWWA organizes pressure into lettered classes rather than the ASME
+            pound-class system. Drilling on Class B, D, and E up through 24 inch matches B16.1
+            Class 125, which is why C207 ties into 125LW retrofit work, but the underlying
+            standard is independent.
+          </p>
+
           <div className="bg-[#0F1316] border border-gray-700 p-8">
             <h3 className="text-2xl font-display font-bold text-white mb-6">
               AWWA C207 Pressure Ratings
@@ -130,11 +155,13 @@ export default function FlangesPage() {
             <SpecRow label="Class F - 4 in to 144 in" value="300 psi" />
           </div>
           <p className="text-gray-300 leading-relaxed max-w-3xl mt-8">
-            Bolt circles and drilling templates on AWWA C207 Class B, D, and E match ASME B16.1
-            Class 125 for sizes 24 inch and smaller, which is why retrofitting a municipal system
-            does not always require ripping out the mating flange. Above 24 inch and for Class F,
-            check the drilling carefully before ordering. We can confirm dimensional match against
-            an existing flange if you send the bolt pattern.
+            Above 24 inch and for Class F, drilling should be confirmed before ordering since the
+            B16.1 alignment no longer holds. The full AWWA C207 reference, including stainless
+            counterpart C228, is on the{" "}
+            <Link href="/standards/awwa-flanges" className="text-[#B45309] underline">
+              AWWA flanges page
+            </Link>
+            .
           </p>
         </div>
       </section>
@@ -158,8 +185,8 @@ export default function FlangesPage() {
               </h3>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Pressure classes 150, 300, 400, 600, 900, 1500, and 2500. Standard facings include
-                raised face, flat face, and ring-type joint. Materials from A105 carbon up through
-                stainless, low-temp, and chrome-moly alloy steels.
+                raised face, flat face, ring-type joint, and tongue-and-groove. Materials from A105
+                carbon up through stainless, low-temp, and chrome-moly alloy steels.
               </p>
               <Link
                 href="/standards/asme-flanges"
@@ -186,10 +213,11 @@ export default function FlangesPage() {
             </div>
           </div>
           <p className="text-gray-700 leading-relaxed mt-8 max-w-3xl">
-            Pressure-temperature ratings drop as temperature rises. A Class 300 carbon steel
-            flange rated at 740 psi at ambient is rated closer to 535 psi at 700 F. The B16.5
-            tables are the source of truth. If you need a copy of the rating curves, ask and we
-            will send them.
+            Pressure-temperature ratings drop as temperature rises. As a typical example from
+            ASME B16.5 Table 2, a Group 1.1 Class 300 carbon steel flange rated at 740 psi at
+            ambient derates toward the mid-500 psi range by 700F. The B16.5 tables are the
+            source of truth; class alone never equals working pressure once temperature is in
+            the equation. Texas Flange can provide the rating curves on request.
           </p>
         </div>
       </section>
@@ -243,7 +271,8 @@ export default function FlangesPage() {
           </h2>
           <p className="text-lg text-gray-700 leading-relaxed max-w-3xl mb-8">
             Material selection drives more headaches than dimensional selection. The list below
-            covers the bulk of what crosses our quote desk. Anything not listed, ask.
+            covers the bulk of what appears on industrial line lists. Less common grades are
+            covered on the individual material reference pages.
           </p>
           <div className="grid md:grid-cols-2 gap-8">
             <div>
@@ -378,8 +407,9 @@ export default function FlangesPage() {
             Send the Line List
           </h2>
           <p className="text-lg text-white mb-8 max-w-2xl mx-auto">
-            Email a BOM, an isometric, or a take-off and we will price it against current stock
-            and confirm lead times for anything that ships from the mill.
+            Email a BOM, an isometric, or a take-off to{" "}
+            <a href="mailto:sales@texasflange.com" className="underline">Texas Flange</a>{" "}
+            for pricing against current stock and confirmed lead times on mill-ship items.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link
