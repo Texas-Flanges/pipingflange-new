@@ -4,6 +4,9 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "./",
+  },
   title: {
     default: "Piping Flange | Industrial Pipe Flanges from Lightweight to API 20K",
     template: "%s | Piping Flange"
