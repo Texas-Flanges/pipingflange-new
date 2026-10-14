@@ -99,8 +99,7 @@ export default function AwwaFlangesPage() {
             Class 125LW Steel Flanges: The Workhorse
           </h2>
           <p className="text-gray-300 leading-relaxed mb-4 max-w-3xl">
-            Class 125LW (Lightweight) flanges are the most-specified flange in
-            the waterworks world, and the reason has very little to do with
+            Class 125LW (Lightweight) flanges are widely specified in waterworks, and the reason has very little to do with
             water pressure and everything to do with bolt patterns.
           </p>
           <p className="text-gray-300 leading-relaxed mb-4 max-w-3xl">
@@ -123,9 +122,14 @@ export default function AwwaFlangesPage() {
             overlap in drilling but they are not the same standard.
           </p>
           <p className="text-gray-300 leading-relaxed max-w-3xl">
-            Class 125LW is supplied across the full configuration range:
-            slip-on, weld neck, blind, threaded, and lap joint, in sizes 4 inch
-            through 144 inch. For higher-pressure service, AWWA C207 Class E
+            Class 125LW dimensions are published from 4 inch through 96 inch in the{" "}
+            <a
+              href="https://texasflange.com/products/flange-dims-weights/ansi-b16-1-industry-standard/class-125lw-flanges/?ref=pipingflange"
+              className="text-[#FDBA74] underline"
+            >
+              Texas Flange Class 125LW table
+            </a>
+            . For higher-pressure service, AWWA C207 Class E
             and Class F flanges fill the gap between 125LW and the heavier
             B16.5 classes.
           </p>

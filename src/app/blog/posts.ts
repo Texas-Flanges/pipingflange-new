@@ -49,7 +49,7 @@ export const posts: BlogPost[] = [
       {
         heading: "What Class 125LW Actually Is",
         paragraphs: [
-          "Class 125LW, sometimes called lightweight or AWWA C207 Class B, is a fabricated steel flange built to match ANSI B16.1 Class 125 dimensions. Same outside diameter. Same bolt circle. Same number of holes. Same hole size. Same gasket surface. The mating face of a Class 125LW flange will bolt straight to a Class 125 cast iron flange or a Class 150 ANSI flange in the same size, because B16.1 Class 125 and B16.5 Class 150 share their bolt patterns.",
+          "Class 125LW (lightweight) is a fabricated steel flange built to match ANSI B16.1 Class 125 dimensions. Same outside diameter. Same bolt circle. Same number of holes. Same hole size. Same gasket surface. The mating face of a Class 125LW flange will bolt straight to a Class 125 cast iron flange or a Class 150 ANSI flange in the same size, because B16.1 Class 125 and B16.5 Class 150 share their bolt patterns.",
           "The material is the difference. Class 125LW is typically made from ASTM A105 carbon steel or, for the lighter wall versions, A36 plate. AWWA C207 covers four classes (B, D, E, and F) at increasing pressure ratings. Class B is the direct cast iron equivalent at 86 psi working pressure. Class D goes to 175 psi, which is the practical equivalent of cast iron Class 125 in most water service. Classes E and F handle higher pressures up to 300 psi.",
           "Because the flange is fabricated from steel, it is ductile. It deforms before it fails. It accepts radiographic and ultrasonic inspection. It welds. It tolerates impact. It does not fragment when something hits it.",
         ],
@@ -57,15 +57,15 @@ export const posts: BlogPost[] = [
       {
         heading: "Drop-In Compatibility: The Math",
         paragraphs: [
-          "The compatibility claim is worth verifying on paper before anyone trusts it in the field. For a 12-inch flange, B16.1 Class 125 specifies a 19-inch outside diameter, a 17-inch bolt circle, twelve 1-inch bolt holes, and a flat face gasket surface. Class 125LW per AWWA C207 specifies an identical 19-inch outside diameter, identical 17-inch bolt circle, identical twelve 1-inch bolt holes, and an identical flat face.",
-          "The same checks hold at 24-inch (32 inches OD, 29.5-inch BC, twenty 1-1/4 inch bolts) and at 36-inch (46 inches OD, 42.75-inch BC, thirty-two 1-1/2 inch bolts). A standard ring gasket sized for B16.1 Class 125 drops into the joint without modification. The mating valve, pump, or pipe flange does not care which side is steel and which is iron.",
-          "The only thing to watch is the gasket surface finish. Cast iron flanges traditionally have a serrated or phonographic finish; AWWA C207 flanges are typically smooth or have a different serration pattern. A spiral wound gasket with an inner ring tolerates either. A flat sheet gasket may need its compression load reconsidered if the finish difference is severe, but in practice the same gasket part number works in 95% of retrofit jobs.",
+          "The compatibility claim is worth verifying on paper before anyone trusts it in the field. For a 12-inch flange, B16.1 Class 125 specifies a 19-inch outside diameter, a 17-inch bolt circle, twelve 1-inch bolt holes, and a flat face gasket surface. Class 125LW specifies an identical 19-inch outside diameter, identical 17-inch bolt circle, identical twelve 1-inch bolt holes, and an identical flat face.",
+          "The same checks hold at 24-inch (32 inches OD, 29.5-inch BC, twenty 1-1/4 inch bolts) and at 36-inch (46 inches OD, 42.75-inch BC, thirty-two 1-1/2 inch bolts). A full-face gasket sized for B16.1 Class 125 drops into the joint without modification. The mating valve, pump, or pipe flange does not care which side is steel and which is iron.",
+          "The only thing to watch is the gasket surface finish. Cast iron flanges traditionally have a serrated or phonographic finish; AWWA C207 flanges are typically smooth or have a different serration pattern. A spiral wound gasket with an inner ring tolerates either. A flat sheet gasket may need its compression load reconsidered if the finish difference is severe, but in practice the same gasket part number usually works in retrofit jobs.",
         ],
       },
       {
         heading: "Weight Savings That Actually Show Up On Drawings",
         paragraphs: [
-          "A 24-inch Class 125 cast iron flange comes in at about 195 pounds. The Class 125LW equivalent in AWWA C207 Class D runs around 95 to 110 pounds depending on hub thickness. That is a 45% to 50% reduction per flange. On a 36-inch flange the cast iron weighs roughly 420 pounds; the lightweight steel version drops to about 220 pounds, again roughly half.",
+          "A 24-inch Class 125 cast iron flange comes in at about 195 pounds. A 24-inch Class 125LW slip-on runs about 105 pounds. That is a 45% to 50% reduction per flange. On a 36-inch flange the cast iron weighs roughly 420 pounds; the Class 125LW slip-on drops to about 207 pounds, again roughly half.",
           "Multiply by the number of flanged connections on a typical raw water intake skid, a chiller plant manifold, or a fire protection riser, and the cumulative weight savings is measured in thousands of pounds. That changes pipe support spacing, hanger sizing, and seismic restraint calculations. On a retrofit, the lighter flange may be the only thing that lets the existing structure stay in place.",
         ],
       },
@@ -89,7 +89,7 @@ export const posts: BlogPost[] = [
       {
         heading: "The Cost Picture",
         paragraphs: [
-          "Per flange, Class 125LW carbon steel typically runs 30% to 60% more than cast iron at the same nominal size. That looks like a premium until you put it next to the rest of the project. Lighter flanges mean lighter supports. Lighter supports mean less structural steel. Less structural steel means lower install labor and shorter crane time. On retrofit projects, the steel flange often costs less in installed dollars because it does not require structural reinforcement of the existing rack.",
+          "Per flange, Class 125LW carbon steel typically costs more than cast iron at the same nominal size. That looks like a premium until you put it next to the rest of the project. Lighter flanges mean lighter supports. Lighter supports mean less structural steel. Less structural steel means lower install labor and shorter crane time. On retrofit projects, the steel flange often costs less in installed dollars because it does not require structural reinforcement of the existing rack.",
           "The other side of the cost equation is service life and reliability. A cracked cast iron flange in a fire water main is a regulatory event. The cost of one such failure dwarfs the cost premium of having specified steel up front. Plant reliability engineers do this math regularly and almost always land on steel for any service that matters.",
         ],
       },
