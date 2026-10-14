@@ -28,6 +28,7 @@ export async function generateMetadata({
       description: post.excerpt,
       type: "article",
       publishedTime: post.date,
+      url: "./",
     },
   };
 }
@@ -106,7 +107,7 @@ export default function BlogPostPage({ params }: PageProps) {
         <div className="max-w-4xl mx-auto">
           <Link
             href="/blog"
-            className="inline-flex items-center text-gray-400 hover:text-[#B45309] text-sm mb-6"
+            className="inline-flex items-center text-gray-400 hover:text-[#FDBA74] text-sm mb-6"
           >
             <span aria-hidden="true" className="mr-2">
               &larr;

@@ -12,7 +12,7 @@ export default function AlloySteelPage() {
     <main className="bg-[#F8F6F0] text-[#1B1F23]">
       <section className="bg-[#1B1F23] text-white py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <p className="uppercase tracking-wider text-[#B45309] text-sm mb-3">
+          <p className="uppercase tracking-wider text-[#FDBA74] text-sm mb-3">
             Material Reference
           </p>
           <h1 className="text-5xl font-display font-bold text-white mb-6">
@@ -112,7 +112,7 @@ export default function AlloySteelPage() {
             family, see the cold-service section of our{" "}
             <Link
               href="/materials/carbon-steel"
-              className="text-[#B45309] underline hover:no-underline"
+              className="text-[#FDBA74] underline hover:no-underline"
             >
               carbon steel page
             </Link>

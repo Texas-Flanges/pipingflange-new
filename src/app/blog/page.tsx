@@ -24,7 +24,7 @@ export default function BlogIndexPage() {
     <main>
       <section className="bg-[#1B1F23] text-white py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <p className="text-[#B45309] font-semibold uppercase tracking-wider text-sm mb-4">
+          <p className="text-[#FDBA74] font-semibold uppercase tracking-wider text-sm mb-4">
             Technical Resources
           </p>
           <h1 className="font-display text-5xl md:text-6xl font-bold mb-6 text-white">

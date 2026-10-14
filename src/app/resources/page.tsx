@@ -11,7 +11,7 @@ export default function ResourcesPage() {
     <main>
       <section className="bg-[#1B1F23] text-white py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <p className="uppercase tracking-wider text-[#B45309] text-sm mb-3">
+          <p className="uppercase tracking-wider text-[#FDBA74] text-sm mb-3">
             Resources
           </p>
           <h1 className="text-5xl font-display font-bold text-white mb-6">
@@ -144,7 +144,7 @@ export default function ResourcesPage() {
           </div>
           <Link
             href="/tools"
-            className="inline-block border border-[#B45309] text-[#B45309] px-6 py-3 font-semibold hover:bg-[#B45309] hover:text-white transition"
+            className="inline-block border border-[#B45309] text-[#FDBA74] px-6 py-3 font-semibold hover:bg-[#B45309] hover:text-white transition"
           >
             View All Tools
           </Link>
@@ -164,7 +164,7 @@ export default function ResourcesPage() {
           </p>
           <div className="grid md:grid-cols-2 gap-6">
             <a
-              href="https://www.texasflange.com/blog/flange-pressure-classes/?ref=pipingflange-new"
+              href="https://texasflange.com/blog/pipe-flange-pressure-classes-per-asme-b16-5/?ref=pipingflange"
               className="block bg-white p-6 border-l-4 border-[#B45309] hover:shadow-md transition"
             >
               <h3 className="text-lg font-display font-bold text-[#1B1F23] mb-2">
@@ -176,7 +176,7 @@ export default function ResourcesPage() {
               </p>
             </a>
             <a
-              href="https://www.texasflange.com/blog/raised-face-vs-flat-face/?ref=pipingflange-new"
+              href="https://texasflange.com/blog/raised-face-vs-flat-face-flange/?ref=pipingflange"
               className="block bg-white p-6 border-l-4 border-[#B45309] hover:shadow-md transition"
             >
               <h3 className="text-lg font-display font-bold text-[#1B1F23] mb-2">
@@ -188,7 +188,7 @@ export default function ResourcesPage() {
               </p>
             </a>
             <a
-              href="https://www.texasflange.com/blog/weld-neck-vs-slip-on/?ref=pipingflange-new"
+              href="https://texasflange.com/blog/slip-on-vs-weld-neck-flanges-which-one-should-you-choose/?ref=pipingflange"
               className="block bg-white p-6 border-l-4 border-[#B45309] hover:shadow-md transition"
             >
               <h3 className="text-lg font-display font-bold text-[#1B1F23] mb-2">
@@ -199,7 +199,7 @@ export default function ResourcesPage() {
               </p>
             </a>
             <a
-              href="https://www.texasflange.com/blog/awwa-c207-overview/?ref=pipingflange-new"
+              href="https://texasflange.com/products/flange-dims-weights/awwa-c207-flanges/?ref=pipingflange"
               className="block bg-white p-6 border-l-4 border-[#B45309] hover:shadow-md transition"
             >
               <h3 className="text-lg font-display font-bold text-[#1B1F23] mb-2">
@@ -211,7 +211,7 @@ export default function ResourcesPage() {
               </p>
             </a>
             <a
-              href="https://www.texasflange.com/blog/api-6a-wellhead-flanges/?ref=pipingflange-new"
+              href="https://texasflange.com/products/flange-dims-weights/api-flange-slide-rule/?ref=pipingflange"
               className="block bg-white p-6 border-l-4 border-[#B45309] hover:shadow-md transition"
             >
               <h3 className="text-lg font-display font-bold text-[#1B1F23] mb-2">
@@ -223,7 +223,7 @@ export default function ResourcesPage() {
               </p>
             </a>
             <a
-              href="https://www.texasflange.com/blog/mtr-traceability/?ref=pipingflange-new"
+              href="https://texasflange.com/blog/the-blueprint-of-quality-how-to-read-a-flange-mill-test-report-mtr/?ref=pipingflange"
               className="block bg-white p-6 border-l-4 border-[#B45309] hover:shadow-md transition"
             >
               <h3 className="text-lg font-display font-bold text-[#1B1F23] mb-2">

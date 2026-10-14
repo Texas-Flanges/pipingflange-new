@@ -11,7 +11,7 @@ export default function AsmeFlangesPage() {
     <>
       <section className="bg-[#1B1F23] text-white py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <p className="uppercase tracking-wider text-[#B45309] text-sm mb-3">
+          <p className="uppercase tracking-wider text-[#FDBA74] text-sm mb-3">
             Standards Reference
           </p>
           <h1 className="text-5xl font-display font-bold text-white mb-6">
@@ -112,7 +112,7 @@ export default function AsmeFlangesPage() {
           <p className="text-gray-700 leading-relaxed max-w-3xl">
             See the{" "}
             <a
-              href="https://www.texasflange.com/blog/the-complete-guide-to-flanges/?ref=pipingflange-new"
+              href="https://texasflange.com/blog/the-complete-guide-to-flanges/?ref=pipingflange"
               className="text-[#B45309] underline"
               target="_blank"
               rel="noopener"

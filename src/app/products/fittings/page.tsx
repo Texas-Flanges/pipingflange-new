@@ -26,7 +26,7 @@ function ConfigBlock({
 }) {
   return (
     <div className="bg-[#0F1316] border border-gray-700 p-8">
-      <p className="uppercase tracking-wider text-[#B45309] text-xs mb-2">{standard}</p>
+      <p className="uppercase tracking-wider text-[#FDBA74] text-xs mb-2">{standard}</p>
       <h3 className="text-xl font-display font-bold text-white mb-3">{title}</h3>
       <p className="text-gray-300 leading-relaxed">{body}</p>
     </div>
@@ -38,7 +38,7 @@ export default function FittingsPage() {
     <>
       <section className="bg-[#1B1F23] text-white py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <p className="uppercase tracking-wider text-[#B45309] text-sm mb-3">Pipe Fittings</p>
+          <p className="uppercase tracking-wider text-[#FDBA74] text-sm mb-3">Pipe Fittings</p>
           <h1 className="text-5xl font-display font-bold text-white mb-6">
             Fittings That Match the Flanges
           </h1>
@@ -100,7 +100,7 @@ export default function FittingsPage() {
 
       <section className="bg-[#1B1F23] text-white py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <p className="uppercase tracking-wider text-[#B45309] text-sm mb-3">End Connections</p>
+          <p className="uppercase tracking-wider text-[#FDBA74] text-sm mb-3">End Connections</p>
           <h2 className="text-4xl font-display font-bold text-white mb-4">
             Three Configurations
           </h2>
@@ -171,7 +171,7 @@ export default function FittingsPage() {
 
       <section className="bg-[#1B1F23] text-white py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <p className="uppercase tracking-wider text-[#B45309] text-sm mb-3">Custom Bends</p>
+          <p className="uppercase tracking-wider text-[#FDBA74] text-sm mb-3">Custom Bends</p>
           <h2 className="text-4xl font-display font-bold text-white mb-4">
             Hot Induction Bends
           </h2>
@@ -221,7 +221,7 @@ export default function FittingsPage() {
           <ul className="space-y-3">
             <li>
               <a
-                href="https://www.texasflange.com/blog/the-complete-guide-to-flanges/?ref=pipingflange-new"
+                href="https://texasflange.com/blog/the-complete-guide-to-flanges/?ref=pipingflange"
                 className="text-[#B45309] underline"
                 target="_blank"
                 rel="noopener"

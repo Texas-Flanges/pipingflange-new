@@ -12,7 +12,7 @@ export default function StainlessSteelPage() {
     <main className="bg-[#F8F6F0] text-[#1B1F23]">
       <section className="bg-[#1B1F23] text-white py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <p className="uppercase tracking-wider text-[#B45309] text-sm mb-3">
+          <p className="uppercase tracking-wider text-[#FDBA74] text-sm mb-3">
             Material Reference
           </p>
           <h1 className="text-5xl font-display font-bold text-white mb-6">
@@ -162,7 +162,7 @@ export default function StainlessSteelPage() {
           </div>
           <div className="bg-[#1B1F23] text-white p-6 mt-8 rounded">
             <p className="text-base leading-relaxed">
-              <strong className="text-[#B45309]">Carbon and temperature
+              <strong className="text-[#FDBA74]">Carbon and temperature
               note.</strong> Standard and L grades are not interchangeable
               with H grades above approximately 800F. ASME B31.3 and the
               pressure vessel codes specify minimum carbon for elevated
@@ -238,14 +238,14 @@ export default function StainlessSteelPage() {
             See our work in{" "}
             <Link
               href="/industries"
-              className="text-[#B45309] underline hover:no-underline"
+              className="text-[#FDBA74] underline hover:no-underline"
             >
               food and beverage
             </Link>{" "}
             and{" "}
             <Link
               href="/industries"
-              className="text-[#B45309] underline hover:no-underline"
+              className="text-[#FDBA74] underline hover:no-underline"
             >
               chemical processing
             </Link>{" "}

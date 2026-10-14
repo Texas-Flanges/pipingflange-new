@@ -25,7 +25,7 @@ export default function Header() {
     <header className="bg-[#1B1F23] text-white sticky top-0 z-50 border-b border-[#B45309]/30">
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
         <Link href="/" className="text-white font-display text-2xl tracking-wide">
-          PIPING<span className="text-[#B45309]">FLANGE</span>
+          PIPING<span className="text-[#FDBA74]">FLANGE</span>
         </Link>
 
         <nav className="hidden lg:flex items-center gap-1 text-sm">
@@ -69,13 +69,13 @@ export default function Header() {
               { href: "/tools", label: "Tools & Calculators" }
             ]}
           />
-          <Link href="/blog" className="px-3 py-2 text-white hover:text-[#B45309]">
+          <Link href="/blog" className="px-3 py-2 text-white hover:text-[#FDBA74]">
             Blog
           </Link>
-          <Link href="/about" className="px-3 py-2 text-white hover:text-[#B45309]">
+          <Link href="/about" className="px-3 py-2 text-white hover:text-[#FDBA74]">
             About
           </Link>
-          <Link href="/contact" className="px-3 py-2 text-white hover:text-[#B45309]">
+          <Link href="/contact" className="px-3 py-2 text-white hover:text-[#FDBA74]">
             Contact
           </Link>
         </nav>
@@ -146,7 +146,7 @@ function NavDropdown({ label, items }: { label: string; items: { href: string; l
   const [open, setOpen] = useState(false);
   return (
     <div className="relative" onMouseEnter={() => setOpen(true)} onMouseLeave={() => setOpen(false)}>
-      <button className="px-3 py-2 text-white hover:text-[#B45309] flex items-center gap-1">
+      <button className="px-3 py-2 text-white hover:text-[#FDBA74] flex items-center gap-1">
         {label}
         <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 12 12">
           <path d="M2 4l4 4 4-4" stroke="currentColor" strokeWidth="2" fill="none" />

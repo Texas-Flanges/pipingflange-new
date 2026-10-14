@@ -281,7 +281,7 @@ export default function FlangeDimensionCalculator() {
     <>
       <section className="bg-[#1B1F23] text-white py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <p className="uppercase tracking-wider text-[#B45309] text-sm mb-3">
+          <p className="uppercase tracking-wider text-[#FDBA74] text-sm mb-3">
             Tool 02
           </p>
           <h1 className="text-5xl font-display font-bold text-white mb-6">
@@ -450,7 +450,7 @@ export default function FlangeDimensionCalculator() {
                 against the latest published edition of the standard. See the
                 full table at{" "}
                 <a
-                  href="https://www.texasflange.com/blog/flange-dimensions/?ref=pipingflange-new"
+                  href="https://texasflange.com/flange-dims-weights/?ref=pipingflange"
                   className="text-[#B45309] underline"
                   target="_blank"
                   rel="noopener noreferrer"

@@ -32,7 +32,7 @@ function ProcessStep({
 }) {
   return (
     <div className="bg-[#0F1316] border border-gray-700 p-8">
-      <p className="text-[#B45309] font-display text-3xl font-bold mb-2">{number}</p>
+      <p className="text-[#FDBA74] font-display text-3xl font-bold mb-2">{number}</p>
       <h3 className="text-xl font-display font-bold text-white mb-3">{title}</h3>
       <p className="text-gray-300 leading-relaxed">{body}</p>
     </div>
@@ -44,7 +44,7 @@ export default function CustomMachiningPage() {
     <>
       <section className="bg-[#1B1F23] text-white py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <p className="uppercase tracking-wider text-[#B45309] text-sm mb-3">Custom Machining</p>
+          <p className="uppercase tracking-wider text-[#FDBA74] text-sm mb-3">Custom Machining</p>
           <h1 className="text-5xl font-display font-bold text-white mb-6">
             When the Catalog Does Not Fit, We Machine It.
           </h1>
@@ -105,7 +105,7 @@ export default function CustomMachiningPage() {
 
       <section className="bg-[#1B1F23] text-white py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <p className="uppercase tracking-wider text-[#B45309] text-sm mb-3">Process</p>
+          <p className="uppercase tracking-wider text-[#FDBA74] text-sm mb-3">Process</p>
           <h2 className="text-4xl font-display font-bold text-white mb-4">
             How a Custom Job Runs
           </h2>
@@ -179,7 +179,7 @@ export default function CustomMachiningPage() {
 
       <section className="bg-[#1B1F23] text-white py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <p className="uppercase tracking-wider text-[#B45309] text-sm mb-3">Examples</p>
+          <p className="uppercase tracking-wider text-[#FDBA74] text-sm mb-3">Examples</p>
           <h2 className="text-4xl font-display font-bold text-white mb-4">
             Work We See Often
           </h2>

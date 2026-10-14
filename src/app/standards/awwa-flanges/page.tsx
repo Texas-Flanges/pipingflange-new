@@ -11,7 +11,7 @@ export default function AwwaFlangesPage() {
     <>
       <section className="bg-[#1B1F23] text-white py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <p className="uppercase tracking-wider text-[#B45309] text-sm mb-3">
+          <p className="uppercase tracking-wider text-[#FDBA74] text-sm mb-3">
             Standards Reference
           </p>
           <h1 className="text-5xl font-display font-bold text-white mb-6">
@@ -131,7 +131,7 @@ export default function AwwaFlangesPage() {
             For more on the bolt pattern compatibility, see the{" "}
             <Link
               href="/standards/ansi-flanges"
-              className="text-[#B45309] underline"
+              className="text-[#FDBA74] underline"
             >
               ANSI B16.1 reference page
             </Link>
