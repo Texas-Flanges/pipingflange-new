@@ -99,7 +99,7 @@ export default function IndustriesHubPage() {
     <main>
       <section className="bg-[#1B1F23] text-white py-24 px-4">
         <div className="max-w-6xl mx-auto">
-          <p className="text-[#B45309] uppercase tracking-widest text-sm mb-4">
+          <p className="text-[#FDBA74] uppercase tracking-widest text-sm mb-4">
             Industries We Supply
           </p>
           <h1 className="font-display text-5xl md:text-6xl mb-6">

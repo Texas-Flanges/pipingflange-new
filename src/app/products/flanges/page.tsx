@@ -29,7 +29,7 @@ export default function FlangesPage() {
     <>
       <section className="bg-[#1B1F23] text-white py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <p className="uppercase tracking-wider text-[#B45309] text-sm mb-3">Flanges</p>
+          <p className="uppercase tracking-wider text-[#FDBA74] text-sm mb-3">Flanges</p>
           <h1 className="text-5xl font-display font-bold text-white mb-6">
             Every Flange Type. Every Pressure Class.
           </h1>
@@ -109,7 +109,7 @@ export default function FlangesPage() {
 
       <section className="bg-[#1B1F23] text-white py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <p className="uppercase tracking-wider text-[#B45309] text-sm mb-3">Lightweight Families</p>
+          <p className="uppercase tracking-wider text-[#FDBA74] text-sm mb-3">Lightweight Families</p>
           <h2 className="text-4xl font-display font-bold text-white mb-4">
             Two Separate Lightweight Standards
           </h2>
@@ -158,7 +158,7 @@ export default function FlangesPage() {
             Above 24 inch and for Class F, drilling should be confirmed before ordering since the
             B16.1 alignment no longer holds. The full AWWA C207 reference, including stainless
             counterpart C228, is on the{" "}
-            <Link href="/standards/awwa-flanges" className="text-[#B45309] underline">
+            <Link href="/standards/awwa-flanges" className="text-[#FDBA74] underline">
               AWWA flanges page
             </Link>
             .
@@ -224,7 +224,7 @@ export default function FlangesPage() {
 
       <section className="bg-[#1B1F23] text-white py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <p className="uppercase tracking-wider text-[#B45309] text-sm mb-3">High Pressure</p>
+          <p className="uppercase tracking-wider text-[#FDBA74] text-sm mb-3">High Pressure</p>
           <h2 className="text-4xl font-display font-bold text-white mb-4">API 6A and API 6BX</h2>
           <p className="text-lg text-gray-300 leading-relaxed max-w-3xl mb-10">
             Wellhead service, BOP stacks, choke and kill manifolds, and surface production
@@ -357,7 +357,7 @@ export default function FlangesPage() {
 
       <section className="bg-[#1B1F23] text-white py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <p className="uppercase tracking-wider text-[#B45309] text-sm mb-3">
+          <p className="uppercase tracking-wider text-[#FDBA74] text-sm mb-3">
             Technical Resources
           </p>
           <h2 className="text-4xl font-display font-bold text-white mb-6">
@@ -370,8 +370,8 @@ export default function FlangesPage() {
           <ul className="space-y-3">
             <li>
               <a
-                href="https://www.texasflange.com/blog/the-complete-guide-to-flanges/?ref=pipingflange-new"
-                className="text-[#B45309] underline"
+                href="https://texasflange.com/blog/the-complete-guide-to-flanges/?ref=pipingflange"
+                className="text-[#FDBA74] underline"
                 target="_blank"
                 rel="noopener"
               >
@@ -380,19 +380,19 @@ export default function FlangesPage() {
               <span className="text-gray-300"> - types, facings, ratings, and selection logic.</span>
             </li>
             <li>
-              <Link href="/standards/awwa-flanges" className="text-[#B45309] underline">
+              <Link href="/standards/awwa-flanges" className="text-[#FDBA74] underline">
                 AWWA C207 Reference
               </Link>
               <span className="text-gray-300"> - lightweight pressure classes and drilling.</span>
             </li>
             <li>
-              <Link href="/standards/asme-flanges" className="text-[#B45309] underline">
+              <Link href="/standards/asme-flanges" className="text-[#FDBA74] underline">
                 ASME B16.5 / B16.47 Reference
               </Link>
               <span className="text-gray-300"> - dimensions, facings, and material groups.</span>
             </li>
             <li>
-              <Link href="/tools" className="text-[#B45309] underline">
+              <Link href="/tools" className="text-[#FDBA74] underline">
                 Pressure-Temperature Calculator
               </Link>
               <span className="text-gray-300"> - find the derated pressure at your service temp.</span>

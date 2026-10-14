@@ -11,7 +11,7 @@ export default function DomesticVsImportPage() {
     <main>
       <section className="bg-[#1B1F23] text-white py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <p className="uppercase tracking-wider text-[#B45309] text-sm mb-3">
+          <p className="uppercase tracking-wider text-[#FDBA74] text-sm mb-3">
             Resources / Domestic vs Import
           </p>
           <h1 className="text-5xl font-display font-bold text-white mb-6">

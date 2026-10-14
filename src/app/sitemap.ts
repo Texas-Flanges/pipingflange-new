@@ -1,6 +1,6 @@
 import { MetadataRoute } from "next";
 
-const BASE = "https://pipingflange.texasflange.com";
+const BASE = "https://pipingflange.com";
 
 const industries = [
   "oil-gas", "petrochemical", "power-generation", "waterworks",

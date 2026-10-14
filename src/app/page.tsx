@@ -9,12 +9,12 @@ export default function HomePage() {
           <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-bl from-[#B45309] to-transparent" />
         </div>
         <div className="max-w-6xl mx-auto relative z-10">
-          <p className="text-[#B45309] uppercase tracking-[0.3em] text-sm font-semibold mb-6">
+          <p className="text-[#FDBA74] uppercase tracking-[0.3em] text-sm font-semibold mb-6">
             AWWA Class B to API 6BX 20K
           </p>
           <h1 className="text-5xl md:text-7xl font-display font-bold leading-tight mb-6 text-white">
             Piping Flanges Across the<br />
-            <span className="text-[#B45309]">Full Pressure Spectrum</span>
+            <span className="text-[#FDBA74]">Full Pressure Spectrum</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl leading-relaxed mb-8">
             A reference for the full pressure range. Class 125LW lightweight
@@ -42,7 +42,7 @@ export default function HomePage() {
       {/* Pressure Spectrum Visual */}
       <section className="bg-[#1B1F23] border-t border-[#B45309]/30 text-white py-16 px-4">
         <div className="max-w-6xl mx-auto">
-          <p className="uppercase tracking-wider text-[#B45309] text-sm mb-3 text-center">The Spectrum</p>
+          <p className="uppercase tracking-wider text-[#FDBA74] text-sm mb-3 text-center">The Spectrum</p>
           <h2 className="text-4xl font-display font-bold mb-12 text-center text-white">One Source, Every Class</h2>
           <div className="grid md:grid-cols-4 gap-6">
             <SpectrumCard tier="Lightweight" range="86 - 300 PSI" desc="Class 125LW, AWWA C207 B/D/E/F. Waterworks, cooling loops, large diameter up to 144&quot;." href="/standards/awwa-flanges" />
@@ -95,10 +95,38 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Alloy and High Yield */}
+      <section className="bg-cream py-20 px-4">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-4xl font-display font-bold mb-4 text-ink">What Are Alloy Piping Flanges?</h2>
+          <p className="text-lg text-gray-700 mb-12 max-w-3xl">
+            {"\"Alloy\" is a blanket term for material grades that don't fall neatly into the carbon or stainless steel categories. Most nickel alloys land here: think Hastelloy, Inconel, Incoloy, and Monel, along with other commercially available materials like aluminum, titanium, copper, and bronze. Alloy flanges and fittings are made to industry standard specifications. For high nickel alloys specifically, ASTM B564 is the primary spec to know. These materials shine in applications where corrosion resistance or temperature extremes are a concern: corrosive processing environments, refineries, pressure vessel work, and similar demanding service conditions. For a closer look at commonly specified alloys, see the "}
+            <a
+              href="https://texasflange.com/alloy-pipe-flanges/?ref=pipingflange"
+              className="text-[#B45309] underline hover:no-underline"
+            >
+              Texas Flange alloy flanges page
+            </a>
+            .
+          </p>
+          <h2 className="text-4xl font-display font-bold mb-4 text-ink">What About High Yield Carbon Piping Flanges?</h2>
+          <p className="text-lg text-gray-700 max-w-3xl">
+            {"High yield carbon steel is essentially a heat-treated version of standard carbon steel, processed to significantly raise its yield strength, which is the point at which the metal starts to permanently deform under stress. The governing specifications are A694 and MSS SP-44, which cover grades F42 through F70. These piping flanges mate and weld to high yield pipe grades X42 through X70. You'll typically see these flanges specified in higher-pressure, higher-temperature applications, usually Class 600 and above, situations where mild carbon steel just isn't rated for the job requirements. More on high yield flanges is on the "}
+            <a
+              href="https://texasflange.com/high-yield-flanges/?ref=pipingflange"
+              className="text-[#B45309] underline hover:no-underline"
+            >
+              Texas Flange high yield flanges page
+            </a>
+            .
+          </p>
+        </div>
+      </section>
+
       {/* Standards */}
       <section className="bg-[#1B1F23] text-white py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <p className="uppercase tracking-wider text-[#B45309] text-sm mb-3">Standards & Compliance</p>
+          <p className="uppercase tracking-wider text-[#FDBA74] text-sm mb-3">Standards & Compliance</p>
           <h2 className="text-4xl font-display font-bold mb-4 text-white">Built to Code. Documented.</h2>
           <p className="text-lg text-gray-300 mb-12 max-w-3xl">
             Every flange ships with full material traceability and dimensional verification against
@@ -154,7 +182,7 @@ export default function HomePage() {
       {/* Industries */}
       <section className="bg-[#1B1F23] text-white py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <p className="uppercase tracking-wider text-[#B45309] text-sm mb-3">Sectors We Serve</p>
+          <p className="uppercase tracking-wider text-[#FDBA74] text-sm mb-3">Sectors We Serve</p>
           <h2 className="text-4xl font-display font-bold mb-4 text-white">From Wellhead to Water Main</h2>
           <p className="text-lg text-gray-300 mb-12 max-w-3xl">
             Different industries, different specs, same standard of execution.
@@ -177,7 +205,7 @@ export default function HomePage() {
               <Link
                 key={i.slug}
                 href={`/industries/${i.slug}`}
-                className="bg-[#2A2F35] border border-gray-700 px-4 py-3 rounded text-center text-white hover:border-[#B45309] hover:text-[#B45309] transition"
+                className="bg-[#2A2F35] border border-gray-700 px-4 py-3 rounded text-center text-white hover:border-[#B45309] hover:text-[#FDBA74] transition"
               >
                 {i.name}
               </Link>
@@ -199,32 +227,32 @@ export default function HomePage() {
             <TechCard
               title="Flange Types Guide"
               desc="Weld neck vs. slip-on vs. blind. Application criteria, pros and cons."
-              href="https://www.texasflange.com/blog/the-complete-guide-to-flanges/?ref=pipingflange-new"
+              href="https://texasflange.com/blog/the-complete-guide-to-flanges/?ref=pipingflange"
             />
             <TechCard
               title="Pressure-Temperature Ratings"
               desc="ASME B16.5 P-T tables for common materials. How class translates to PSI at temperature."
-              href="https://www.texasflange.com/blog/use-of-asme-b16-5-standards-for-flange-pressure-ratings/?ref=pipingflange-new"
+              href="https://texasflange.com/blog/asme-b16-5-standards/?ref=pipingflange"
             />
             <TechCard
               title="Bolt Torque Reference"
               desc="Recommended torque values for B7 studs by size and lubrication condition."
-              href="https://www.texasflange.com/blog/bolt-dimensions-explained-a-complete-guide-to-measuring-diameter-threads-and-length/?ref=pipingflange-new"
+              href="https://texasflange.com/blog/bolt-dimensions-explained-a-complete-guide-to-measuring-diameter-threads-and-length/?ref=pipingflange"
             />
             <TechCard
               title="Material Grade Guide"
               desc="A105 vs. F304 vs. F316 vs. F11. Which grade for which service."
-              href="https://www.texasflange.com/blog/do-you-offer-different-material-grades-for-a-variety-of-industrial-flanges/?ref=pipingflange-new"
+              href="https://texasflange.com/blog/do-you-offer-different-material-grades-for-a-variety-of-industrial-flanges/?ref=pipingflange"
             />
             <TechCard
               title="Corrosion Prevention"
               desc="Coatings, galvanizing, and material selection for corrosive environments."
-              href="https://www.texasflange.com/blog/flange-maintenance-101-prevent-rust-corrosion-effectively/?ref=pipingflange-new"
+              href="https://texasflange.com/blog/flange-maintenance-101-prevent-rust-corrosion-effectively/?ref=pipingflange"
             />
             <TechCard
               title="Flange Dimension Tables"
               desc="ASME B16.5 dimensional data. OD, bolt circle, bolt holes, thickness by class."
-              href="https://www.texasflange.com/flange-drawings-models2/blind/?ref=pipingflange-new"
+              href="https://texasflange.com/flange-drawings-models2/blind/?ref=pipingflange"
             />
           </div>
         </div>
@@ -300,7 +328,7 @@ function SpectrumCard({ tier, range, desc, href }: { tier: string; range: string
       href={href}
       className="block bg-[#2A2F35] border border-gray-700 rounded p-6 hover:border-[#B45309] transition"
     >
-      <p className="text-[#B45309] text-xs uppercase tracking-wider mb-2 font-semibold">{tier}</p>
+      <p className="text-[#FDBA74] text-xs uppercase tracking-wider mb-2 font-semibold">{tier}</p>
       <p className="text-white font-display text-2xl mb-3">{range}</p>
       <p className="text-gray-300 text-sm leading-relaxed" dangerouslySetInnerHTML={{ __html: desc }} />
     </Link>

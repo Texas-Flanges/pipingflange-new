@@ -1042,7 +1042,7 @@ export default function IndustryPage({
     <main>
       <section className="bg-[#1B1F23] text-white py-24 px-4">
         <div className="max-w-6xl mx-auto">
-          <p className="text-[#B45309] uppercase tracking-widest text-sm mb-4">
+          <p className="text-[#FDBA74] uppercase tracking-widest text-sm mb-4">
             {industry.eyebrow}
           </p>
           <h1 className="font-display text-5xl md:text-6xl mb-6">
@@ -1054,7 +1054,7 @@ export default function IndustryPage({
           <div className="mt-8">
             <Link
               href="/industries"
-              className="text-[#B45309] hover:text-white transition text-sm uppercase tracking-wider"
+              className="text-[#FDBA74] hover:text-white transition text-sm uppercase tracking-wider"
             >
               All Industries
             </Link>
@@ -1138,7 +1138,7 @@ export default function IndustryPage({
 
       <section className="bg-[#1B1F23] text-white py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <p className="text-[#B45309] uppercase tracking-widest text-sm mb-4">
+          <p className="text-[#FDBA74] uppercase tracking-widest text-sm mb-4">
             Industry Challenges
           </p>
           <h2 className="font-display text-4xl mb-10">
@@ -1147,7 +1147,7 @@ export default function IndustryPage({
           <ul className="space-y-5 max-w-4xl">
             {industry.challenges.map((challenge, idx) => (
               <li key={idx} className="flex gap-4">
-                <span className="text-[#B45309] font-display text-2xl flex-shrink-0">
+                <span className="text-[#FDBA74] font-display text-2xl flex-shrink-0">
                   {String(idx + 1).padStart(2, "0")}
                 </span>
                 <p className="text-gray-300 text-lg leading-relaxed">

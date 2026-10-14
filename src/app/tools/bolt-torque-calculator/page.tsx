@@ -78,7 +78,7 @@ export default function BoltTorqueCalculator() {
     <>
       <section className="bg-[#1B1F23] text-white py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <p className="uppercase tracking-wider text-[#B45309] text-sm mb-3">
+          <p className="uppercase tracking-wider text-[#FDBA74] text-sm mb-3">
             Tool 01
           </p>
           <h1 className="text-5xl font-display font-bold text-white mb-6">
@@ -180,7 +180,7 @@ export default function BoltTorqueCalculator() {
             </div>
 
             <div className="mt-10 bg-[#1B1F23] text-white p-8 rounded">
-              <p className="uppercase tracking-wider text-[#B45309] text-sm mb-3">
+              <p className="uppercase tracking-wider text-[#FDBA74] text-sm mb-3">
                 Calculated Result
               </p>
               {result ? (
@@ -244,7 +244,7 @@ export default function BoltTorqueCalculator() {
                 For full bolt dimensions and thread reference, see our blog
                 article on{" "}
                 <a
-                  href="https://www.texasflange.com/blog/bolt-dimensions-explained-a-complete-guide-to-measuring-diameter-threads-and-length/?ref=pipingflange-new"
+                  href="https://texasflange.com/blog/bolt-dimensions-explained-a-complete-guide-to-measuring-diameter-threads-and-length/?ref=pipingflange"
                   className="text-[#B45309] underline"
                   target="_blank"
                   rel="noopener noreferrer"

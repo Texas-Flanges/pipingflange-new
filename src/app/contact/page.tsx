@@ -10,7 +10,7 @@ export default function ContactPage() {
     <>
       <section className="bg-[#1B1F23] text-white py-20 px-4">
         <div className="max-w-4xl mx-auto">
-          <p className="uppercase tracking-wider text-[#B45309] text-sm mb-3">Contact</p>
+          <p className="uppercase tracking-wider text-[#FDBA74] text-sm mb-3">Contact</p>
           <h1 className="text-5xl font-display font-bold mb-6 text-white">Let's Get You a Quote</h1>
           <p className="text-xl text-gray-300 leading-relaxed">
             Send a drawing, a BOM, or a description of what you need. We will sort out the details and

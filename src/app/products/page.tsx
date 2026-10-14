@@ -51,7 +51,7 @@ export default function ProductsHubPage() {
     <>
       <section className="bg-[#1B1F23] text-white py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <p className="uppercase tracking-wider text-[#B45309] text-sm mb-3">Product Catalog</p>
+          <p className="uppercase tracking-wider text-[#FDBA74] text-sm mb-3">Product Catalog</p>
           <h1 className="text-5xl font-display font-bold text-white mb-6">
             Three Product Categories. Every Configuration.
           </h1>
@@ -110,7 +110,7 @@ export default function ProductsHubPage() {
 
       <section className="bg-[#1B1F23] text-white py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <p className="uppercase tracking-wider text-[#B45309] text-sm mb-3">Standards Coverage</p>
+          <p className="uppercase tracking-wider text-[#FDBA74] text-sm mb-3">Standards Coverage</p>
           <h2 className="text-4xl font-display font-bold text-white mb-6">
             From 86 PSI to 20K
           </h2>
