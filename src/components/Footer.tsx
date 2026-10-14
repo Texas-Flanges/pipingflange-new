@@ -15,11 +15,9 @@ export default function Footer() {
         </div>
 
         <div>
-          <h4 className="text-white font-semibold mb-3 text-sm uppercase tracking-wide">Products</h4>
+          <h4 className="text-white font-semibold mb-3 text-sm uppercase tracking-wide">Reference</h4>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/products/flanges" className="text-gray-300 hover:text-[#FDBA74]">Flanges</Link></li>
-            <li><Link href="/products/fittings" className="text-gray-300 hover:text-[#FDBA74]">Pipe Fittings</Link></li>
-            <li><Link href="/products/custom-machining" className="text-gray-300 hover:text-[#FDBA74]">Custom Machining</Link></li>
+            <li><Link href="/standards" className="text-gray-300 hover:text-[#FDBA74]">Standards</Link></li>
             <li><Link href="/materials" className="text-gray-300 hover:text-[#FDBA74]">Materials</Link></li>
           </ul>
         </div>
@@ -37,10 +35,8 @@ export default function Footer() {
         <div>
           <h4 className="text-white font-semibold mb-3 text-sm uppercase tracking-wide">Contact</h4>
           <ul className="space-y-2 text-sm text-gray-300">
-            <li>PO Box 2889, Pearland, TX 77588</li>
             <li><a href="tel:+12814848325" className="text-gray-300 hover:text-[#FDBA74]">(281) 484-8325</a></li>
             <li><a href="mailto:sales@texasflange.com" className="text-gray-300 hover:text-[#FDBA74]">sales@texasflange.com</a></li>
-            <li>Mon - Fri: 8am - 5pm CST</li>
           </ul>
         </div>
       </div>
@@ -50,8 +46,6 @@ export default function Footer() {
           <p>&copy; 2026 Piping Flange. All rights reserved.</p>
           <div className="flex gap-4 mt-2 md:mt-0">
             <Link href="/privacy-policy" className="text-gray-400 hover:text-[#FDBA74]">Privacy Policy</Link>
-            <Link href="/about" className="text-gray-400 hover:text-[#FDBA74]">About</Link>
-            <Link href="/contact" className="text-gray-400 hover:text-[#FDBA74]">Contact</Link>
           </div>
         </div>
       </div>

@@ -1,7 +1,8 @@
+import CtaBand from "@/components/CtaBand";
 import Link from "next/link";
 
 export const metadata = {
-  title: "AWWA C207 and C228 Flanges | Class B, D, E, F and 125LW | Texas Flange",
+  title: "AWWA C207 and C228 Flanges | Class B, D, E, F and 125LW",
   description:
     "Comprehensive reference for AWWA C207 steel flanges (Class B, D, E, F) and AWWA C228 stainless steel flanges. Pressure ratings, 125LW compatibility, sizing 4\" through 144\", and waterworks applications.",
 };
@@ -37,8 +38,9 @@ export default function AwwaFlangesPage() {
           <p className="text-gray-700 leading-relaxed mb-8 max-w-3xl">
             C207 organizes steel flanges into four pressure classes. The class
             determines working pressure, flange thickness, and where the
-            flange is appropriate in the system. All four classes are
-            available across the full 4 inch through 144 inch size range.
+            flange is appropriate in the system. Classes B, D and E are
+            defined from 4 inch through 144 inch. Class F covers 4 inch
+            through 48 inch.
           </p>
 
           <div className="overflow-x-auto">
@@ -75,7 +77,7 @@ export default function AwwaFlangesPage() {
                 <tr>
                   <td className="p-4 font-bold">Class F</td>
                   <td className="p-4">300 psi</td>
-                  <td className="p-4">4&quot; - 144&quot;</td>
+                  <td className="p-4">4&quot; - 48&quot;</td>
                   <td className="p-4">High-pressure industrial water</td>
                 </tr>
               </tbody>
@@ -97,8 +99,7 @@ export default function AwwaFlangesPage() {
             Class 125LW Steel Flanges: The Workhorse
           </h2>
           <p className="text-gray-300 leading-relaxed mb-4 max-w-3xl">
-            Class 125LW (Lightweight) flanges are the most-specified flange in
-            the waterworks world, and the reason has very little to do with
+            Class 125LW (Lightweight) flanges are widely specified in waterworks, and the reason has very little to do with
             water pressure and everything to do with bolt patterns.
           </p>
           <p className="text-gray-300 leading-relaxed mb-4 max-w-3xl">
@@ -121,9 +122,14 @@ export default function AwwaFlangesPage() {
             overlap in drilling but they are not the same standard.
           </p>
           <p className="text-gray-300 leading-relaxed max-w-3xl">
-            Class 125LW is supplied across the full configuration range:
-            slip-on, weld neck, blind, threaded, and lap joint, in sizes 4 inch
-            through 144 inch. For higher-pressure service, AWWA C207 Class E
+            Class 125LW dimensions are published from 4 inch through 96 inch in the{" "}
+            <a
+              href="https://texasflange.com/products/flange-dims-weights/ansi-b16-1-industry-standard/class-125lw-flanges/?ref=pipingflange"
+              className="text-[#FDBA74] underline"
+            >
+              Texas Flange Class 125LW table
+            </a>
+            . For higher-pressure service, AWWA C207 Class E
             and Class F flanges fill the gap between 125LW and the heavier
             B16.5 classes.
           </p>
@@ -242,50 +248,26 @@ export default function AwwaFlangesPage() {
           </div>
 
           <p className="text-gray-700 leading-relaxed mt-8 max-w-3xl">
-            For more on the full range of waterworks fittings and flange
-            configurations covered on this site, see the{" "}
-            <Link
-              href="/products/flanges"
+            For more on waterworks flange configurations, see the{" "}
+            <a
+              href="https://texasflange.com/flange-types-basics/?ref=pipingflange"
               className="text-[#B45309] underline"
             >
-              flange product overview
-            </Link>{" "}
-            or browse{" "}
-            <Link href="/industries" className="text-[#B45309] underline">
-              industries served
-            </Link>
+              Texas Flange flange types page
+            </a>{" "}
+            or the{" "}
+            <a
+              href="https://texasflange.com/waterworks-flanges/?ref=pipingflange"
+              className="text-[#B45309] underline"
+            >
+              Texas Flange waterworks flanges page
+            </a>
             .
           </p>
         </div>
       </section>
 
-      <section className="bg-[#B45309] text-white py-16 px-4">
-        <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-3xl font-display font-bold mb-4">
-            AWWA Flanges, From 4&quot; to 144&quot;
-          </h2>
-          <p className="text-lg mb-8 max-w-2xl mx-auto">
-            Class B through Class F, 125LW for cast-iron retrofit work, C228
-            stainless when the water is aggressive. Send the schedule to
-            Texas Flange to match class, drilling, and configuration line by
-            line.
-          </p>
-          <div className="flex flex-wrap gap-4 justify-center">
-            <a
-              href="tel:2814848325"
-              className="bg-white text-[#B45309] px-6 py-3 rounded font-semibold hover:bg-gray-100"
-            >
-              Call (281) 484-8325
-            </a>
-            <a
-              href="mailto:sales@texasflange.com"
-              className="border border-white text-white px-6 py-3 rounded font-semibold hover:bg-white hover:text-[#B45309]"
-            >
-              sales@texasflange.com
-            </a>
-          </div>
-        </div>
-      </section>
+      <CtaBand />
     </>
   );
 }

@@ -1,10 +1,11 @@
+import CtaBand from "@/components/CtaBand";
 import Link from "next/link";
 
 export const metadata = {
   title:
-    "Alloy Steel Flanges & Fittings | F11, F22, F91 Chrome-Moly | Texas Flange",
+    "Alloy Steel Flanges & Fittings | F11, F22, F91 Chrome-Moly",
   description:
-    "Alloy steel material guide. Chrome-moly F11, F22, and F91 for elevated temperature creep resistance and hydrogen service, plus A350 LF grades for cold service. Specified, sourced, and documented.",
+    "Alloy steel material guide. Chrome-moly F11, F22, and F91 for elevated temperature creep resistance and hydrogen service, plus A350 LF grades for cold service.",
 };
 
 export default function AlloySteelPage() {
@@ -21,10 +22,10 @@ export default function AlloySteelPage() {
           <p className="text-xl text-gray-300 leading-relaxed max-w-3xl">
             When the service temperature climbs past where carbon can hold
             its strength, or the hydrogen partial pressure makes carbon a
-            liability, chrome-moly alloy is the answer. We supply the
-            F11, F22, and F91 grades that cover refinery, power, and
-            petrochemical high-temperature service, plus the A350 LF
-            forgings that handle the cold end of the spectrum.
+            liability, chrome-moly alloy is the answer. The F11, F22, and
+            F91 grades cover refinery, power, and petrochemical
+            high-temperature service, and the A350 LF forgings handle the
+            cold end of the spectrum.
           </p>
         </div>
       </section>
@@ -109,7 +110,7 @@ export default function AlloySteelPage() {
           </p>
           <p className="text-lg text-gray-300 leading-relaxed">
             For the full breakdown on LF grades and the related cryogenic
-            family, see the cold-service section of our{" "}
+            family, see the cold-service section of the{" "}
             <Link
               href="/materials/carbon-steel"
               className="text-[#FDBA74] underline hover:no-underline"
@@ -138,9 +139,9 @@ export default function AlloySteelPage() {
           </p>
           <p className="text-lg leading-relaxed text-[#1B1F23]">
             Each of those duties demands the right grade, the right heat
-            treatment condition, and matched welding procedures. We can
-            quote the flange and document the heat number; the welding
-            procedure is on you and your fabricator.
+            treatment condition, and matched welding procedures. The heat
+            number documents the flange; the welding procedure is on you
+            and your fabricator.
           </p>
         </div>
       </section>
@@ -169,31 +170,7 @@ export default function AlloySteelPage() {
         </div>
       </section>
 
-      <section className="bg-[#B45309] text-white py-16 px-4">
-        <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-4xl font-display font-bold mb-4 text-white">
-            Chrome-Moly Quoted The Same Day
-          </h2>
-          <p className="text-xl mb-8 max-w-2xl mx-auto">
-            F11, F22, F91, in standard B16.5 or large-bore configurations.
-            Send the spec and we will source it.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="tel:+12814848325"
-              className="bg-white text-[#B45309] px-8 py-3 font-semibold hover:bg-gray-100"
-            >
-              Call (281) 484-8325
-            </a>
-            <a
-              href="mailto:sales@texasflange.com"
-              className="border-2 border-white text-white px-8 py-3 font-semibold hover:bg-white hover:text-[#B45309]"
-            >
-              Email sales@texasflange.com
-            </a>
-          </div>
-        </div>
-      </section>
+      <CtaBand />
     </main>
   );
 }

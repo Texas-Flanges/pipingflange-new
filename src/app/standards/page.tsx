@@ -1,9 +1,10 @@
+import CtaBand from "@/components/CtaBand";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Flange Standards Reference | ASME, ANSI, AWWA, DIN, API | Texas Flange",
+  title: "Flange Standards Reference | ASME, ANSI, AWWA, DIN, API",
   description:
-    "Complete reference for flange standards we supply: ASME B16.5 and B16.47, ANSI B16.1, AWWA C207 and C228, DIN/EN 1092-1, API 6A/6BX, MSS SP-44, and NACE MR0175.",
+    "Complete reference for flange standards: ASME B16.5 and B16.47, ANSI B16.1, AWWA C207 and C228, DIN/EN 1092-1, API 6A/6BX, MSS SP-44, and NACE MR0175.",
 };
 
 const standards = [
@@ -78,9 +79,9 @@ export default function StandardsHubPage() {
           </h1>
           <p className="text-xl text-gray-300 leading-relaxed max-w-3xl">
             From 86 PSI municipal water flanges to 20,000 PSI wellhead
-            connections, we supply product built to the codes your specs
-            require. This is our working reference for the flange standards we
-            stock and source every day.
+            connections, flanges are built to the codes your specs require.
+            This is a working reference for the flange standards that come up
+            most often.
           </p>
         </div>
       </section>
@@ -88,7 +89,7 @@ export default function StandardsHubPage() {
       <section className="bg-[#F8F6F0] py-16 px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-display font-bold mb-4 text-[#1B1F23]">
-            The Standards We Live In
+            The Standards That Matter Most
           </h2>
           <p className="text-gray-700 leading-relaxed mb-10 max-w-3xl">
             A flange is only as good as the specification it was built to. The
@@ -97,7 +98,7 @@ export default function StandardsHubPage() {
             wrong code and you can end up with a flange that bolts up just fine
             but is rated for a fraction of the pressure your system actually
             sees. Below are the eight standards that cover the vast majority of
-            flange work we do.
+            flange work.
           </p>
           <div className="grid md:grid-cols-2 gap-6">
             {standards.map((s) => (
@@ -196,10 +197,13 @@ export default function StandardsHubPage() {
           </ul>
           <p className="text-gray-700 leading-relaxed mt-8 max-w-3xl">
             Browse the{" "}
-            <Link href="/products/flanges" className="text-[#B45309] underline">
-              flange product overview
-            </Link>{" "}
-            for what we stock, or jump to the{" "}
+            <a
+              href="https://texasflange.com/flange-types-basics/?ref=pipingflange"
+              className="text-[#B45309] underline"
+            >
+              Texas Flange flange types page
+            </a>{" "}
+            for an overview of flange types, or jump to the{" "}
             <Link href="/tools" className="text-[#B45309] underline">
               tools section
             </Link>{" "}
@@ -208,31 +212,7 @@ export default function StandardsHubPage() {
         </div>
       </section>
 
-      <section className="bg-[#B45309] text-white py-16 px-4">
-        <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-3xl font-display font-bold mb-4">
-            Need a Spec Cross-Check?
-          </h2>
-          <p className="text-lg mb-8 max-w-2xl mx-auto">
-            Send us your line list or flange schedule. We will confirm the
-            standard, class, material, and face finish before anything ships.
-          </p>
-          <div className="flex flex-wrap gap-4 justify-center">
-            <a
-              href="tel:2814848325"
-              className="bg-white text-[#B45309] px-6 py-3 rounded font-semibold hover:bg-gray-100"
-            >
-              Call (281) 484-8325
-            </a>
-            <a
-              href="mailto:sales@texasflange.com"
-              className="border border-white text-white px-6 py-3 rounded font-semibold hover:bg-white hover:text-[#B45309]"
-            >
-              sales@texasflange.com
-            </a>
-          </div>
-        </div>
-      </section>
+      <CtaBand />
     </>
   );
 }

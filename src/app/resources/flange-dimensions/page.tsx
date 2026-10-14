@@ -1,7 +1,8 @@
+import CtaBand from "@/components/CtaBand";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Flange Dimensions Reference | Texas Flange",
+  title: "Flange Dimensions Reference",
   description:
     "Dimensional reference for ASME B16.5, B16.47, AWWA C207, and API 6BX flanges. OD, bolt circle, bolt count, hub projection, and raised face callouts with common specification gotchas.",
 };
@@ -21,7 +22,7 @@ export default function FlangeDimensionsPage() {
             A flange is a stack of dimensions. Get any one of them wrong and
             the joint either will not bolt up or will not seal. The pages of
             ASME B16.5 and the parallel tables in B16.47, AWWA C207, and API 6A
-            exist to give every supplier and every fabricator the same numbers
+            exist to give every vendor and every fabricator the same numbers
             for the same part. Below is an orientation to what those tables
             contain and the specification traps that catch first-time buyers.
           </p>
@@ -72,7 +73,7 @@ export default function FlangeDimensionsPage() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-8 max-w-3xl">
             The figures below are illustrative for orientation purposes only.
-            For working dimensions use the live tables in our dimension
+            For working dimensions use the live tables in the dimension
             calculator or the published standard.
           </p>
           <div className="grid md:grid-cols-2 gap-8">
@@ -182,7 +183,7 @@ export default function FlangeDimensionsPage() {
             Class 600 and higher raised face flanges have a 1/4 inch raised
             face by default. Class 150 and 300 have a 1/16 inch raised face.
             When that detail is missed, the bolt length and gasket compression
-            calculations both come out wrong. Check the standard or our
+            calculations both come out wrong. Check the standard or the
             dimension calculator before ordering studs.
           </p>
           <p className="text-gray-700 leading-relaxed mb-4">
@@ -210,7 +211,7 @@ export default function FlangeDimensionsPage() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-6 max-w-3xl">
             For a full dimensional lookup with any size and class combination,
-            use our calculator. For PDF and CAD drawings of the specific
+            use the dimension calculator. For PDF and CAD drawings of the specific
             flange you need, see the CAD drawings page or the legacy drawing
             library on texasflange.com.
           </p>
@@ -228,33 +229,16 @@ export default function FlangeDimensionsPage() {
               CAD Drawings
             </Link>
             <a
-              href="https://texasflange.com/flange-drawings-models2/blind/?ref=pipingflange"
+              href="https://texasflange.com/blind-flanges/?ref=pipingflange"
               className="inline-block border border-gray-500 text-gray-300 px-6 py-3 font-semibold hover:bg-gray-700 transition"
             >
-              Blind Flange Drawings
+              Texas Flange Blind Flanges
             </a>
           </div>
         </div>
       </section>
 
-      <section className="bg-[#B45309] text-white py-16 px-4">
-        <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-3xl font-display font-bold mb-4">
-            Need a Dimension Confirmed?
-          </h2>
-          <p className="text-lg mb-8 max-w-2xl mx-auto">
-            Call (281) 484-8325 or email sales@texasflange.com with the size,
-            class, and facing. We will confirm against our stock and send the
-            dimensional drawing for review.
-          </p>
-          <Link
-            href="/contact"
-            className="inline-block bg-white text-[#B45309] px-8 py-3 font-semibold hover:bg-gray-100 transition"
-          >
-            Contact Us
-          </Link>
-        </div>
-      </section>
+      <CtaBand />
     </main>
   );
 }

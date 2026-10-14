@@ -25,7 +25,7 @@ export const posts: BlogPost[] = [
     sections: [
       {
         paragraphs: [
-          "Cast iron flanges have been holding water and low-pressure utility systems together since well before any of us were drawing isometrics. They are still in service across thousands of municipal water plants, fire protection mains, HVAC chiller plants, and older pump stations. They work, until they do not. And when a cast iron flange stops working, it usually fails in the unhelpful, dramatic way that brittle materials tend to fail.",
+          "Cast iron flanges have been holding water and low-pressure utility systems together since well before most of today's piping designers were drawing isometrics. They are still in service across thousands of municipal water plants, fire protection mains, HVAC chiller plants, and older pump stations. They work, until they do not. And when a cast iron flange stops working, it usually fails in the unhelpful, dramatic way that brittle materials tend to fail.",
           "Class 125LW steel flanges exist precisely because the industry needed something that would mate to the legacy cast iron bolt pattern without forcing a wholesale piping redesign. They are not a marketing rebrand of cast iron. They are a different material doing the same dimensional job, and the difference matters more than most procurement specs let on.",
         ],
       },
@@ -49,23 +49,23 @@ export const posts: BlogPost[] = [
       {
         heading: "What Class 125LW Actually Is",
         paragraphs: [
-          "Class 125LW, sometimes called lightweight or AWWA C207 Class B, is a fabricated steel flange built to match ANSI B16.1 Class 125 dimensions. Same outside diameter. Same bolt circle. Same number of holes. Same hole size. Same gasket surface. The mating face of a Class 125LW flange will bolt straight to a Class 125 cast iron flange or a Class 150 ANSI flange in the same size, because B16.1 Class 125 and B16.5 Class 150 share their bolt patterns.",
-          "The material is the difference. Class 125LW is typically supplied in ASTM A105 carbon steel or, for the lighter wall versions, A36 plate stock. AWWA C207 covers four classes (B, D, E, and F) at increasing pressure ratings. Class B is the direct cast iron equivalent at 86 psi working pressure. Class D goes to 175 psi, which is the practical equivalent of cast iron Class 125 in most water service. Classes E and F handle higher pressures up to 300 psi.",
+          "Class 125LW (lightweight) is a fabricated steel flange built to match ANSI B16.1 Class 125 dimensions. Same outside diameter. Same bolt circle. Same number of holes. Same hole size. Same gasket surface. The mating face of a Class 125LW flange will bolt straight to a Class 125 cast iron flange or a Class 150 ANSI flange in the same size, because B16.1 Class 125 and B16.5 Class 150 share their bolt patterns.",
+          "The material is the difference. Class 125LW is typically made from ASTM A105 carbon steel or, for the lighter wall versions, A36 plate. AWWA C207 covers four classes (B, D, E, and F) at increasing pressure ratings. Class B is the direct cast iron equivalent at 86 psi working pressure. Class D goes to 175 psi, which is the practical equivalent of cast iron Class 125 in most water service. Classes E and F handle higher pressures up to 300 psi.",
           "Because the flange is fabricated from steel, it is ductile. It deforms before it fails. It accepts radiographic and ultrasonic inspection. It welds. It tolerates impact. It does not fragment when something hits it.",
         ],
       },
       {
         heading: "Drop-In Compatibility: The Math",
         paragraphs: [
-          "The compatibility claim is worth verifying on paper before anyone trusts it in the field. For a 12-inch flange, B16.1 Class 125 specifies a 19-inch outside diameter, a 17-inch bolt circle, twelve 1-inch bolt holes, and a flat face gasket surface. Class 125LW per AWWA C207 specifies an identical 19-inch outside diameter, identical 17-inch bolt circle, identical twelve 1-inch bolt holes, and an identical flat face.",
-          "The same checks hold at 24-inch (32 inches OD, 29.5-inch BC, twenty 1-1/4 inch bolts) and at 36-inch (46 inches OD, 42.75-inch BC, thirty-two 1-1/2 inch bolts). A standard ring gasket sized for B16.1 Class 125 drops into the joint without modification. The mating valve, pump, or pipe flange does not care which side is steel and which is iron.",
-          "The only thing to watch is the gasket surface finish. Cast iron flanges traditionally have a serrated or phonographic finish; AWWA C207 flanges are typically smooth or have a different serration pattern. A spiral wound gasket with an inner ring tolerates either. A flat sheet gasket may need its compression load reconsidered if the finish difference is severe, but in practice the same gasket part number works in 95% of retrofit jobs.",
+          "The compatibility claim is worth verifying on paper before anyone trusts it in the field. For a 12-inch flange, B16.1 Class 125 specifies a 19-inch outside diameter, a 17-inch bolt circle, twelve 1-inch bolt holes, and a flat face gasket surface. Class 125LW specifies an identical 19-inch outside diameter, identical 17-inch bolt circle, identical twelve 1-inch bolt holes, and an identical flat face.",
+          "The same checks hold at 24-inch (32 inches OD, 29.5-inch BC, twenty 1-1/4 inch bolts) and at 36-inch (46 inches OD, 42.75-inch BC, thirty-two 1-1/2 inch bolts). A full-face gasket sized for B16.1 Class 125 drops into the joint without modification. The mating valve, pump, or pipe flange does not care which side is steel and which is iron.",
+          "The only thing to watch is the gasket surface finish. Cast iron flanges traditionally have a serrated or phonographic finish; AWWA C207 flanges are typically smooth or have a different serration pattern. A spiral wound gasket with an inner ring tolerates either. A flat sheet gasket may need its compression load reconsidered if the finish difference is severe, but in practice the same gasket part number usually works in retrofit jobs.",
         ],
       },
       {
         heading: "Weight Savings That Actually Show Up On Drawings",
         paragraphs: [
-          "A 24-inch Class 125 cast iron flange comes in at about 195 pounds. The Class 125LW equivalent in AWWA C207 Class D runs around 95 to 110 pounds depending on hub thickness. That is a 45% to 50% reduction per flange. On a 36-inch flange the cast iron weighs roughly 420 pounds; the lightweight steel version drops to about 220 pounds, again roughly half.",
+          "A 24-inch Class 125 cast iron flange comes in at about 195 pounds. A 24-inch Class 125LW slip-on runs about 105 pounds. That is a 45% to 50% reduction per flange. On a 36-inch flange the cast iron weighs roughly 420 pounds; the Class 125LW slip-on drops to about 207 pounds, again roughly half.",
           "Multiply by the number of flanged connections on a typical raw water intake skid, a chiller plant manifold, or a fire protection riser, and the cumulative weight savings is measured in thousands of pounds. That changes pipe support spacing, hanger sizing, and seismic restraint calculations. On a retrofit, the lighter flange may be the only thing that lets the existing structure stay in place.",
         ],
       },
@@ -89,7 +89,7 @@ export const posts: BlogPost[] = [
       {
         heading: "The Cost Picture",
         paragraphs: [
-          "Per flange, Class 125LW carbon steel typically runs 30% to 60% more than cast iron at the same nominal size. That looks like a premium until you put it next to the rest of the project. Lighter flanges mean lighter supports. Lighter supports mean less structural steel. Less structural steel means lower install labor and shorter crane time. On retrofit projects, the steel flange often costs less in installed dollars because it does not require structural reinforcement of the existing rack.",
+          "Per flange, Class 125LW carbon steel typically costs more than cast iron at the same nominal size. That looks like a premium until you put it next to the rest of the project. Lighter flanges mean lighter supports. Lighter supports mean less structural steel. Less structural steel means lower install labor and shorter crane time. On retrofit projects, the steel flange often costs less in installed dollars because it does not require structural reinforcement of the existing rack.",
           "The other side of the cost equation is service life and reliability. A cracked cast iron flange in a fire water main is a regulatory event. The cost of one such failure dwarfs the cost premium of having specified steel up front. Plant reliability engineers do this math regularly and almost always land on steel for any service that matters.",
         ],
       },
@@ -105,14 +105,14 @@ export const posts: BlogPost[] = [
         paragraphs: [
           "On a new specification, call out AWWA C207 Class D as a permitted alternate to ANSI B16.1 Class 125 wherever the service allows. That gives the contractor flexibility and keeps the bolt pattern compatible with any future tie-in to legacy piping.",
           "On a retrofit, document the dimensional match in the change order. The bolt circle and OD are identical, so the change does not affect any downstream piping, valves, or equipment. The gasket may need a new part number; verify the surface finish and consult the gasket vendor if the original was a hard sheet material on a serrated cast iron face.",
-          "We stock Class 125LW and AWWA C207 flanges across the standard sizes and can source the larger sizes through our mill relationships. For dimensional questions, the [flange dimension calculator](/tools/flange-dimension-calculator) gives you the bolt pattern data you need to verify the match before the order goes in.",
+          "For dimensional questions, the [flange dimension calculator](/tools/flange-dimension-calculator) gives you the bolt pattern data you need to verify the match before the order goes in.",
         ],
       },
       {
         heading: "The Short Answer",
         paragraphs: [
           "If the service has any thermal cycling, vibration, impact exposure, or code-driven NDE requirements, switch. If the service is pure ambient low-pressure water in a stable bedded installation with no code pressure, cast iron is fine. The switch decision is rarely about the flange itself. It is about everything around the flange.",
-          "For sourcing on Class 125LW, AWWA C207, and related waterworks flanges, see our [waterworks flange offering](/standards/awwa-flanges) or call (281) 484-8325. We carry stock in carbon steel and can quote stainless or coated versions for corrosive service.",
+          "For dimensional and rating data on Class 125LW, AWWA C207, and related waterworks flanges, see the [AWWA flange reference](/standards/awwa-flanges).",
         ],
       },
     ],
@@ -175,7 +175,7 @@ export const posts: BlogPost[] = [
       {
         heading: "Dimensional Tables",
         paragraphs: [
-          "ASME B16.5 Table 11 lists dimensions for sizes 1/2 inch through 24 inches across all pressure classes. Outside diameter, bolt circle, bolt hole size, number of bolts, hub dimensions, raised face diameter and height. Everything you need to lay out the flange on a drawing.",
+          "ASME B16.5 lists dimensions for sizes 1/2 inch through 24 inches across all pressure classes. Outside diameter, bolt circle, bolt hole size, number of bolts, hub dimensions, raised face diameter and height. Everything you need to lay out the flange on a drawing.",
           "ASME B16.47 picks up from 26 inches through 60 inches. Series A (formerly MSS SP-44) and Series B (formerly API 605) are not dimensionally interchangeable. The two series have different bolt circles for the same nominal size, which has caused more than one bad surprise on a retrofit.",
           "API 6A has its own dimensional tables indexed by nominal bore and pressure class. A 4-1/16 inch bore 5K 6B flange has specific OD, BC, and bolt pattern that does not match any ASME flange. The bore size convention is also different: API 6A flanges are specified by bore through the flange, not by nominal pipe size. A 4-1/16 inch API flange does not pair with a 4 inch ASME flange. The bolt patterns will not align.",
         ],
@@ -202,7 +202,7 @@ export const posts: BlogPost[] = [
         paragraphs: [
           "Almost every full-stream project has both. A wellhead produces into a Christmas tree (API 6A) that pipes into a flowline (often API 5L or API 6D fittings) that runs to a separator or production manifold. The separator outlet typically transitions to ASME B16.5 piping for downstream gathering or refinery service.",
           "The transition is usually a flange spool or a manifold block that has API 6A on the wellhead side and ASME B16.5 on the process side. The spool is built to the higher of the two qualifications, with full traceability through the API portion, and the gasket and bolting are sized to the specific facing on each end.",
-          "Sourcing both standards under one PO is common in oilfield projects. We stock and source API 6A 6B and 6BX flanges in 2K through 15K classes, and we cover ASME B16.5 and B16.47 across all standard pressure classes and materials. For projects that need NACE MR0175 documentation, the material certs and PSL traceability come with the flange.",
+          "Sourcing both standards under one PO is common in oilfield projects. For projects that need NACE MR0175 documentation, the material certs and PSL traceability should be specified with the flange.",
         ],
       },
       {
@@ -210,7 +210,7 @@ export const posts: BlogPost[] = [
         paragraphs: [
           "The short answer to API 6A vs ASME B16.5 is that they cover different services and the choice is not really a choice. Wellhead and tree service is API 6A. Process and downstream is ASME B16.5. Where the two systems meet, the transition is an engineered spool, not a creative interpretation of dimensions.",
           "The harder answer is in the qualification details: PSL level, material class, NACE compliance, temperature class. Those have to be specified on the line item, not assumed from the pressure class name. A 5K flange without a PSL level is just metal until somebody asks for the paperwork.",
-          "For specification help on API or ASME flanges, see our [API flange offerings](/standards/asme-flanges) and our [pressure and temperature rating tool](/tools/pressure-temperature-rating), or call (281) 484-8325. Material certs, PSL documentation, and NACE compliance paperwork come with the flange.",
+          "For specification help on API or ASME flanges, see the [ASME flange reference](/standards/asme-flanges) and the [Texas Flange pressure class guide](https://texasflange.com/blog/pipe-flange-pressure-classes-per-asme-b16-5/?ref=pipingflange). Material certs, PSL documentation, and NACE compliance paperwork should be called out on the line item.",
         ],
       },
     ],
@@ -219,14 +219,14 @@ export const posts: BlogPost[] = [
     slug: "the-bolt-torque-question-that-isnt-actually-about-bolts",
     title: "The Bolt Torque Question That Isn't Actually About Bolts",
     excerpt:
-      "Engineers call asking what to torque a flange to. The real answer involves the gasket, the stud material, the lubricant, the temperature, and the assembly sequence. Here is how to think about it.",
+      "Engineers often ask what to torque a flange to. The real answer involves the gasket, the stud material, the lubricant, the temperature, and the assembly sequence. Here is how to think about it.",
     date: "2026-03-12",
     category: "Engineering",
     readTime: "10 min read",
     sections: [
       {
         paragraphs: [
-          "We get calls every week that start with some version of: what torque should I use on a 6 inch Class 300 flange? The honest answer is that the question is incomplete. Bolt torque is a means to an end. The end is a leak-tight joint at operating conditions. Torque is one of the inputs that determines whether you get there, and on its own it tells you almost nothing.",
+          "A common question takes some version of: what torque should I use on a 6 inch Class 300 flange? The honest answer is that the question is incomplete. Bolt torque is a means to an end. The end is a leak-tight joint at operating conditions. Torque is one of the inputs that determines whether you get there, and on its own it tells you almost nothing.",
           "The right question is: how do I produce enough clamp load on the gasket to keep the joint sealed across the full range of pressures, temperatures, and cycles the joint will see, given the bolt material, the lubricant, the gasket type, and the assembly procedure? That question has an answer. It just is not a single number.",
         ],
       },
@@ -318,8 +318,8 @@ export const posts: BlogPost[] = [
         heading: "Pulling It Together",
         paragraphs: [
           "Torque is one input in a system. The system has to deliver enough clamp load to seat the gasket and maintain it through all operational conditions. Getting there requires the right stud material at the right grade, the right gasket for the service, a correctly characterized K factor, a documented assembly procedure with cross pattern and multiple passes, and where appropriate, a re-torque after the first thermal cycle.",
-          "Our [bolt torque calculator](/tools/bolt-torque-calculator) walks through the calculation for standard B7, B7M, B8, and B16 studs across the common sizes and pressure classes, with K factor inputs for dry, lubricated, and heavily lubricated conditions. For deeper background on stud dimensions and material selection, the bolt-dimensions reference on [texasflange.com](https://texasflange.com/blog/bolt-dimensions-explained-a-complete-guide-to-measuring-diameter-threads-and-length/?ref=pipingflange) is a good companion piece.",
-          "For studs, nuts, gaskets, and the technical support to specify them, call (281) 484-8325 or email sales@texasflange.com. We carry A193 B7, B7M, B8 Class 1 and 2, B8M, and B16 across the common sizes, with NACE-qualified material when sour service applies.",
+          "The [bolt torque calculator](/tools/bolt-torque-calculator) works through the calculation for A193 B7, B7M and B8 Class 1 and A320 L7 studs across the common sizes, with nut factor (K) options from molybdenum disulfide to dry. For deeper background on stud dimensions and material selection, the bolt-dimensions reference on [texasflange.com](https://texasflange.com/blog/bolt-dimensions-explained-a-complete-guide-to-measuring-diameter-threads-and-length/?ref=pipingflange) is a good companion piece.",
+          "Common stud grades include A193 B7, B7M, B8 Class 1 and 2, B8M, and B16 across the common sizes, with NACE-qualified material when sour service applies.",
         ],
       },
     ],

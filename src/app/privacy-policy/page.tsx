@@ -20,19 +20,19 @@ export default function PrivacyPage() {
             information from visitors. By using the site you agree to the practices described here.
           </p>
 
-          <h2 className="text-2xl font-display font-bold text-ink mt-8">Information We Collect</h2>
+          <h2 className="text-2xl font-display font-bold text-ink mt-8">Information This Site Collects</h2>
           <p>
-            We collect information you voluntarily provide when contacting us for quotes, technical
-            questions, or correspondence. This typically includes name, company, email, phone, and
-            project details. We also collect basic analytics about site usage such as pages viewed,
-            referring source, and general device type.
+            This site collects information you voluntarily provide when making contact for quotes,
+            technical questions, or correspondence. This typically includes name, company, email, phone, and
+            project details. This site also collects basic analytics about site usage such as pages
+            viewed, referring source, and general device type.
           </p>
 
-          <h2 className="text-2xl font-display font-bold text-ink mt-8">How We Use Information</h2>
+          <h2 className="text-2xl font-display font-bold text-ink mt-8">How This Site Uses Information</h2>
           <p>
             Information you submit is used only to respond to your inquiry, prepare quotes, deliver
-            requested products and documentation, and maintain a record of our correspondence. We do
-            not sell or rent personal information.
+            requested products and documentation, and maintain a record of this site's correspondence. This
+            site does not sell or rent personal information.
           </p>
 
           <h2 className="text-2xl font-display font-bold text-ink mt-8">Cookies</h2>
@@ -44,8 +44,8 @@ export default function PrivacyPage() {
           <h2 className="text-2xl font-display font-bold text-ink mt-8">Third Parties</h2>
           <p>
             Some site analytics and hosting are provided by third party platforms (such as Vercel and
-            Google Analytics). These providers have their own privacy policies. We share information
-            with them only as needed to operate the site.
+            Google Analytics). These providers have their own privacy policies. This site shares
+            information with them only as needed to operate the site.
           </p>
 
           <h2 className="text-2xl font-display font-bold text-ink mt-8">Data Retention</h2>
@@ -56,14 +56,13 @@ export default function PrivacyPage() {
 
           <h2 className="text-2xl font-display font-bold text-ink mt-8">Your Choices</h2>
           <p>
-            You may request a copy of the information we have collected about you, ask for it to be
-            corrected, or ask for it to be deleted, by contacting us at sales@texasflange.com.
+            You may request a copy of the information this site has collected about you, ask for it
+            to be corrected, or ask for it to be deleted. Requests can be sent to sales@texasflange.com.
           </p>
 
           <h2 className="text-2xl font-display font-bold text-ink mt-8">Contact</h2>
           <p>
-            Questions about this policy can be sent to sales@texasflange.com or by mail to PO Box
-            2889, Pearland, TX 77588.
+            Questions about this policy can be sent to sales@texasflange.com.
           </p>
         </div>
       </section>

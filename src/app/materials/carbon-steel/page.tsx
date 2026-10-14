@@ -1,8 +1,9 @@
+import CtaBand from "@/components/CtaBand";
 import Link from "next/link";
 
 export const metadata = {
   title:
-    "Carbon Steel Flanges & Fittings | A105, LF2, LF3, A516, A694 | Texas Flange",
+    "Carbon Steel Flanges & Fittings | A105, LF2, LF3, A516, A694",
   description:
     "Carbon steel material guide. A105 forged flanges for standard service, A350 LF2 and LF3 for low temperature, A516-70 plate for waterworks, and full A694 high yield F42 through F70 for transmission pipelines.",
 };
@@ -141,8 +142,7 @@ export default function CarbonSteelPage() {
                 F65
               </h3>
               <p className="text-gray-300 leading-relaxed">
-                Probably the most-stocked A694 grade in the United
-                States. Pairs to X65 line pipe, handles Class 900 and
+                Pairs to X65 line pipe, handles Class 900 and
                 1500 service, and is the typical specification on long
                 haul gas transmission.
               </p>
@@ -179,7 +179,7 @@ export default function CarbonSteelPage() {
           <p className="text-lg leading-relaxed text-[#1B1F23]">
             For applications that step outside carbon's comfort zone -
             temperatures above 800°F, aggressive chemistry, sour gas, or
-            cryogenic service - browse our{" "}
+            cryogenic service - browse the{" "}
             <Link
               href="/materials/alloy-steel"
               className="text-[#B45309] underline hover:no-underline"
@@ -227,32 +227,7 @@ export default function CarbonSteelPage() {
         </div>
       </section>
 
-      <section className="bg-[#B45309] text-white py-16 px-4">
-        <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-4xl font-display font-bold mb-4 text-white">
-            Need Carbon Steel for a Project?
-          </h2>
-          <p className="text-xl mb-8 max-w-2xl mx-auto">
-            A105, LF2, LF3, A516-70, and the full A694 high-yield range.
-            Send the line list to Texas Flange for pricing, availability,
-            and mill test report scope.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="tel:+12814848325"
-              className="bg-white text-[#B45309] px-8 py-3 font-semibold hover:bg-gray-100"
-            >
-              Call (281) 484-8325
-            </a>
-            <a
-              href="mailto:sales@texasflange.com"
-              className="border-2 border-white text-white px-8 py-3 font-semibold hover:bg-white hover:text-[#B45309]"
-            >
-              Email sales@texasflange.com
-            </a>
-          </div>
-        </div>
-      </section>
+      <CtaBand />
     </main>
   );
 }

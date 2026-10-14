@@ -1,9 +1,10 @@
+import CtaBand from "@/components/CtaBand";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Flange & Fitting Materials | Carbon, Stainless, Alloy, Exotic | Texas Flange",
+  title: "Flange & Fitting Materials | Carbon, Stainless, Alloy, Exotic",
   description:
-    "50+ material grades stocked and sourced for the full pressure spectrum. Carbon steel A105 and A694, stainless 304/316, chrome-moly F11/F22/F91, and exotic alloys including Inconel, Monel, Hastelloy, and duplex.",
+    "50+ material grades covering the full pressure spectrum. Carbon steel A105 and A694, stainless 304/316, chrome-moly F11/F22/F91, and exotic alloys including Inconel, Monel, Hastelloy, and duplex.",
 };
 
 export default function MaterialsHubPage() {
@@ -15,15 +16,13 @@ export default function MaterialsHubPage() {
             Materials Catalog
           </p>
           <h1 className="text-5xl font-display font-bold text-white mb-6">
-            50+ Material Grades. One Source.
+            50+ Material Grades in One Reference
           </h1>
           <p className="text-xl text-gray-300 leading-relaxed max-w-3xl">
             From waterworks-grade A36 plate through API-spec A694 high yield
             and the nickel alloys that handle sour service and aggressive
-            chemistry, Texas Flange stocks and sources the full material
-            spectrum required by modern piping systems. One distributor,
-            mill-certified inventory, and the documentation your QA team
-            actually wants to see.
+            chemistry, this guide covers the full material spectrum
+            required by modern piping systems.
           </p>
         </div>
       </section>
@@ -31,12 +30,12 @@ export default function MaterialsHubPage() {
       <section className="bg-[#F8F6F0] py-16 px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-display font-bold mb-6 text-[#1B1F23]">
-            The Four Families We Carry
+            The Four Material Families
           </h2>
           <p className="text-lg leading-relaxed mb-10 text-[#1B1F23]">
             Material selection drives pressure rating, temperature limits,
             corrosion life, and welding procedure. Every flange and fitting
-            we supply falls into one of four families. Pick the right family
+            falls into one of four families. Pick the right family
             first, then narrow to a grade.
           </p>
           <div className="grid md:grid-cols-2 gap-6">
@@ -160,14 +159,14 @@ export default function MaterialsHubPage() {
           </h2>
           <p className="text-lg leading-relaxed mb-4 text-[#1B1F23]">
             Buy America, Buy American, BAA, and project-specific domestic
-            clauses are not the same rule. We carry both domestic
-            melt-and-manufacture material and import material with full
-            mill test reports, and we keep the documentation trail clean
-            so your inspector can sign off without a second visit.
+            clauses are not the same rule. Both domestic
+            melt-and-manufacture material and import material can carry
+            full mill test reports, and a clean documentation trail lets
+            your inspector sign off without a second visit.
           </p>
           <p className="text-lg leading-relaxed text-[#1B1F23]">
             For a deeper read on the difference between the various domestic
-            content rules, see our reference page on{" "}
+            content rules, see the reference page on{" "}
             <Link
               href="/resources"
               className="text-[#B45309] underline hover:no-underline"
@@ -179,32 +178,7 @@ export default function MaterialsHubPage() {
         </div>
       </section>
 
-      <section className="bg-[#B45309] text-white py-16 px-4">
-        <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-4xl font-display font-bold mb-4 text-white">
-            Not Sure Which Grade You Need?
-          </h2>
-          <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Send us the line spec, the service conditions, or just the
-            drawing. We will come back with a material recommendation and
-            a quote, usually the same business day.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="tel:+12814848325"
-              className="bg-white text-[#B45309] px-8 py-3 font-semibold hover:bg-gray-100"
-            >
-              Call (281) 484-8325
-            </a>
-            <a
-              href="mailto:sales@texasflange.com"
-              className="border-2 border-white text-white px-8 py-3 font-semibold hover:bg-white hover:text-[#B45309]"
-            >
-              Email sales@texasflange.com
-            </a>
-          </div>
-        </div>
-      </section>
+      <CtaBand />
     </main>
   );
 }
