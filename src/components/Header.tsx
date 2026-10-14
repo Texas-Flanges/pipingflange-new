@@ -3,20 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 
-const industries = [
-  { slug: "oil-gas", name: "Oil & Gas" },
-  { slug: "petrochemical", name: "Petrochemical" },
-  { slug: "power-generation", name: "Power Generation" },
-  { slug: "waterworks", name: "Water & Wastewater" },
-  { slug: "chemical-processing", name: "Chemical Processing" },
-  { slug: "mining", name: "Mining & Minerals" },
-  { slug: "pulp-paper", name: "Pulp & Paper" },
-  { slug: "food-beverage", name: "Food & Beverage" },
-  { slug: "agriculture", name: "Agriculture" },
-  { slug: "hvac", name: "HVAC & Mechanical" },
-  { slug: "marine", name: "Marine & Shipbuilding" },
-  { slug: "data-centers", name: "Data Centers" }
-];
+import { QUOTE_URL } from "@/components/CtaBand";
 
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -29,14 +16,6 @@ export default function Header() {
         </Link>
 
         <nav className="hidden lg:flex items-center gap-1 text-sm">
-          <NavDropdown
-            label="Products"
-            items={[
-              { href: "/products/flanges", label: "Flanges" },
-              { href: "/products/fittings", label: "Pipe Fittings" },
-              { href: "/products/custom-machining", label: "Custom Machining" }
-            ]}
-          />
           <NavDropdown
             label="Standards"
             items={[
@@ -56,10 +35,6 @@ export default function Header() {
             ]}
           />
           <NavDropdown
-            label="Industries"
-            items={industries.map((i) => ({ href: `/industries/${i.slug}`, label: i.name }))}
-          />
-          <NavDropdown
             label="Resources"
             items={[
               { href: "/resources/flange-dimensions", label: "Flange Dimensions" },
@@ -72,20 +47,14 @@ export default function Header() {
           <Link href="/blog" className="px-3 py-2 text-white hover:text-[#FDBA74]">
             Blog
           </Link>
-          <Link href="/about" className="px-3 py-2 text-white hover:text-[#FDBA74]">
-            About
-          </Link>
-          <Link href="/contact" className="px-3 py-2 text-white hover:text-[#FDBA74]">
-            Contact
-          </Link>
         </nav>
 
-        <Link
-          href="/contact"
+        <a
+          href={QUOTE_URL}
           className="hidden lg:inline-block bg-[#B45309] text-white px-4 py-2 rounded font-semibold text-sm hover:bg-[#92400E] transition"
         >
           Request Quote
-        </Link>
+        </a>
 
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
@@ -105,17 +74,11 @@ export default function Header() {
 
       {mobileOpen && (
         <div className="lg:hidden bg-[#1B1F23] px-4 pb-4 space-y-2 text-sm">
-          <Link href="/products" className="block py-2 text-white" onClick={() => setMobileOpen(false)}>
-            Products
-          </Link>
           <Link href="/standards" className="block py-2 text-white" onClick={() => setMobileOpen(false)}>
             Standards
           </Link>
           <Link href="/materials" className="block py-2 text-white" onClick={() => setMobileOpen(false)}>
             Materials
-          </Link>
-          <Link href="/industries" className="block py-2 text-white" onClick={() => setMobileOpen(false)}>
-            Industries
           </Link>
           <Link href="/resources" className="block py-2 text-white" onClick={() => setMobileOpen(false)}>
             Resources
@@ -123,19 +86,13 @@ export default function Header() {
           <Link href="/blog" className="block py-2 text-white" onClick={() => setMobileOpen(false)}>
             Blog
           </Link>
-          <Link href="/about" className="block py-2 text-white" onClick={() => setMobileOpen(false)}>
-            About
-          </Link>
-          <Link href="/contact" className="block py-2 text-white" onClick={() => setMobileOpen(false)}>
-            Contact
-          </Link>
-          <Link
-            href="/contact"
+          <a
+            href={QUOTE_URL}
             className="block py-2 bg-[#B45309] text-white text-center rounded mt-2"
             onClick={() => setMobileOpen(false)}
           >
             Request Quote
-          </Link>
+          </a>
         </div>
       )}
     </header>

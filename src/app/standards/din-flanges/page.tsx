@@ -1,7 +1,8 @@
+import CtaBand from "@/components/CtaBand";
 import Link from "next/link";
 
 export const metadata = {
-  title: "DIN / EN 1092-1 Flanges | PN Ratings and Type Reference | Texas Flange",
+  title: "DIN / EN 1092-1 Flanges | PN Ratings and Type Reference",
   description:
     "DIN and EN 1092-1 flange reference. PN 6 through PN 400 pressure ratings, Type 01 through Type 05 configurations, European material grades, and rough comparison to ASME pressure classes.",
 };
@@ -280,40 +281,15 @@ export default function DinFlangesPage() {
             equipment was sourced from Europe.
           </p>
           <p className="text-gray-700 leading-relaxed max-w-3xl">
-            We source DIN and EN 1092-1 flanges in the standard PN ratings and
-            type configurations to match what your spec calls for. For
-            cross-spec projects with both ASME and EN piping, we will help
-            confirm the right adapter or transition strategy.
+            DIN and EN 1092-1 flanges are made in the standard PN ratings and
+            type configurations to match what your spec calls for. Cross-spec
+            projects with both ASME and EN piping need a confirmed adapter or
+            transition strategy.
           </p>
         </div>
       </section>
 
-      <section className="bg-[#B45309] text-white py-16 px-4">
-        <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-3xl font-display font-bold mb-4">
-            DIN or EN 1092-1 on the Spec Sheet?
-          </h2>
-          <p className="text-lg mb-8 max-w-2xl mx-auto">
-            Send the schedule with PN ratings, types, and materials. We will
-            source to spec and confirm the dimensional package matches your
-            mating equipment before anything ships.
-          </p>
-          <div className="flex flex-wrap gap-4 justify-center">
-            <a
-              href="tel:2814848325"
-              className="bg-white text-[#B45309] px-6 py-3 rounded font-semibold hover:bg-gray-100"
-            >
-              Call (281) 484-8325
-            </a>
-            <a
-              href="mailto:sales@texasflange.com"
-              className="border border-white text-white px-6 py-3 rounded font-semibold hover:bg-white hover:text-[#B45309]"
-            >
-              sales@texasflange.com
-            </a>
-          </div>
-        </div>
-      </section>
+      <CtaBand />
     </>
   );
 }

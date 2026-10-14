@@ -1,7 +1,8 @@
+import CtaBand from "@/components/CtaBand";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Domestic vs Import Flanges | Texas Flange",
+  title: "Domestic vs Import Flanges",
   description:
     "Buy American, ARRA, and BABA compliance for piping flanges. API PSL-1 through PSL-4 explained. When melt origin matters and how to specify it on your quote.",
 };
@@ -56,10 +57,10 @@ export default function DomesticVsImportPage() {
             country of manufacture on a separate document.
           </p>
           <p className="text-gray-700 leading-relaxed">
-            When a project specification calls out one of these programs, we
-            source the flanges from our domestic mill partners and supply the
-            documentation package with the parts. Substitution from foreign
-            stock is not possible once the spec is set, so confirming
+            When a project specification calls out one of these programs, the
+            flanges must come from domestic mills with the documentation
+            package supplied with the parts. Substitution from foreign
+            material is not possible once the spec is set, so confirming
             applicability at the quote stage saves the rework later.
           </p>
         </div>
@@ -148,9 +149,9 @@ export default function DomesticVsImportPage() {
             a non-compliant release is usually worth it.
           </p>
           <p className="text-gray-700 leading-relaxed">
-            Lead time on certain stock sizes can also favor domestic supply,
+            Lead time on certain standard sizes can also favor domestic supply,
             particularly for forged carbon steel weld neck flanges in standard
-            classes where our domestic partners hold inventory.
+            classes where domestic mills and warehouses hold inventory.
           </p>
         </div>
       </section>
@@ -168,16 +169,16 @@ export default function DomesticVsImportPage() {
           </p>
           <p className="text-gray-300 leading-relaxed mb-4 max-w-3xl">
             Availability of unusual sizes and exotic alloys is the second
-            benefit. Several of our import mill partners run regular
+            benefit. Several import mills run regular
             production of duplex, super duplex, and nickel alloy flanges in
             sizes that domestic mills make only on a per-order basis. When the
             project needs a 16 inch Class 600 super duplex weld neck on a
             tight schedule, the import route is sometimes the only one with
-            stock available.
+            material available.
           </p>
           <p className="text-gray-300 leading-relaxed max-w-3xl">
             Lead time flexibility runs both directions. Import supply can
-            shorten lead time when the right stock is sitting in a US bonded
+            shorten lead time when the right material is sitting in a US bonded
             warehouse, and it can also be the source of last resort for very
             long lead time domestic items where the project schedule cannot
             absorb the wait.
@@ -202,10 +203,10 @@ export default function DomesticVsImportPage() {
           </p>
           <p className="text-gray-700 leading-relaxed">
             For PSL specifications the language is shorter: "API 6A PSL-2"
-            tied to the size, class, and material is usually enough for the
-            quote desk to route to the right mill partner. When the spec is
-            silent on melt origin, we will quote the lowest cost qualifying
-            source, which is usually but not always import.
+            tied to the size, class, and material is usually enough for a
+            vendor to route the request to the right mill. When the spec is
+            silent on melt origin, vendors typically quote the lowest cost
+            qualifying source, which is usually but not always import.
           </p>
         </div>
       </section>
@@ -216,8 +217,8 @@ export default function DomesticVsImportPage() {
             Common Pitfalls
           </h2>
           <p className="text-gray-300 leading-relaxed mb-4 max-w-3xl">
-            Assuming a part is domestic because the supplier is US-based is
-            the most frequent error. A distributor headquartered in Texas can
+            Assuming a part is domestic because the vendor is US-based is
+            the most frequent error. A vendor headquartered in Texas can
             hold a warehouse full of imported flanges. The melt country lives
             on the MTR, not on the invoice address.
           </p>
@@ -236,24 +237,7 @@ export default function DomesticVsImportPage() {
         </div>
       </section>
 
-      <section className="bg-[#B45309] text-white py-16 px-4">
-        <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-3xl font-display font-bold mb-4">
-            Quoting a Compliance-Sensitive Project?
-          </h2>
-          <p className="text-lg mb-8 max-w-2xl mx-auto">
-            Call (281) 484-8325 or email sales@texasflange.com with the
-            specification language from your contract. We will source to
-            match and supply the documentation package.
-          </p>
-          <Link
-            href="/contact"
-            className="inline-block bg-white text-[#B45309] px-8 py-3 font-semibold hover:bg-gray-100 transition"
-          >
-            Contact Us
-          </Link>
-        </div>
-      </section>
+      <CtaBand />
     </main>
   );
 }

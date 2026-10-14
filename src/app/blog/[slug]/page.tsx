@@ -1,6 +1,8 @@
+import CtaBand from "@/components/CtaBand";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import { OG_IMAGE } from "@/lib/brandImage";
 import { posts, getPost, getAllSlugs } from "../posts";
 
 interface PageProps {
@@ -17,11 +19,11 @@ export async function generateMetadata({
   const post = getPost(params.slug);
   if (!post) {
     return {
-      title: "Post Not Found | Texas Flange Blog",
+      title: "Post Not Found",
     };
   }
   return {
-    title: `${post.title} | Texas Flange Blog`,
+    title: `${post.title}`,
     description: post.excerpt,
     openGraph: {
       title: post.title,
@@ -29,6 +31,7 @@ export async function generateMetadata({
       type: "article",
       publishedTime: post.date,
       url: "./",
+      images: [OG_IMAGE],
     },
   };
 }
@@ -179,17 +182,6 @@ export default function BlogPostPage({ params }: PageProps) {
 
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3 text-sm">
             <Link
-              href="/products/flanges"
-              className="block bg-[#F8F6F0] border border-gray-200 rounded p-4 hover:border-[#B45309] transition-colors"
-            >
-              <span className="font-semibold text-[#1B1F23]">
-                Flange Products
-              </span>
-              <p className="text-gray-600 mt-1">
-                Full pressure spectrum, all standards
-              </p>
-            </Link>
-            <Link
               href="/tools/bolt-torque-calculator"
               className="block bg-[#F8F6F0] border border-gray-200 rounded p-4 hover:border-[#B45309] transition-colors"
             >
@@ -235,48 +227,14 @@ export default function BlogPostPage({ params }: PageProps) {
             >
               <span className="font-semibold text-[#1B1F23]">Carbon Steel</span>
               <p className="text-gray-600 mt-1">
-                A105, A350 LF2, stock and forged
+                A105 and A350 LF2 forged
               </p>
             </Link>
           </div>
         </div>
       </section>
 
-      <section className="bg-[#B45309] py-16 px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="font-display text-4xl font-bold text-white mb-4">
-            Need this part sourced?
-          </h2>
-          <p className="text-xl text-white/90 mb-8 leading-relaxed">
-            We stock and source flanges, fittings, studs, and gaskets across
-            the full pressure and material spectrum. Send the spec and we will
-            quote.
-          </p>
-          <div className="flex flex-wrap justify-center gap-4">
-            <a
-              href="tel:+12814848325"
-              className="inline-block bg-white text-[#B45309] px-8 py-4 rounded font-semibold hover:bg-[#F8F6F0] transition-colors"
-            >
-              (281) 484-8325
-            </a>
-            <a
-              href="mailto:sales@texasflange.com"
-              className="inline-block border-2 border-white text-white px-8 py-4 rounded font-semibold hover:bg-white hover:text-[#B45309] transition-colors"
-            >
-              sales@texasflange.com
-            </a>
-            <Link
-              href="/contact"
-              className="inline-block border-2 border-white text-white px-8 py-4 rounded font-semibold hover:bg-white hover:text-[#B45309] transition-colors"
-            >
-              Contact
-            </Link>
-          </div>
-          <p className="text-white/80 text-sm mt-6">
-            PO Box 2889, Pearland TX 77588
-          </p>
-        </div>
-      </section>
+      <CtaBand />
     </main>
   );
 }

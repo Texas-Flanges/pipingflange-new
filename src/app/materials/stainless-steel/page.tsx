@@ -1,10 +1,11 @@
+import CtaBand from "@/components/CtaBand";
 import Link from "next/link";
 
 export const metadata = {
   title:
-    "Stainless Steel Flanges & Fittings | F304, F316, F321, A182 | Texas Flange",
+    "Stainless Steel Flanges & Fittings | F304, F316, F321, A182",
   description:
-    "Stainless steel material guide. Austenitic F304/304L and F316/316L for general corrosion service, F321 for elevated temperature, and the full ASTM A182 product family. Carried in stock and sourced to spec.",
+    "Stainless steel material guide. Austenitic F304/304L and F316/316L for general corrosion service, F321 for elevated temperature, and the full ASTM A182 product family.",
 };
 
 export default function StainlessSteelPage() {
@@ -189,10 +190,9 @@ export default function StainlessSteelPage() {
             austenitic family for predictability and weldability.
           </p>
           <p className="text-lg text-gray-300 leading-relaxed">
-            Ferritic and martensitic grades are available when a project
+            Ferritic and martensitic grades are used when a project
             calls for them, but the design conversation usually starts
-            with why a 300-series austenitic will not work. Texas Flange
-            can run the tradeoffs on request.
+            with why a 300-series austenitic will not work.
           </p>
         </div>
       </section>
@@ -235,21 +235,21 @@ export default function StainlessSteelPage() {
             installations.
           </p>
           <p className="text-lg text-gray-300 leading-relaxed mb-4">
-            See our work in{" "}
-            <Link
-              href="/industries"
+            For typical project profiles, see the{" "}
+            <a
+              href="https://texasflange.com/food-beverage-industries-flanges/?ref=pipingflange"
               className="text-[#FDBA74] underline hover:no-underline"
             >
-              food and beverage
-            </Link>{" "}
-            and{" "}
-            <Link
-              href="/industries"
+              Texas Flange food and beverage flanges page
+            </a>{" "}
+            and the{" "}
+            <a
+              href="https://texasflange.com/petrochemical-flanges/?ref=pipingflange"
               className="text-[#FDBA74] underline hover:no-underline"
             >
-              chemical processing
-            </Link>{" "}
-            for typical project profiles.
+              Texas Flange petrochemical flanges page
+            </a>
+            .
           </p>
         </div>
       </section>
@@ -269,7 +269,7 @@ export default function StainlessSteelPage() {
             duplex exists.
           </p>
           <p className="text-lg leading-relaxed text-[#1B1F23]">
-            For chloride service that pushes past 316, see our{" "}
+            For chloride service that pushes past 316, see the{" "}
             <Link
               href="/materials/exotic-alloys"
               className="text-[#B45309] underline hover:no-underline"
@@ -281,32 +281,7 @@ export default function StainlessSteelPage() {
         </div>
       </section>
 
-      <section className="bg-[#B45309] text-white py-16 px-4">
-        <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-4xl font-display font-bold mb-4 text-white">
-            Need a Stainless Quote?
-          </h2>
-          <p className="text-xl mb-8 max-w-2xl mx-auto">
-            304, 316, 321, 347, 310, 317L, or H grades in any A182 form.
-            Send the line list and the schedule to Texas Flange for
-            pricing and availability.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="tel:+12814848325"
-              className="bg-white text-[#B45309] px-8 py-3 font-semibold hover:bg-gray-100"
-            >
-              Call (281) 484-8325
-            </a>
-            <a
-              href="mailto:sales@texasflange.com"
-              className="border-2 border-white text-white px-8 py-3 font-semibold hover:bg-white hover:text-[#B45309]"
-            >
-              Email sales@texasflange.com
-            </a>
-          </div>
-        </div>
-      </section>
+      <CtaBand />
     </main>
   );
 }

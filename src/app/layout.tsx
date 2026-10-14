@@ -25,6 +25,7 @@ export const metadata: Metadata = {
       "Lightweight Class 125LW through API 20K. Carbon, stainless, alloy. Every standard, every size, every pressure class.",
     url: "./"
   },
+  twitter: { card: "summary_large_image" },
   robots: { index: true, follow: true }
 };
 

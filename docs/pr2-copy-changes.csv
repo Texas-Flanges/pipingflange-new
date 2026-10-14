@@ -1,0 +1,248 @@
+page,before,after
+/,[CTA band] Need Piping Flanges? Let's Talk.,[CTA band] Request a Quote
+/,"[CTA band] Whether you need ten slip-ons for a maintenance job or ten thousand weld necks for a new build, the process starts with a conversation.","[CTA band] Send the flange type, size, pressure class, facing and material grade."
+/,[button] Request a Quote -> /contact,[button] Request a Quote -> https://texasflange.com/contact-us/?ref=pipingflange
+/,[button] Browse Flanges -> /products/flanges,[button] Browse Standards -> /standards
+/,"One Source, Every Class","Every Class, One Reference"
+/,[stat tile] Same Day / Quote Turnaround,(deleted)
+/,[stat tile] Since 1986 / Texas Flange Reference,(deleted)
+/,What We Supply,What's Covered
+/,Three Product Categories. Thousands of Configurations.,"Flanges, Fittings and Non-Standard Work"
+/,"Every piece traceable, tested, and ready to install. From a single blind for a maintenance shutdown to a full BOM for new construction.","The flange types, fittings and custom work that show up on a piping spec."
+/,"Non-standard bores, overbore flanges, special facings, and tight-tolerance work covered through the Texas Flange machining program. Drawings or specs both work.","Non-standard bores, overbore flanges, special facings, and tight-tolerance work. Quoted from a drawing or a spec."
+/,[list item] Fast turnaround on non-standard work,(deleted)
+/,[list item] Full MTR documentation,(deleted)
+/,[link] Flanges: View Details -> /products/flanges,[link] Flanges: View Details -> https://texasflange.com/flange-types-basics/?ref=pipingflange
+/,[link] Pipe Fittings: View Details -> /products/fittings,[link] Pipe Fittings: View Details -> https://texasflange.com/butt-weld-fittings/?ref=pipingflange
+/,[link] Custom Machining: View Details -> /products/custom-machining,[link] Custom Machining: View Details -> https://texasflange.com/custom-flanges/?ref=pipingflange
+/,Every flange ships with full material traceability and dimensional verification against the standard it was ordered to. No gray areas.,"Each standard sets its own dimensions, pressure ratings, materials and marking rules."
+/,Mill test reports traceable to the heat number are standard on flange orders. EN 10204 3.1 and 3.2 certificates are documented as part of normal procurement practice for industrial piping.,Mill test reports tie a flange to its heat number. EN 10204 3.1 and 3.2 are the usual certification levels for industrial piping.
+/,"Class is not pressure. The standards reference pages cross-reference class to derated pressure at service temperature using ASME B16.5 Table 2, so spec selection lines up with duty.","Class is not pressure. The standards reference pages cross-reference class to derated pressure at service temperature using the ASME B16.5 rating tables for each material group, so spec selection lines up with duty."
+/,Buy American and ARRA documentation requirements are explained alongside imported material options. Either path is covered in the standards reference content.,"Domestic-content rules such as BAA, BABA and AIS are explained alongside imported material options in the resources section."
+/,"Overbore, special facings, RTJ grooves, and weld overlay sit outside the standard catalog. The custom machining page covers what falls into that category.","Overbore, special facings, RTJ grooves, and weld overlay sit outside the standard catalog and are quoted from a drawing."
+/,Sectors We Serve,Industries
+/,"Different industries, different specs, same standard of execution.","Different industries, different specs."
+/,[links] 12 industry tiles -> /industries/<slug>,[links] 12 industry tiles -> their texasflange.com targets from the redirect table
+/,[link] Pressure-Temperature Ratings card -> https://texasflange.com/blog/asme-b16-5-standards/?ref=pipingflange,[link] Pressure-Temperature Ratings card -> https://texasflange.com/blog/pipe-flange-pressure-classes-per-asme-b16-5/?ref=pipingflange
+/,Bolt Torque Reference: Recommended torque values for B7 studs by size and lubrication condition. (-> /blog/bolt-dimensions-explained-...),Bolt Torque Reference: Stud bolt sizes and torque references by pressure class. (-> https://texasflange.com/blog/flange-bolt-torque-values-a-reference-guide-for-every-pressure-class/?ref=pipingflange)
+/,[link] Material Grade Guide -> https://texasflange.com/blog/do-you-offer-different-material-grades-for-a-variety-of-industrial-flanges/?ref=pipingflange,[link] Material Grade Guide -> https://texasflange.com/texas-flange-frequently-asked-questions/?ref=pipingflange
+/,[link] Flange Dimension Tables -> https://texasflange.com/flange-drawings-models2/blind/?ref=pipingflange,[link] Flange Dimension Tables -> https://texasflange.com/blind-flanges/?ref=pipingflange
+/,"These guides help your team make faster, more confident decisions.",These guides explain the why behind the spec.
+/,[FAQ] Lightweight Class 125LW (86 psi) and AWWA C207 Class B through F (up to 300 psi) cover the waterworks side.,[FAQ] AWWA C207 Class B (86 psi) through Class F (300 psi) and lightweight Class 125LW cover the waterworks side.
+/,"[FAQ] They share a vendor ecosystem because Texas Flange and similar industrial suppliers cover both, but the engineering for each is independent.","[FAQ] They often share a vendor ecosystem, but the engineering for each is independent."
+/,[FAQ] Larger custom diameters exist but are project-specific and quoted case by case at Texas Flange.,[FAQ] Larger custom diameters exist but are project-specific and quoted case by case.
+/,[FAQ question] What are Buy American and ARRA flange requirements?,[FAQ question] What are Buy American flange requirements?
+/,"[FAQ] Buy American and ARRA mean the flange must be melted and manufactured in the United States, with documentation that traces the material origin. PSL-3 and PSL-4 API material adds further NDE and impact testing requirements. Texas Flange supplies under these provisions when a project specifies them.","[FAQ] Federally funded projects can carry domestic-content rules such as the Buy American Act (BAA), Build America, Buy America (BABA) and American Iron and Steel (AIS). For iron and steel products like flanges, these generally require every manufacturing step, from the initial melting through coating, to happen in the United States, with documentation that traces the material origin. PSL-3 and PSL-4 API material adds further NDE and impact testing requirements."
+/,[FAQ] Project-specific timelines are confirmed at quote stage by the Texas Flange sales desk at (281) 484-8325.,[FAQ] Project-specific timelines are confirmed at the quote stage.
+/,[schema] No FAQPage JSON-LD on the page,"[schema] FAQPage JSON-LD added, generated from the same list as the visible FAQ"
+/404,[button] Browse Flanges -> /products/flanges,[button] Browse Standards -> /standards
+/404,[button] Contact -> /contact,[button] Contact -> https://texasflange.com/contact-us/?ref=pipingflange
+/blog,[title] Blog | Piping Flange Technical Resources | Texas Flange | Piping Flange,[title] Blog | Piping Flange Technical Resources | Piping Flange
+/blog,[CTA band] Got a flange question?,[CTA band] Request a Quote
+/blog,"[CTA band] We supply ASME, AWWA, API, and DIN flanges across the full pressure spectrum, in carbon, stainless, alloy, and exotic materials. Call us or send the spec and we will source it.","[CTA band] Send the flange type, size, pressure class, facing and material grade."
+/blog,"[meta description] Technical articles on flange selection, API and ASME standards, bolt torque, gasket sealing, and waterworks piping from Texas Flange & Fitting Supply.","[meta description] Technical articles on flange selection, API and ASME standards, bolt torque, gasket sealing, and waterworks piping."
+/blog,"Our [tools section](/tools) covers bolt torque, flange dimensions, and pressure-temperature ratings.",The tools section covers bolt torque and flange dimensions.
+/blog/[all posts],[title] Post Not Found | Texas Flange Blog | Piping Flange,[title] Post Not Found | Piping Flange
+/blog/[all posts],[title] <post title> | Texas Flange Blog | Piping Flange,[title] <post title> | Piping Flange
+/blog/[all posts],[CTA band] Need this part sourced?,[CTA band] Request a Quote
+/blog/[all posts],"[CTA band] We stock and source flanges, fittings, studs, and gaskets across the full pressure and material spectrum. Send the spec and we will quote.","[CTA band] Send the flange type, size, pressure class, facing and material grade."
+/blog/[all posts],"Flange Products: Full pressure spectrum, all standards",(deleted)
+/blog/[all posts],"A105, A350 LF2, stock and forged",A105 and A350 LF2 forged
+/blog/api-6a-vs-asme-b16-5-where-the-spec-actually-changes,ASME B16.5 Table 11 lists dimensions for sizes 1/2 inch through 24 inches across all pressure classes.,ASME B16.5 lists dimensions for sizes 1/2 inch through 24 inches across all pressure classes.
+/blog/api-6a-vs-asme-b16-5-where-the-spec-actually-changes,"We stock and source API 6A 6B and 6BX flanges in 2K through 15K classes, and we cover ASME B16.5 and B16.47 across all standard pressure classes and materials.",A typical oilfield package pairs API 6A 6B and 6BX flanges in 2K through 15K classes with ASME B16.5 and B16.47 flanges across the standard pressure classes and materials.
+/blog/api-6a-vs-asme-b16-5-where-the-spec-actually-changes,"For projects that need NACE MR0175 documentation, the material certs and PSL traceability come with the flange.","For projects that need NACE MR0175 documentation, the material certs and PSL traceability should be specified with the flange."
+/blog/api-6a-vs-asme-b16-5-where-the-spec-actually-changes,"For specification help on API or ASME flanges, see our API flange offerings and our pressure and temperature rating tool, or call (281) 484-8325.","For specification help on API or ASME flanges, see the ASME flange reference and the Texas Flange pressure class guide."
+/blog/api-6a-vs-asme-b16-5-where-the-spec-actually-changes,[link] pressure and temperature rating tool -> /tools/pressure-temperature-rating,[link] Texas Flange pressure class guide -> https://texasflange.com/blog/pipe-flange-pressure-classes-per-asme-b16-5/?ref=pipingflange
+/blog/api-6a-vs-asme-b16-5-where-the-spec-actually-changes,"Material certs, PSL documentation, and NACE compliance paperwork come with the flange.","Material certs, PSL documentation, and NACE compliance paperwork should be called out on the line item."
+/blog/lightweight-flanges-vs-cast-iron-when-to-make-the-switch,Cast iron flanges have been holding water and low-pressure utility systems together since well before any of us were drawing isometrics.,Cast iron flanges have been holding water and low-pressure utility systems together since well before most of today's piping designers were drawing isometrics.
+/blog/lightweight-flanges-vs-cast-iron-when-to-make-the-switch,"Class 125LW is typically supplied in ASTM A105 carbon steel or, for the lighter wall versions, A36 plate stock.","Class 125LW is typically made from ASTM A105 carbon steel or, for the lighter wall versions, A36 plate."
+/blog/lightweight-flanges-vs-cast-iron-when-to-make-the-switch,We stock Class 125LW and AWWA C207 flanges across the standard sizes and can source the larger sizes through our mill relationships.,(deleted)
+/blog/lightweight-flanges-vs-cast-iron-when-to-make-the-switch,"For sourcing on Class 125LW, AWWA C207, and related waterworks flanges, see our waterworks flange offering or call (281) 484-8325.","For dimensional and rating data on Class 125LW, AWWA C207, and related waterworks flanges, see the AWWA flange reference."
+/blog/lightweight-flanges-vs-cast-iron-when-to-make-the-switch,We carry stock in carbon steel and can quote stainless or coated versions for corrosive service.,(deleted)
+/blog/the-bolt-torque-question-that-isnt-actually-about-bolts,[excerpt and meta description] Engineers call asking what to torque a flange to.,[excerpt and meta description] Engineers often ask what to torque a flange to.
+/blog/the-bolt-torque-question-that-isnt-actually-about-bolts,We get calls every week that start with some version of: what torque should I use on a 6 inch Class 300 flange?,A common question takes some version of: what torque should I use on a 6 inch Class 300 flange?
+/blog/the-bolt-torque-question-that-isnt-actually-about-bolts,"Our bolt torque calculator walks through the calculation for standard B7, B7M, B8, and B16 studs across the common sizes and pressure classes, with K factor inputs for dry, lubricated, and heavily lubricated conditions.","The bolt torque calculator walks through the calculation for standard B7, B7M, B8, and B16 studs across the common sizes and pressure classes, with K factor inputs for dry, lubricated, and heavily lubricated conditions."
+/blog/the-bolt-torque-question-that-isnt-actually-about-bolts,"For studs, nuts, gaskets, and the technical support to specify them, call (281) 484-8325 or email sales@texasflange.com.",(deleted)
+/blog/the-bolt-torque-question-that-isnt-actually-about-bolts,"We carry A193 B7, B7M, B8 Class 1 and 2, B8M, and B16 across the common sizes, with NACE-qualified material when sour service applies.","Common stud grades include A193 B7, B7M, B8 Class 1 and 2, B8M, and B16 across the common sizes, with NACE-qualified material when sour service applies."
+/llms.txt,"Industrial pipe flange resource and supply covering the full pressure spectrum, from Class 125LW lightweight (86 PSI) through API 6BX wellhead (20,000 PSI). Carbon, stainless, alloy, and exotic materials. Built on the work of Texas Flange and Fitting Supply, an established Houston-area flange and fitting source serving oil and gas, waterworks, power, petrochemical, and general manufacturing since 1986.","Industrial pipe flange reference covering the full pressure spectrum, from Class 125LW lightweight (86 PSI) through API 6BX wellhead (20,000 PSI). Carbon, stainless, alloy, and exotic materials."
+/llms.txt,"Mailing: PO Box 2889, Pearland, TX 77588",(deleted)
+/llms.txt,"Hours: Monday through Friday, 8 AM to 5 PM CST",(deleted)
+/llms.txt,"/products: Flanges, pipe fittings, custom machining",(deleted)
+/llms.txt,"/industries: Oil and gas, petrochemical, power generation, ... data centers",(deleted)
+/llms.txt,"/tools: Bolt torque calculator, flange dimension calculator, pressure-temperature rating lookup","/tools: Bolt torque calculator, flange dimension lookup"
+/llms.txt,## Key Capabilities,## Coverage
+/llms.txt,Domestic melt and import options,"Domestic and imported material, and the documentation rules for each"
+/llms.txt,Full mill test report traceability (EN 10204 3.1 and 3.2 available),Mill test report traceability (EN 10204 3.1 and 3.2)
+/llms.txt,"Custom machining: non-standard bores, overbore, special facings, RTJ grooves, weld overlay","Non-standard work: non-standard bores, overbore, special facings, RTJ grooves, weld overlay"
+/materials,"[title] Flange & Fitting Materials | Carbon, Stainless, Alloy, Exotic | Texas Flange | Piping Flange","[title] Flange & Fitting Materials | Carbon, Stainless, Alloy, Exotic | Piping Flange"
+/materials,[CTA band] Not Sure Which Grade You Need?,[CTA band] Request a Quote
+/materials,"[CTA band] Send us the line spec, the service conditions, or just the drawing. We will come back with a material recommendation and a quote, usually the same business day.","[CTA band] Send the flange type, size, pressure class, facing and material grade."
+/materials,[meta description] 50+ material grades stocked and sourced for the full pressure spectrum.,[meta description] 50+ material grades covering the full pressure spectrum.
+/materials,"From waterworks-grade A36 plate through API-spec A694 high yield and the nickel alloys that handle sour service and aggressive chemistry, Texas Flange stocks and sources the full material spectrum required by modern piping systems.","From waterworks-grade A36 plate through API-spec A694 high yield and the nickel alloys that handle sour service and aggressive chemistry, this guide covers the full material spectrum required by modern piping systems."
+/materials,"One distributor, mill-certified inventory, and the documentation your QA team actually wants to see.",(deleted)
+/materials,The Four Families We Carry,The Four Material Families
+/materials,Every flange and fitting we supply falls into one of four families.,Every flange and fitting falls into one of four families.
+/materials,"We carry both domestic melt-and-manufacture material and import material with full mill test reports, and we keep the documentation trail clean so your inspector can sign off without a second visit.","Both domestic melt-and-manufacture material and import material can carry full mill test reports, and a clean documentation trail lets your inspector sign off without a second visit."
+/materials,"For a deeper read on the difference between the various domestic content rules, see our reference page on domestic versus import sourcing in the resources library.","For a deeper read on the difference between the various domestic content rules, see the reference page on domestic versus import sourcing in the resources library."
+/materials/alloy-steel,"[title] Alloy Steel Flanges & Fittings | F11, F22, F91 Chrome-Moly | Texas Flange | Piping Flange","[title] Alloy Steel Flanges & Fittings | F11, F22, F91 Chrome-Moly | Piping Flange"
+/materials/alloy-steel,[CTA band] Chrome-Moly Quoted The Same Day,[CTA band] Request a Quote
+/materials/alloy-steel,"[CTA band] F11, F22, F91, in standard B16.5 or large-bore configurations. Send the spec and we will source it.","[CTA band] Send the flange type, size, pressure class, facing and material grade."
+/materials/alloy-steel,"[meta description] Specified, sourced, and documented.",[meta description] (deleted)
+/materials/alloy-steel,"We supply the F11, F22, and F91 grades that cover refinery, power, and petrochemical high-temperature service, plus the A350 LF forgings that handle the cold end of the spectrum.","The F11, F22, and F91 grades cover refinery, power, and petrochemical high-temperature service, and the A350 LF forgings handle the cold end of the spectrum."
+/materials/alloy-steel,"For the full breakdown on LF grades and the related cryogenic family, see the cold-service section of our carbon steel page.","For the full breakdown on LF grades and the related cryogenic family, see the cold-service section of the carbon steel page."
+/materials/alloy-steel,We can quote the flange and document the heat number; the welding procedure is on you and your fabricator.,The heat number documents the flange; the welding procedure is on you and your fabricator.
+/materials/carbon-steel,"[title] Carbon Steel Flanges & Fittings | A105, LF2, LF3, A516, A694 | Texas Flange | Piping Flange","[title] Carbon Steel Flanges & Fittings | A105, LF2, LF3, A516, A694 | Piping Flange"
+/materials/carbon-steel,[CTA band] Need Carbon Steel for a Project?,[CTA band] Request a Quote
+/materials/carbon-steel,"[CTA band] A105, LF2, LF3, A516-70, and the full A694 high-yield range. Send the line list to Texas Flange for pricing, availability, and mill test report scope.","[CTA band] Send the flange type, size, pressure class, facing and material grade."
+/materials/carbon-steel,Probably the most-stocked A694 grade in the United States.,(deleted)
+/materials/carbon-steel,"For applications that step outside carbon's comfort zone - temperatures above 800°F, aggressive chemistry, sour gas, or cryogenic service - browse our alloy steel, stainless, and exotic alloy sections.","For applications that step outside carbon's comfort zone - temperatures above 800°F, aggressive chemistry, sour gas, or cryogenic service - browse the alloy steel, stainless, and exotic alloy sections."
+/materials/exotic-alloys,"[title] Exotic Alloy Flanges & Fittings | Inconel, Monel, Hastelloy, Duplex | Texas Flange | Piping Flange","[title] Exotic Alloy Flanges & Fittings | Inconel, Monel, Hastelloy, Duplex | Piping Flange"
+/materials/exotic-alloys,"[CTA band] Exotic Alloys, Sourced And Documented",[CTA band] Request a Quote
+/materials/exotic-alloys,"[CTA band] Hastelloy, Inconel, Monel, duplex, titanium. Send the grade and the geometry. We will quote material and lead time with full traceability.","[CTA band] Send the flange type, size, pressure class, facing and material grade."
+/materials/exotic-alloys,"We supply the full slate of ASTM B564 nickel forgings, duplex and super duplex grades, plus titanium and copper alloys for the jobs where ordinary materials simply do not survive.","The category covers the full slate of ASTM B564 nickel forgings, duplex and super duplex grades, plus titanium and copper alloys for the jobs where ordinary materials simply do not survive."
+/materials/exotic-alloys,We will quote the material; the welding procedure stays with your fabricator.,The welding procedure stays with your fabricator.
+/materials/exotic-alloys,We source all of these to spec.,(deleted)
+/materials/exotic-alloys,"None of them are common enough to keep in deep stock, so lead times are project specific.",(deleted)
+/materials/exotic-alloys,"For the carbon and stainless baseline against which exotic alloy decisions are made, see our carbon steel and stainless steel references.","For the carbon and stainless baseline against which exotic alloy decisions are made, see the carbon steel and stainless steel references."
+/materials/stainless-steel,"[title] Stainless Steel Flanges & Fittings | F304, F316, F321, A182 | Texas Flange | Piping Flange","[title] Stainless Steel Flanges & Fittings | F304, F316, F321, A182 | Piping Flange"
+/materials/stainless-steel,[CTA band] Need a Stainless Quote?,[CTA band] Request a Quote
+/materials/stainless-steel,"[CTA band] 304, 316, 321, 347, 310, 317L, or H grades in any A182 form. Send the line list and the schedule to Texas Flange for pricing and availability.","[CTA band] Send the flange type, size, pressure class, facing and material grade."
+/materials/stainless-steel,[meta description] Carried in stock and sourced to spec.,[meta description] (deleted)
+/materials/stainless-steel,"Ferritic and martensitic grades are available when a project calls for them, but the design conversation usually starts with why a 300-series austenitic will not work.","Ferritic and martensitic grades are used when a project calls for them, but the design conversation usually starts with why a 300-series austenitic will not work."
+/materials/stainless-steel,Texas Flange can run the tradeoffs on request.,(deleted)
+/materials/stainless-steel,See our work in food and beverage and chemical processing for typical project profiles.,"For typical project profiles, see the Texas Flange food and beverage flanges page and the Texas Flange petrochemical flanges page."
+/materials/stainless-steel,[link] food and beverage -> /industries,[link] Texas Flange food and beverage flanges page -> https://texasflange.com/food-beverage-industries-flanges/?ref=pipingflange
+/materials/stainless-steel,[link] chemical processing -> /industries,[link] Texas Flange petrochemical flanges page -> https://texasflange.com/petrochemical-flanges/?ref=pipingflange
+/materials/stainless-steel,"For chloride service that pushes past 316, see our exotic alloys page, which covers duplex and the nickel-rich grades.","For chloride service that pushes past 316, see the exotic alloys page, which covers duplex and the nickel-rich grades."
+/privacy-policy,Information We Collect,Information This Site Collects
+/privacy-policy,How We Use Information,How This Site Uses Information
+/privacy-policy,"We collect information you voluntarily provide when contacting us for quotes, technical questions, or correspondence.","This site collects information you voluntarily provide when making contact for quotes, technical questions, or correspondence."
+/privacy-policy,"We also collect basic analytics about site usage such as pages viewed, referring source, and general device type.","This site also collects basic analytics about site usage such as pages viewed, referring source, and general device type."
+/privacy-policy,"Information you submit is used only to respond to your inquiry, prepare quotes, deliver requested products and documentation, and maintain a record of our correspondence.","Information you submit is used only to respond to your inquiry, prepare quotes, deliver requested products and documentation, and maintain a record of this site's correspondence."
+/privacy-policy,We do not sell or rent personal information.,This site does not sell or rent personal information.
+/privacy-policy,We share information with them only as needed to operate the site.,This site shares information with them only as needed to operate the site.
+/privacy-policy,"You may request a copy of the information we have collected about you, ask for it to be corrected, or ask for it to be deleted, by contacting us at sales@texasflange.com.","You may request a copy of the information this site has collected about you, ask for it to be corrected, or ask for it to be deleted. Requests can be sent to sales@texasflange.com."
+/privacy-policy,"Questions about this policy can be sent to sales@texasflange.com or by mail to PO Box 2889, Pearland, TX 77588.",Questions about this policy can be sent to sales@texasflange.com.
+/resources,[title] Engineering Reference & Resources | Texas Flange | Piping Flange,[title] Engineering Reference & Resources | Piping Flange
+/resources,[CTA band] Have a Specification Question?,[CTA band] Request a Quote
+/resources,[CTA band] Call (281) 484-8325 or email sales@texasflange.com. Our inside sales group answers technical questions every day and will route anything unusual to the right person.,"[CTA band] Send the flange type, size, pressure class, facing and material grade."
+/resources,"The references collected here are the same documents our inside sales group uses when reviewing bid packages, validating MTRs, and helping engineers confirm that what they drew is what we can supply.","The references collected here cover the material used when reviewing bid packages, validating MTRs, and helping engineers confirm that what they drew matches a standard part."
+/resources,"2D drawings in DWG, DXF, and PDF formats and 3D models in STEP and IGES for weld neck, slip-on, blind, threaded, socket weld, lap joint, and RTJ flanges across every class we stock.","2D drawings in DWG, DXF, and PDF formats and 3D models in STEP and IGES for weld neck, slip-on, blind, threaded, socket weld, lap joint, and RTJ flanges across the standard pressure classes."
+/resources,"The tools section gives you a working interface to pull dimensions, calculate torque values, and check pressure-temperature ratings without opening a PDF.",The tools section gives you a working interface to pull dimensions and calculate torque values without opening a PDF.
+/resources,Each calculator is built around the standards we source to every day.,Each calculator is built around the published standards.
+/resources,Pressure-Temperature Rating: ASME B16.5 derating curves by material group.,(deleted)
+/resources,"Our parent site at texasflange.com hosts a deeper library of articles written for engineers, procurement specialists, and field crews.","The texasflange.com site hosts a deeper library of articles written for engineers, procurement specialists, and field crews."
+/resources,"Anything you cannot resolve from the written material can go to our inside sales group, who will source it from our stock or our mill partners.",(deleted)
+/resources,These pages are written from a distributor perspective.,(deleted)
+/resources,We do not forge or machine the flanges ourselves.,(deleted)
+/resources,"We carry inventory, coordinate with domestic and import mills, and supply the documentation packages that downstream contracts require.",(deleted)
+/resources/cad-drawings,[title] CAD Drawings & 3D Models | Texas Flange | Piping Flange,[title] CAD Drawings & 3D Models | Piping Flange
+/resources/cad-drawings,[CTA band] Need a Specific CAD File?,[CTA band] Request a Quote
+/resources/cad-drawings,"[CTA band] Send the specification to sales@texasflange.com or call (281) 484-8325. Mail correspondence to PO Box 2889, Pearland TX 77588.","[CTA band] Send the flange type, size, pressure class, facing and material grade."
+/resources/cad-drawings,"We supply CAD files for every flange we stock, in the formats that the major design platforms read natively, so the geometry your team is reviewing is the geometry that ships.",CAD files in the formats that the major design platforms read natively keep the geometry your team is reviewing consistent with the part that is delivered.
+/resources/cad-drawings,"Where a project requires a native CAD file, we coordinate with the mill or the machining shop to produce one.","Where a project requires a native CAD file, the mill or the machining shop produces one."
+/resources/cad-drawings,Our CAD library covers every flange family we carry in stock or source on a regular basis.,CAD coverage spans the common flange families listed below.
+/resources/cad-drawings,If your standard is not listed below we can usually produce a drawing within a business day from the relevant table.,(deleted)
+/resources/cad-drawings,EN 1092-1 type 11 also stocked.,EN 1092-1 type 11 also covered.
+/resources/cad-drawings,Each standard above is available in the flange types we stock or supply on order.,Each standard above is covered in the flange types below.
+/resources/cad-drawings,"The fastest route is to email sales@texasflange.com with the following specification: standard and class, nominal pipe size, flange type, facing (raised face, flat face, ring joint, with the R-number if RTJ), material, and the file format you need.","A drawing request should include the following specification: standard and class, nominal pipe size, flange type, facing (raised face, flat face, ring joint, with the R-number if RTJ), material, and the file format you need."
+/resources/cad-drawings,We can usually return the file the same business day.,(deleted)
+/resources/cad-drawings,Bulk requests covering a project parts list are handled by the inside sales team and turned around inside two business days.,(deleted)
+/resources/cad-drawings,"For browsing the legacy library, our parent site at texasflange.com hosts a searchable CAD page going back several years that covers most common flange and fitting drawings.","For browsing the legacy library, texasflange.com hosts a searchable CAD page going back several years that covers most common flange and fitting drawings."
+/resources/cad-drawings,[link] Request a Drawing -> /contact,[link] Request a Drawing from Texas Flange -> https://texasflange.com/contact-us/?ref=pipingflange
+/resources/domestic-vs-import,[title] Domestic vs Import Flanges | Texas Flange | Piping Flange,[title] Domestic vs Import Flanges | Piping Flange
+/resources/domestic-vs-import,[CTA band] Quoting a Compliance-Sensitive Project?,[CTA band] Request a Quote
+/resources/domestic-vs-import,[CTA band] Call (281) 484-8325 or email sales@texasflange.com with the specification language from your contract. We will source to match and supply the documentation package.,"[CTA band] Send the flange type, size, pressure class, facing and material grade."
+/resources/domestic-vs-import,"When a project specification calls out one of these programs, we source the flanges from our domestic mill partners and supply the documentation package with the parts.","When a project specification calls out one of these programs, the flanges must come from domestic mills with the documentation package supplied with the parts."
+/resources/domestic-vs-import,"Substitution from foreign stock is not possible once the spec is set, so confirming applicability at the quote stage saves the rework later.","Substitution from foreign material is not possible once the spec is set, so confirming applicability at the quote stage saves the rework later."
+/resources/domestic-vs-import,"Lead time on certain stock sizes can also favor domestic supply, particularly for forged carbon steel weld neck flanges in standard classes where our domestic partners hold inventory.","Lead time on certain standard sizes can also favor domestic supply, particularly for forged carbon steel weld neck flanges in standard classes where domestic mills and warehouses hold inventory."
+/resources/domestic-vs-import,"Several of our import mill partners run regular production of duplex, super duplex, and nickel alloy flanges in sizes that domestic mills make only on a per-order basis.","Several import mills run regular production of duplex, super duplex, and nickel alloy flanges in sizes that domestic mills make only on a per-order basis."
+/resources/domestic-vs-import,"When the project needs a 16 inch Class 600 super duplex weld neck on a tight schedule, the import route is sometimes the only one with stock available.","When the project needs a 16 inch Class 600 super duplex weld neck on a tight schedule, the import route is sometimes the only one with material available."
+/resources/domestic-vs-import,"Import supply can shorten lead time when the right stock is sitting in a US bonded warehouse, and it can also be the source of last resort for very long lead time domestic items where the project schedule cannot absorb the wait.","Import supply can shorten lead time when the right material is sitting in a US bonded warehouse, and it can also be the source of last resort for very long lead time domestic items where the project schedule cannot absorb the wait."
+/resources/domestic-vs-import,"For PSL specifications the language is shorter: ""API 6A PSL-2"" tied to the size, class, and material is usually enough for the quote desk to route to the right mill partner.","For PSL specifications the language is shorter: ""API 6A PSL-2"" tied to the size, class, and material is usually enough for a vendor to route the request to the right mill."
+/resources/domestic-vs-import,"When the spec is silent on melt origin, we will quote the lowest cost qualifying source, which is usually but not always import.","When the spec is silent on melt origin, vendors typically quote the lowest cost qualifying source, which is usually but not always import."
+/resources/domestic-vs-import,Assuming a part is domestic because the supplier is US-based is the most frequent error.,Assuming a part is domestic because the vendor is US-based is the most frequent error.
+/resources/domestic-vs-import,A distributor headquartered in Texas can hold a warehouse full of imported flanges.,A vendor headquartered in Texas can hold a warehouse full of imported flanges.
+/resources/flange-dimensions,[title] Flange Dimensions Reference | Texas Flange | Piping Flange,[title] Flange Dimensions Reference | Piping Flange
+/resources/flange-dimensions,[CTA band] Need a Dimension Confirmed?,[CTA band] Request a Quote
+/resources/flange-dimensions,"[CTA band] Call (281) 484-8325 or email sales@texasflange.com with the size, class, and facing. We will confirm against our stock and send the dimensional drawing for review.","[CTA band] Send the flange type, size, pressure class, facing and material grade."
+/resources/flange-dimensions,"The pages of ASME B16.5 and the parallel tables in B16.47, AWWA C207, and API 6A exist to give every supplier and every fabricator the same numbers for the same part.","The pages of ASME B16.5 and the parallel tables in B16.47, AWWA C207, and API 6A exist to give every vendor and every fabricator the same numbers for the same part."
+/resources/flange-dimensions,For working dimensions use the live tables in our dimension calculator or the published standard.,For working dimensions use the live tables in the dimension calculator or the published standard.
+/resources/flange-dimensions,Check the standard or our dimension calculator before ordering studs.,Check the standard or the dimension calculator before ordering studs.
+/resources/flange-dimensions,"For a full dimensional lookup with any size and class combination, use our calculator.","For a full dimensional lookup with any size and class combination, use the dimension calculator."
+/resources/flange-dimensions,[link] Blind Flange Drawings -> https://texasflange.com/flange-drawings-models2/blind/?ref=pipingflange,[link] Texas Flange Blind Flanges -> https://texasflange.com/blind-flanges/?ref=pipingflange
+/resources/technical-specs,[title] Technical Specifications Overview | Texas Flange | Piping Flange,[title] Technical Specifications Overview | Piping Flange
+/resources/technical-specs,[CTA band] Spec Sheet Review?,[CTA band] Request a Quote
+/resources/technical-specs,[CTA band] Send the document to sales@texasflange.com or call (281) 484-8325. Our inside sales group reviews specs every day and will flag any items that need clarification before quote.,"[CTA band] Send the flange type, size, pressure class, facing and material grade."
+/resources/technical-specs,"A flange specification is a contract between the designer, the supplier, and the fabricator.","A flange specification is a contract between the designer, the vendor, and the fabricator."
+/resources/technical-specs,The derating curve is published in ASME B16.5 Table 2 for each material group.,The derating curve is published in the ASME B16.5 ratings for each material group.
+/resources/technical-specs,"For full material data on the flange itself, see our materials section covering carbon steel, stainless steel, alloy steel, and exotic alloys.","For full material data on the flange itself, see the materials section covering carbon steel, stainless steel, alloy steel, and exotic alloys."
+/resources/technical-specs,P-T Rating Calculator,(deleted)
+/standards,"[title] Flange Standards Reference | ASME, ANSI, AWWA, DIN, API | Texas Flange | Piping Flange","[title] Flange Standards Reference | ASME, ANSI, AWWA, DIN, API | Piping Flange"
+/standards,[CTA band] Need a Spec Cross-Check?,[CTA band] Request a Quote
+/standards,"[CTA band] Send us your line list or flange schedule. We will confirm the standard, class, material, and face finish before anything ships.","[CTA band] Send the flange type, size, pressure class, facing and material grade."
+/standards,"[meta description] Complete reference for flange standards we supply: ASME B16.5 and B16.47, ANSI B16.1, AWWA C207 and C228, DIN/EN 1092-1, API 6A/6BX, MSS SP-44, and NACE MR0175.","[meta description] Complete reference for flange standards: ASME B16.5 and B16.47, ANSI B16.1, AWWA C207 and C228, DIN/EN 1092-1, API 6A/6BX, MSS SP-44, and NACE MR0175."
+/standards,"From 86 PSI municipal water flanges to 20,000 PSI wellhead connections, we supply product built to the codes your specs require.","From 86 PSI municipal water flanges to 20,000 PSI wellhead connections, flanges are built to the codes your specs require."
+/standards,This is our working reference for the flange standards we stock and source every day.,This is a working reference for the flange standards that come up most often.
+/standards,The Standards We Live In,The Standards That Matter Most
+/standards,Below are the eight standards that cover the vast majority of flange work we do.,Below are the eight standards that cover the vast majority of flange work.
+/standards,"Browse the flange product overview for what we stock, or jump to the tools section for dimensional lookups and bolt charts.","Browse the Texas Flange flange types page for an overview of flange types, or jump to the tools section for dimensional lookups and bolt charts."
+/standards,[link] flange product overview -> /products/flanges,[link] Texas Flange flange types page -> https://texasflange.com/flange-types-basics/?ref=pipingflange
+/standards/ansi-flanges,[title] ANSI B16.1 Cast Iron Flanges | Class 125 and Class 125LW Compatibility | Texas Flange | Piping Flange,[title] ANSI B16.1 Cast Iron Flanges | Class 125 and Class 125LW Compatibility | Piping Flange
+/standards/ansi-flanges,[CTA band] Need Class 125 or 125LW Flanges?,[CTA band] Request a Quote
+/standards/ansi-flanges,"[CTA band] We stock Class 125LW steel flanges 4 inch through 144 inch in slip-on, weld neck, and blind configurations, and we source cast iron flanges when the spec calls for the real thing. Tell us the mating part and we will match the bolt pattern.","[CTA band] Send the flange type, size, pressure class, facing and material grade."
+/standards/ansi-flanges,So why does this standard show up so often on quotes?,So why does this standard show up so often on project specs?
+/standards/asme-flanges,[title] ASME B16.5 and B16.47 Flanges | Texas Flange Reference | Piping Flange,[title] ASME B16.5 and B16.47 Flanges | Piping Flange
+/standards/asme-flanges,[CTA band] Need ASME Flanges for Your Project?,[CTA band] Request a Quote
+/standards/asme-flanges,"[CTA band] Texas Flange supplies B16.5 through 24 inches and sources B16.47 in both series to the size and class on the line list. Send the project and pricing comes back with material, class, and face finish confirmed line by line.","[CTA band] Send the flange type, size, pressure class, facing and material grade."
+/standards/asme-flanges,Class 400 is part of the standard but is uncommon in stock - it is normally substituted out to Class 600 unless a spec specifically requires it.,Class 400 is part of the standard but is uncommon in practice - it is normally substituted out to Class 600 unless a spec specifically requires it.
+/standards/asme-flanges,Class 600 typically fills the same duty with more inventory availability.,Class 600 typically fills the same duty.
+/standards/awwa-flanges,"[title] AWWA C207 and C228 Flanges | Class B, D, E, F and 125LW | Texas Flange | Piping Flange","[title] AWWA C207 and C228 Flanges | Class B, D, E, F and 125LW | Piping Flange"
+/standards/awwa-flanges,"[CTA band] AWWA Flanges, From 4"" to 144""",[CTA band] Request a Quote
+/standards/awwa-flanges,"[CTA band] Class B through Class F, 125LW for cast-iron retrofit work, C228 stainless when the water is aggressive. Send the schedule to Texas Flange to match class, drilling, and configuration line by line.","[CTA band] Send the flange type, size, pressure class, facing and material grade."
+/standards/awwa-flanges,All four classes are available across the full 4 inch through 144 inch size range.,All four classes are defined across the full 4 inch through 144 inch size range.
+/standards/awwa-flanges,"For more on the full range of waterworks fittings and flange configurations covered on this site, see the flange product overview or browse industries served.","For more on waterworks flange configurations, see the Texas Flange flange types page or the Texas Flange waterworks flanges page."
+/standards/awwa-flanges,[link] flange product overview -> /products/flanges,[link] Texas Flange flange types page -> https://texasflange.com/flange-types-basics/?ref=pipingflange
+/standards/awwa-flanges,[link] industries served -> /industries,[link] Texas Flange waterworks flanges page -> https://texasflange.com/waterworks-flanges/?ref=pipingflange
+/standards/din-flanges,[title] DIN / EN 1092-1 Flanges | PN Ratings and Type Reference | Texas Flange | Piping Flange,[title] DIN / EN 1092-1 Flanges | PN Ratings and Type Reference | Piping Flange
+/standards/din-flanges,[CTA band] DIN or EN 1092-1 on the Spec Sheet?,[CTA band] Request a Quote
+/standards/din-flanges,"[CTA band] Send the schedule with PN ratings, types, and materials. We will source to spec and confirm the dimensional package matches your mating equipment before anything ships.","[CTA band] Send the flange type, size, pressure class, facing and material grade."
+/standards/din-flanges,We source DIN and EN 1092-1 flanges in the standard PN ratings and type configurations to match what your spec calls for.,DIN and EN 1092-1 flanges are made in the standard PN ratings and type configurations to match what your spec calls for.
+/standards/din-flanges,"For cross-spec projects with both ASME and EN piping, we will help confirm the right adapter or transition strategy.",Cross-spec projects with both ASME and EN piping need a confirmed adapter or transition strategy.
+/tools,[CTA band] Need a Verified Lookup or Quote?,[CTA band] Request a Quote
+/tools,"[CTA band] Our sales desk can confirm dimensions, ratings, and torque requirements against project specs and pull inventory for same-day quoting.","[CTA band] Send the flange type, size, pressure class, facing and material grade."
+/tools,"[title] Piping & Flange Tools | Bolt Torque, Dimension & P-T Rating Calculators",[title] Piping & Flange Tools | Bolt Torque and Dimension Calculators
+/tools,"[meta description] Free interactive tools for piping professionals from Texas Flange & Fitting Supply. Calculate bolt torque, look up flange dimensions, and check pressure-temperature ratings.",[meta description] Free interactive tools for piping professionals. Calculate bolt torque and look up flange dimensions.
+/tools,"Use these tools for preliminary sizing, torque planning, and rating checks.",Use these tools for preliminary sizing and torque planning.
+/tools,[card] Calculator 03: Pressure-Temperature Rating,(deleted)
+/tools,Use the dimension and rating calculators during quote takeoff to confirm class and size compatibility before issuing an RFQ.,Use the dimension calculator during quote takeoff to confirm class and size compatibility before issuing an RFQ.
+/tools,"[block] Material Substitution Checks: When evaluating an alternate material, run the P-T rating calculator at the design temperature for both groups. If the substitute drops the rating below your design pressure, flag it before placing the order.",(deleted)
+/tools,The calculators draw on the same data set we maintain across the site.,The calculators draw on the same data set used across the site.
+/tools,[card] Flange Product Catalog: Browse flange types we stock and supply.,(deleted)
+/tools,[card] About Texas Flange: Supplier and distributor capabilities.,(deleted)
+/tools/bolt-torque-calculator,[CTA band] Need Stud Bolts Pulled For Your Project?,[CTA band] Bolting and Torque References (box above the shared Request a Quote band)
+/tools/bolt-torque-calculator,"[CTA band] We stock A193 B7, B7M, B8, and A320 L7 studs with matching nuts in standard and metric sizes. Call for same-day quoting and shipping.","[CTA band] For stud bolt sizes and torque references by pressure class, see the Texas Flange bolt torque reference. Joint assembly is governed by ASME PCC-1. Follow the bolting and gasket manufacturer's procedure for your joint."
+/tools/bolt-torque-calculator,"[data] 1-5/8"" stress area 1.9","[data] 1-5/8"" stress area 1.775"
+/tools/bolt-torque-calculator,[label] Bolt Size (UNC),[label] Bolt Size
+/tools/bolt-torque-calculator,"[options] 1/2"", 5/8"" ... 4""","[options] each size shows its thread series: 1/2"" (13 UNC) through 1-1/2"" (6 UNC); 1-5/8"" (8UN) through 4"" (8UN)"
+/tools/bolt-torque-calculator,"For full bolt dimensions and thread reference, see our blog article on bolt dimensions explained.","For full bolt dimensions and thread reference, see the Texas Flange article on bolt dimensions."
+/tools/bolt-torque-calculator,[card] P-T Rating Lookup: Check class rating at service temperature.,(deleted)
+/tools/flange-dimension-calculator,[CTA band] Need a Verified Cut Sheet?,[CTA band] Request a Quote
+/tools/flange-dimension-calculator,[CTA band] We can pull verified mill cut sheets and MTRs for the exact flange you need. Call our sales desk for same-day pricing and lead times.,"[CTA band] Send the flange type, size, pressure class, facing and material grade."
+/tools/flange-dimension-calculator,"[data] AWWA C207 Class D thickness 4"": 15/16""","[data] 5/8"""
+/tools/flange-dimension-calculator,"[data] AWWA C207 Class D thickness 12"": 1-1/4""","[data] 13/16"""
+/tools/flange-dimension-calculator,"[data] AWWA C207 Class D thickness 24"": 1-7/8""","[data] 1-1/4"""
+/tools/flange-dimension-calculator,"[data] AWWA C207 Class D thickness 36"": 2-3/8""","[data] 1-5/8"""
+/tools/flange-dimension-calculator,[label] Flange Thickness,[label] Flange thickness (includes the 1/16 in. raised face) for ASME B16.5; Flange thickness (slip-on) for AWWA C207
+/tools/flange-dimension-calculator,"Call (281) 484-8325 for a full lookup, or email sales@texasflange.com with your standard, class, and size. We will confirm against the latest published edition.",See the Texas Flange flange dimension charts.
+/tools/flange-dimension-calculator,[card] Flange Catalog: Browse types and materials we stock.,(deleted)
+[site-wide nav/footer],"[nav] Products menu (Flanges, Pipe Fittings, Custom Machining)",(deleted)
+[site-wide nav/footer],[nav] Industries menu (12 industries),(deleted)
+[site-wide nav/footer],[nav] About -> /about,(deleted)
+[site-wide nav/footer],[nav] Contact -> /contact,(deleted)
+[site-wide nav/footer],[nav] Request Quote -> /contact,[nav] Request Quote -> https://texasflange.com/contact-us/?ref=pipingflange
+[site-wide nav/footer],"[footer] Products column: Flanges, Pipe Fittings, Custom Machining, Materials","[footer] Reference column: Standards, Materials"
+[site-wide nav/footer],"[footer] PO Box 2889, Pearland, TX 77588",(deleted)
+[site-wide nav/footer],[footer] Mon - Fri: 8am - 5pm CST,(deleted)
+[site-wide nav/footer],[footer] About -> /about,(deleted)
+[site-wide nav/footer],[footer] Contact -> /contact,(deleted)

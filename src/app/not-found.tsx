@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import { QUOTE_URL } from "@/components/CtaBand";
 
 export const metadata: Metadata = {
   robots: { index: false, follow: true }
@@ -18,12 +19,12 @@ export default function NotFound() {
           <Link href="/" className="bg-[#B45309] text-white px-6 py-3 rounded font-semibold hover:bg-[#92400E] transition">
             Home
           </Link>
-          <Link href="/products/flanges" className="border border-white text-white px-6 py-3 rounded font-semibold hover:bg-white hover:text-[#1B1F23] transition">
-            Browse Flanges
+          <Link href="/standards" className="border border-white text-white px-6 py-3 rounded font-semibold hover:bg-white hover:text-[#1B1F23] transition">
+            Browse Standards
           </Link>
-          <Link href="/contact" className="border border-white text-white px-6 py-3 rounded font-semibold hover:bg-white hover:text-[#1B1F23] transition">
+          <a href={QUOTE_URL} className="border border-white text-white px-6 py-3 rounded font-semibold hover:bg-white hover:text-[#1B1F23] transition">
             Contact
-          </Link>
+          </a>
         </div>
       </div>
     </section>

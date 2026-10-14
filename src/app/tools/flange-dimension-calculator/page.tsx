@@ -1,5 +1,6 @@
 "use client";
 
+import CtaBand from "@/components/CtaBand";
 import { useMemo, useState } from "react";
 import Link from "next/link";
 
@@ -153,7 +154,7 @@ const AWWA_D: Record<string, FlangeRow> = {
     bolts: 8,
     hole: '3/4"',
     bolt: '5/8"',
-    thickness: '15/16"',
+    thickness: '5/8"',
   },
   "12": {
     size: '12"',
@@ -162,7 +163,7 @@ const AWWA_D: Record<string, FlangeRow> = {
     bolts: 12,
     hole: '1"',
     bolt: '7/8"',
-    thickness: '1-1/4"',
+    thickness: '13/16"',
   },
   "24": {
     size: '24"',
@@ -171,7 +172,7 @@ const AWWA_D: Record<string, FlangeRow> = {
     bolts: 20,
     hole: '1-3/8"',
     bolt: '1-1/4"',
-    thickness: '1-7/8"',
+    thickness: '1-1/4"',
   },
   "36": {
     size: '36"',
@@ -180,7 +181,7 @@ const AWWA_D: Record<string, FlangeRow> = {
     bolts: 32,
     hole: '1-5/8"',
     bolt: '1-1/2"',
-    thickness: '2-3/8"',
+    thickness: '1-5/8"',
   },
 };
 
@@ -404,7 +405,9 @@ export default function FlangeDimensionCalculator() {
                       </tr>
                       <tr className="border-t border-gray-200">
                         <td className="px-4 py-3 font-semibold">
-                          Flange Thickness
+                          {standard === "awwa"
+                            ? "Flange thickness (slip-on)"
+                            : "Flange thickness (includes the 1/16 in. raised face)"}
                         </td>
                         <td className="px-4 py-3">{row.thickness}</td>
                       </tr>
@@ -428,15 +431,14 @@ export default function FlangeDimensionCalculator() {
                     Reference table not available for this combination.
                   </p>
                   <p className="text-gray-700">
-                    Call (281) 484-8325 for a full lookup, or email{" "}
+                    See the{" "}
                     <a
-                      href="mailto:sales@texasflange.com"
+                      href="https://texasflange.com/flange-dims-weights/?ref=pipingflange"
                       className="text-[#B45309] underline"
                     >
-                      sales@texasflange.com
-                    </a>{" "}
-                    with your standard, class, and size. We will confirm
-                    against the latest published edition.
+                      Texas Flange flange dimension charts
+                    </a>
+                    .
                   </p>
                 </div>
               )}
@@ -469,7 +471,7 @@ export default function FlangeDimensionCalculator() {
           <h2 className="text-3xl font-display font-bold text-white mb-6">
             Related References
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <Link
               href="/standards/asme-flanges"
               className="block bg-[#2A2E33] p-6 rounded hover:bg-[#33383E] transition"
@@ -492,46 +494,11 @@ export default function FlangeDimensionCalculator() {
                 Pair bolt size with target torque.
               </p>
             </Link>
-            <Link
-              href="/products/flanges"
-              className="block bg-[#2A2E33] p-6 rounded hover:bg-[#33383E] transition"
-            >
-              <h3 className="font-display font-bold text-lg text-white mb-2">
-                Flange Catalog
-              </h3>
-              <p className="text-gray-300 text-sm">
-                Browse types and materials we stock.
-              </p>
-            </Link>
           </div>
         </div>
       </section>
 
-      <section className="bg-[#B45309] text-white py-16 px-4">
-        <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-3xl font-display font-bold mb-4">
-            Need a Verified Cut Sheet?
-          </h2>
-          <p className="text-lg mb-8 max-w-2xl mx-auto">
-            We can pull verified mill cut sheets and MTRs for the exact flange
-            you need. Call our sales desk for same-day pricing and lead times.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="tel:2814848325"
-              className="bg-white text-[#B45309] px-8 py-3 rounded font-semibold hover:bg-[#F8F6F0] transition"
-            >
-              Call (281) 484-8325
-            </a>
-            <Link
-              href="/contact"
-              className="bg-[#1B1F23] text-white px-8 py-3 rounded font-semibold hover:bg-black transition"
-            >
-              Request a Quote
-            </Link>
-          </div>
-        </div>
-      </section>
+      <CtaBand />
     </>
   );
 }

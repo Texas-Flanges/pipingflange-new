@@ -1,7 +1,8 @@
+import CtaBand from "@/components/CtaBand";
 import Link from "next/link";
 
 export const metadata = {
-  title: "CAD Drawings & 3D Models | Texas Flange",
+  title: "CAD Drawings & 3D Models",
   description:
     "2D and 3D CAD files for ASME B16.5, B16.47, AWWA C207, DIN, and API 6BX flanges. DWG, DXF, PDF, STEP, and IGES formats covering weld neck, slip-on, blind, threaded, socket weld, lap joint, and RTJ flanges.",
 };
@@ -21,9 +22,9 @@ export default function CadDrawingsPage() {
             Drawings drive procurement. When the model is right, the bid
             packages, isometrics, and fabrication releases all line up. When
             the model is wrong, every downstream document carries the same
-            error. We supply CAD files for every flange we stock, in the
-            formats that the major design platforms read natively, so the
-            geometry your team is reviewing is the geometry that ships.
+            error. CAD files in the formats that the major design platforms
+            read natively keep the geometry your team is reviewing consistent
+            with the part that is delivered.
           </p>
         </div>
       </section>
@@ -41,8 +42,8 @@ export default function CadDrawingsPage() {
             attached to bid packages. 3D models are available in STEP (AP203
             and AP214) and IGES, both of which import cleanly into SolidWorks,
             Inventor, Creo, NX, and most plant design suites. Where a project
-            requires a native CAD file, we coordinate with the mill or the
-            machining shop to produce one.
+            requires a native CAD file, the mill or the machining shop
+            produces one.
           </p>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-white p-6 border-l-4 border-[#B45309]">
@@ -77,10 +78,7 @@ export default function CadDrawingsPage() {
             Coverage By Standard
           </h2>
           <p className="text-gray-300 leading-relaxed mb-8 max-w-3xl">
-            Our CAD library covers every flange family we carry in stock or
-            source on a regular basis. If your standard is not listed below
-            we can usually produce a drawing within a business day from the
-            relevant table.
+            CAD coverage spans the common flange families listed below.
           </p>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-[#2a2f35] p-6">
@@ -116,7 +114,7 @@ export default function CadDrawingsPage() {
               </h3>
               <p className="text-sm text-gray-300 leading-relaxed">
                 PN 6 through PN 100 in DIN 2631 through 2638 weld neck and
-                slip-on patterns. EN 1092-1 type 11 also stocked.
+                slip-on patterns. EN 1092-1 type 11 also covered.
               </p>
             </div>
             <div className="bg-[#2a2f35] p-6">
@@ -147,8 +145,7 @@ export default function CadDrawingsPage() {
             Coverage By Flange Type
           </h2>
           <p className="text-gray-700 leading-relaxed mb-8">
-            Each standard above is available in the flange types we stock or
-            supply on order. The drawing carries the full type-specific
+            Each standard above is covered in the flange types below. The drawing carries the full type-specific
             geometry, including hub profile and bore for weld neck, hub stub
             for slip-on, and solid face for blind.
           </p>
@@ -193,26 +190,22 @@ export default function CadDrawingsPage() {
             How to Request a Drawing
           </h2>
           <p className="text-gray-300 leading-relaxed mb-6 max-w-3xl">
-            The fastest route is to email sales@texasflange.com with the
-            following specification: standard and class, nominal pipe size,
+            A drawing request should include the following specification: standard and class, nominal pipe size,
             flange type, facing (raised face, flat face, ring joint, with the
-            R-number if RTJ), material, and the file format you need. We can
-            usually return the file the same business day. Bulk requests
-            covering a project parts list are handled by the inside sales
-            team and turned around inside two business days.
+            R-number if RTJ), material, and the file format you need.
           </p>
           <p className="text-gray-300 leading-relaxed mb-8 max-w-3xl">
-            For browsing the legacy library, our parent site at texasflange.com
+            For browsing the legacy library, texasflange.com
             hosts a searchable CAD page going back several years that covers
             most common flange and fitting drawings.
           </p>
           <div className="flex flex-wrap gap-4">
-            <Link
-              href="/contact"
+            <a
+              href="https://texasflange.com/contact-us/?ref=pipingflange"
               className="inline-block bg-[#B45309] text-white px-6 py-3 font-semibold hover:bg-[#92400e] transition"
             >
-              Request a Drawing
-            </Link>
+              Request a Drawing from Texas Flange
+            </a>
             <a
               href="https://texasflange.com/cad-3d-flange-drawings/?ref=pipingflange"
               className="inline-block border border-[#B45309] text-[#FDBA74] px-6 py-3 font-semibold hover:bg-[#B45309] hover:text-white transition"
@@ -235,24 +228,7 @@ export default function CadDrawingsPage() {
         </div>
       </section>
 
-      <section className="bg-[#B45309] text-white py-16 px-4">
-        <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-3xl font-display font-bold mb-4">
-            Need a Specific CAD File?
-          </h2>
-          <p className="text-lg mb-8 max-w-2xl mx-auto">
-            Send the specification to sales@texasflange.com or call
-            (281) 484-8325. Mail correspondence to PO Box 2889, Pearland TX
-            77588.
-          </p>
-          <Link
-            href="/contact"
-            className="inline-block bg-white text-[#B45309] px-8 py-3 font-semibold hover:bg-gray-100 transition"
-          >
-            Contact Us
-          </Link>
-        </div>
-      </section>
+      <CtaBand />
     </main>
   );
 }

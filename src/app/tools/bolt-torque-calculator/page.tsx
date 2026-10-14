@@ -1,5 +1,6 @@
 "use client";
 
+import CtaBand from "@/components/CtaBand";
 import { useMemo, useState } from "react";
 import Link from "next/link";
 
@@ -7,25 +8,25 @@ type BoltMaterial = "B7" | "B7M" | "B8C1" | "L7";
 type Lube = "neverseez" | "antiseize" | "moly" | "oil" | "dry";
 
 const BOLT_SIZES: { label: string; diameter: number; area: number }[] = [
-  { label: '1/2"', diameter: 0.5, area: 0.142 },
-  { label: '5/8"', diameter: 0.625, area: 0.226 },
-  { label: '3/4"', diameter: 0.75, area: 0.334 },
-  { label: '7/8"', diameter: 0.875, area: 0.462 },
-  { label: '1"', diameter: 1.0, area: 0.606 },
-  { label: '1-1/8"', diameter: 1.125, area: 0.763 },
-  { label: '1-1/4"', diameter: 1.25, area: 0.969 },
-  { label: '1-3/8"', diameter: 1.375, area: 1.155 },
-  { label: '1-1/2"', diameter: 1.5, area: 1.405 },
-  { label: '1-5/8"', diameter: 1.625, area: 1.9 },
-  { label: '1-3/4"', diameter: 1.75, area: 2.08 },
-  { label: '2"', diameter: 2.0, area: 2.77 },
-  { label: '2-1/4"', diameter: 2.25, area: 3.55 },
-  { label: '2-1/2"', diameter: 2.5, area: 4.44 },
-  { label: '2-3/4"', diameter: 2.75, area: 5.43 },
-  { label: '3"', diameter: 3.0, area: 6.51 },
-  { label: '3-1/4"', diameter: 3.25, area: 7.69 },
-  { label: '3-1/2"', diameter: 3.5, area: 8.96 },
-  { label: '4"', diameter: 4.0, area: 11.81 },
+  { label: '1/2" (13 UNC)', diameter: 0.5, area: 0.142 },
+  { label: '5/8" (11 UNC)', diameter: 0.625, area: 0.226 },
+  { label: '3/4" (10 UNC)', diameter: 0.75, area: 0.334 },
+  { label: '7/8" (9 UNC)', diameter: 0.875, area: 0.462 },
+  { label: '1" (8 UNC)', diameter: 1.0, area: 0.606 },
+  { label: '1-1/8" (7 UNC)', diameter: 1.125, area: 0.763 },
+  { label: '1-1/4" (7 UNC)', diameter: 1.25, area: 0.969 },
+  { label: '1-3/8" (6 UNC)', diameter: 1.375, area: 1.155 },
+  { label: '1-1/2" (6 UNC)', diameter: 1.5, area: 1.405 },
+  { label: '1-5/8" (8UN)', diameter: 1.625, area: 1.775 },
+  { label: '1-3/4" (8UN)', diameter: 1.75, area: 2.08 },
+  { label: '2" (8UN)', diameter: 2.0, area: 2.77 },
+  { label: '2-1/4" (8UN)', diameter: 2.25, area: 3.55 },
+  { label: '2-1/2" (8UN)', diameter: 2.5, area: 4.44 },
+  { label: '2-3/4" (8UN)', diameter: 2.75, area: 5.43 },
+  { label: '3" (8UN)', diameter: 3.0, area: 6.51 },
+  { label: '3-1/4" (8UN)', diameter: 3.25, area: 7.69 },
+  { label: '3-1/2" (8UN)', diameter: 3.5, area: 8.96 },
+  { label: '4" (8UN)', diameter: 4.0, area: 11.81 },
 ];
 
 const LUBES: Record<Lube, { label: string; k: number }> = {
@@ -103,7 +104,7 @@ export default function BoltTorqueCalculator() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <label className="block text-sm font-semibold text-[#1B1F23] mb-2">
-                  Bolt Size (UNC)
+                  Bolt Size
                 </label>
                 <select
                   value={sizeIndex}
@@ -241,15 +242,14 @@ export default function BoltTorqueCalculator() {
                 Use a calibrated tool and proper pattern.
               </p>
               <p>
-                For full bolt dimensions and thread reference, see our blog
-                article on{" "}
+                For full bolt dimensions and thread reference, see the{" "}
                 <a
                   href="https://texasflange.com/blog/bolt-dimensions-explained-a-complete-guide-to-measuring-diameter-threads-and-length/?ref=pipingflange"
                   className="text-[#B45309] underline"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  bolt dimensions explained
+                  Texas Flange article on bolt dimensions
                 </a>
                 .
               </p>
@@ -263,7 +263,7 @@ export default function BoltTorqueCalculator() {
           <h2 className="text-3xl font-display font-bold text-white mb-6">
             Related Tools and References
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <Link
               href="/tools/flange-dimension-calculator"
               className="block bg-[#2A2E33] p-6 rounded hover:bg-[#33383E] transition"
@@ -273,17 +273,6 @@ export default function BoltTorqueCalculator() {
               </h3>
               <p className="text-gray-300 text-sm">
                 Confirm bolt count and diameter before sizing torque.
-              </p>
-            </Link>
-            <Link
-              href="/tools/pressure-temperature-rating"
-              className="block bg-[#2A2E33] p-6 rounded hover:bg-[#33383E] transition"
-            >
-              <h3 className="font-display font-bold text-lg text-white mb-2">
-                P-T Rating Lookup
-              </h3>
-              <p className="text-gray-300 text-sm">
-                Check class rating at service temperature.
               </p>
             </Link>
             <Link
@@ -301,31 +290,26 @@ export default function BoltTorqueCalculator() {
         </div>
       </section>
 
-      <section className="bg-[#B45309] text-white py-16 px-4">
-        <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-3xl font-display font-bold mb-4">
-            Need Stud Bolts Pulled For Your Project?
+      <section className="bg-cream py-16 px-4">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-display font-bold mb-4 text-ink">
+            Bolting and Torque References
           </h2>
-          <p className="text-lg mb-8 max-w-2xl mx-auto">
-            We stock A193 B7, B7M, B8, and A320 L7 studs with matching nuts in
-            standard and metric sizes. Call for same-day quoting and shipping.
+          <p className="text-lg text-gray-700 leading-relaxed">
+            For stud bolt sizes and torque references by pressure class, see the{" "}
+            <a
+              href="https://texasflange.com/blog/flange-bolt-torque-values-a-reference-guide-for-every-pressure-class/?ref=pipingflange"
+              className="text-[#B45309] underline hover:no-underline"
+            >
+              Texas Flange bolt torque reference
+            </a>
+            . Joint assembly is governed by ASME PCC-1. Follow the bolting and gasket
+            manufacturer&apos;s procedure for your joint.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="tel:2814848325"
-              className="bg-white text-[#B45309] px-8 py-3 rounded font-semibold hover:bg-[#F8F6F0] transition"
-            >
-              Call (281) 484-8325
-            </a>
-            <a
-              href="mailto:sales@texasflange.com"
-              className="bg-[#1B1F23] text-white px-8 py-3 rounded font-semibold hover:bg-black transition"
-            >
-              Email sales@texasflange.com
-            </a>
-          </div>
         </div>
       </section>
+
+      <CtaBand />
     </>
   );
 }

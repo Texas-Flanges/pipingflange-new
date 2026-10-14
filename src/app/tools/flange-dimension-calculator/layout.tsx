@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { OG_IMAGE } from "@/lib/brandImage";
 
 export const metadata: Metadata = {
   title: { absolute: "Flange Dimension Lookup | Piping Flange" },
@@ -8,7 +9,8 @@ export const metadata: Metadata = {
     title: "Flange Dimension Lookup | Piping Flange",
     description:
       "Look up flange outside diameter, bolt circle, bolt count and thickness by size and pressure class.",
-    url: "./"
+    url: "./",
+    images: [OG_IMAGE]
   }
 };
 

@@ -1,32 +1,28 @@
 # Piping Flange
 
-> Industrial pipe flange resource and supply covering the full pressure spectrum, from Class 125LW lightweight (86 PSI) through API 6BX wellhead (20,000 PSI). Carbon, stainless, alloy, and exotic materials. Built on the work of Texas Flange and Fitting Supply, an established Houston-area flange and fitting source serving oil and gas, waterworks, power, petrochemical, and general manufacturing since 1986.
+> Industrial pipe flange reference covering the full pressure spectrum, from Class 125LW lightweight (86 PSI) through API 6BX wellhead (20,000 PSI). Carbon, stainless, alloy, and exotic materials.
 
 ## Contact
 
 - Phone: (281) 484-8325
 - Email: sales@texasflange.com
-- Mailing: PO Box 2889, Pearland, TX 77588
-- Hours: Monday through Friday, 8 AM to 5 PM CST
 
 ## Site Structure
 
-- /products: Flanges, pipe fittings, custom machining
 - /standards: ASME B16.5 and B16.47, AWWA C207, ANSI B16.1, DIN EN 1092-1, API 6A and 6BX
 - /materials: Carbon steel, stainless steel, alloy steel, exotic alloys
-- /industries: Oil and gas, petrochemical, power generation, waterworks, chemical processing, mining, pulp and paper, food and beverage, agriculture, HVAC, marine, data centers
 - /resources: Flange dimensions, CAD drawings, domestic vs import guidance, technical specs
-- /tools: Bolt torque calculator, flange dimension calculator, pressure-temperature rating lookup
+- /tools: Bolt torque calculator, flange dimension lookup
 - /blog: Long-form technical articles on flange selection, API vs ASME standards, bolt torque practice
 
-## Key Capabilities
+## Coverage
 
 - Sizes from 1/2 inch through 144 inch nominal pipe size
 - Pressure classes from Class 125LW (AWWA C207) through Class 2500 (ASME B16.5) through 20K (API 6BX)
 - Material grades: A105, A350 LF2/LF3, A516-70, A694 F42 through F70, F304/304L, F316/316L, F321, F11, F22, F91, plus Hastelloy, Inconel, Monel, duplex, and super duplex
-- Domestic melt and import options
-- Full mill test report traceability (EN 10204 3.1 and 3.2 available)
-- Custom machining: non-standard bores, overbore, special facings, RTJ grooves, weld overlay
+- Domestic and imported material, and the documentation rules for each
+- Mill test report traceability (EN 10204 3.1 and 3.2)
+- Non-standard work: non-standard bores, overbore, special facings, RTJ grooves, weld overlay
 
 ## Standards Reference
 

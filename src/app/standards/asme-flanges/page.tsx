@@ -1,7 +1,8 @@
+import CtaBand from "@/components/CtaBand";
 import Link from "next/link";
 
 export const metadata = {
-  title: "ASME B16.5 and B16.47 Flanges | Texas Flange Reference",
+  title: "ASME B16.5 and B16.47 Flanges",
   description:
     "Complete reference for ASME B16.5 (1/2\" - 24\") and ASME B16.47 (26\" - 60\") pipe flanges. Pressure-temperature ratings, classes, materials, and Series A vs Series B explained.",
 };
@@ -47,7 +48,7 @@ export default function AsmeFlangesPage() {
           <p className="text-gray-700 leading-relaxed mb-3 max-w-3xl">
             ASME B16.5 defines seven pressure classes: 150, 300, 400, 600,
             900, 1500, and 2500. Class 400 is part of the standard but is
-            uncommon in stock - it is normally substituted out to Class 600
+            uncommon in practice - it is normally substituted out to Class 600
             unless a spec specifically requires it.
           </p>
           <ul className="text-gray-700 leading-relaxed space-y-2 mb-6">
@@ -63,7 +64,7 @@ export default function AsmeFlangesPage() {
             <li>
               <strong>Class 400</strong> - an intermediate class that exists
               in the standard but is rarely specified. Class 600 typically
-              fills the same duty with more inventory availability.
+              fills the same duty.
             </li>
             <li>
               <strong>Class 600</strong> - higher pressure process service,
@@ -262,33 +263,7 @@ export default function AsmeFlangesPage() {
         </div>
       </section>
 
-      <section className="bg-[#B45309] text-white py-16 px-4">
-        <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-3xl font-display font-bold mb-4">
-            Need ASME Flanges for Your Project?
-          </h2>
-          <p className="text-lg mb-8 max-w-2xl mx-auto">
-            Texas Flange supplies B16.5 through 24 inches and sources B16.47
-            in both series to the size and class on the line list. Send the
-            project and pricing comes back with material, class, and face
-            finish confirmed line by line.
-          </p>
-          <div className="flex flex-wrap gap-4 justify-center">
-            <a
-              href="tel:2814848325"
-              className="bg-white text-[#B45309] px-6 py-3 rounded font-semibold hover:bg-gray-100"
-            >
-              Call (281) 484-8325
-            </a>
-            <Link
-              href="/contact"
-              className="border border-white text-white px-6 py-3 rounded font-semibold hover:bg-white hover:text-[#B45309]"
-            >
-              Request a Quote
-            </Link>
-          </div>
-        </div>
-      </section>
+      <CtaBand />
     </>
   );
 }

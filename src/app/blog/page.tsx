@@ -1,11 +1,12 @@
+import CtaBand from "@/components/CtaBand";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { posts } from "./posts";
 
 export const metadata: Metadata = {
-  title: "Blog | Piping Flange Technical Resources | Texas Flange",
+  title: "Blog | Piping Flange Technical Resources",
   description:
-    "Technical articles on flange selection, API and ASME standards, bolt torque, gasket sealing, and waterworks piping from Texas Flange & Fitting Supply.",
+    "Technical articles on flange selection, API and ASME standards, bolt torque, gasket sealing, and waterworks piping.",
 };
 
 function formatDate(iso: string): string {
@@ -87,8 +88,14 @@ export default function BlogIndexPage() {
               Looking for more technical reference?
             </h3>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              Our [tools section](/tools) covers bolt torque, flange dimensions,
-              and pressure-temperature ratings. The [resources area](/resources)
+              The{" "}
+              <Link href="/tools" className="text-[#B45309] font-semibold hover:underline">
+                tools section
+              </Link>{" "}
+              covers bolt torque and flange dimensions. The{" "}
+              <Link href="/resources" className="text-[#B45309] font-semibold hover:underline">
+                resources area
+              </Link>{" "}
               has standard reference tables, material crosswalks, and
               specification guides for ASME, AWWA, API, and DIN flanges.
             </p>
@@ -110,38 +117,7 @@ export default function BlogIndexPage() {
         </div>
       </section>
 
-      <section className="bg-[#B45309] py-16 px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="font-display text-4xl font-bold text-white mb-4">
-            Got a flange question?
-          </h2>
-          <p className="text-xl text-white/90 mb-8 leading-relaxed">
-            We supply ASME, AWWA, API, and DIN flanges across the full pressure
-            spectrum, in carbon, stainless, alloy, and exotic materials. Call
-            us or send the spec and we will source it.
-          </p>
-          <div className="flex flex-wrap justify-center gap-4">
-            <a
-              href="tel:+12814848325"
-              className="inline-block bg-white text-[#B45309] px-8 py-4 rounded font-semibold hover:bg-[#F8F6F0] transition-colors"
-            >
-              (281) 484-8325
-            </a>
-            <a
-              href="mailto:sales@texasflange.com"
-              className="inline-block border-2 border-white text-white px-8 py-4 rounded font-semibold hover:bg-white hover:text-[#B45309] transition-colors"
-            >
-              sales@texasflange.com
-            </a>
-            <Link
-              href="/contact"
-              className="inline-block border-2 border-white text-white px-8 py-4 rounded font-semibold hover:bg-white hover:text-[#B45309] transition-colors"
-            >
-              Contact Page
-            </Link>
-          </div>
-        </div>
-      </section>
+      <CtaBand />
     </main>
   );
 }

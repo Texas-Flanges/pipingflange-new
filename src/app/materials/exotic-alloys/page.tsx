@@ -1,8 +1,9 @@
+import CtaBand from "@/components/CtaBand";
 import Link from "next/link";
 
 export const metadata = {
   title:
-    "Exotic Alloy Flanges & Fittings | Inconel, Monel, Hastelloy, Duplex | Texas Flange",
+    "Exotic Alloy Flanges & Fittings | Inconel, Monel, Hastelloy, Duplex",
   description:
     "Exotic alloy material guide. Hastelloy C276 and C22, Inconel 600/625/825, Monel 400 and K-500, Incoloy 800/825, duplex 2205 and super duplex 2507, titanium, and copper alloys for severe service.",
 };
@@ -21,10 +22,10 @@ export default function ExoticAlloysPage() {
           <p className="text-xl text-gray-300 leading-relaxed max-w-3xl">
             When the service environment defeats stainless, the answer
             is usually a nickel alloy, a duplex stainless, or one of the
-            reactive metals. We supply the full slate of ASTM B564 nickel
-            forgings, duplex and super duplex grades, plus titanium and
-            copper alloys for the jobs where ordinary materials simply
-            do not survive.
+            reactive metals. The category covers the full slate of ASTM
+            B564 nickel forgings, duplex and super duplex grades, plus
+            titanium and copper alloys for the jobs where ordinary
+            materials simply do not survive.
           </p>
         </div>
       </section>
@@ -122,8 +123,8 @@ export default function ExoticAlloysPage() {
             Welding duplex correctly is a separate discipline. The
             ferrite-austenite balance has to be maintained through the
             weld and heat affected zone, which means controlled heat
-            input and qualified procedures. We will quote the material;
-            the welding procedure stays with your fabricator.
+            input and qualified procedures. The welding procedure stays
+            with your fabricator.
           </p>
         </div>
       </section>
@@ -140,18 +141,13 @@ export default function ExoticAlloysPage() {
             Grade 2 is the standard commercially pure grade for piping,
             with Grade 5 (Ti-6Al-4V) used when strength matters.
           </p>
-          <p className="text-lg leading-relaxed mb-4 text-[#1B1F23]">
+          <p className="text-lg leading-relaxed text-[#1B1F23]">
             Copper and copper-nickel alloys (C70600 90/10 and C71500
             70/30) cover seawater cooling, condenser, and certain
             HVAC duties. Bronze flanges appear in lower-pressure
             marine and water service. Aluminum flanges are uncommon
             but used in low-temperature LNG service and in certain
             transport and aerospace adjacent applications.
-          </p>
-          <p className="text-lg leading-relaxed text-[#1B1F23]">
-            We source all of these to spec. None of them are common
-            enough to keep in deep stock, so lead times are project
-            specific.
           </p>
         </div>
       </section>
@@ -192,7 +188,7 @@ export default function ExoticAlloysPage() {
           </h2>
           <p className="text-lg leading-relaxed text-[#1B1F23]">
             For the carbon and stainless baseline against which exotic
-            alloy decisions are made, see our{" "}
+            alloy decisions are made, see the{" "}
             <Link
               href="/materials/carbon-steel"
               className="text-[#B45309] underline hover:no-underline"
@@ -219,32 +215,7 @@ export default function ExoticAlloysPage() {
         </div>
       </section>
 
-      <section className="bg-[#B45309] text-white py-16 px-4">
-        <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-4xl font-display font-bold mb-4 text-white">
-            Exotic Alloys, Sourced And Documented
-          </h2>
-          <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Hastelloy, Inconel, Monel, duplex, titanium. Send the
-            grade and the geometry. We will quote material and lead
-            time with full traceability.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="tel:+12814848325"
-              className="bg-white text-[#B45309] px-8 py-3 font-semibold hover:bg-gray-100"
-            >
-              Call (281) 484-8325
-            </a>
-            <a
-              href="mailto:sales@texasflange.com"
-              className="border-2 border-white text-white px-8 py-3 font-semibold hover:bg-white hover:text-[#B45309]"
-            >
-              Email sales@texasflange.com
-            </a>
-          </div>
-        </div>
-      </section>
+      <CtaBand />
     </main>
   );
 }

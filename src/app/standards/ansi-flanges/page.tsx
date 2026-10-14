@@ -1,7 +1,8 @@
+import CtaBand from "@/components/CtaBand";
 import Link from "next/link";
 
 export const metadata = {
-  title: "ANSI B16.1 Cast Iron Flanges | Class 125 and Class 125LW Compatibility | Texas Flange",
+  title: "ANSI B16.1 Cast Iron Flanges | Class 125 and Class 125LW Compatibility",
   description:
     "ANSI B16.1 cast iron pipe flanges in Class 25, 125, and 250. The key reference for why Class 125LW lightweight steel flanges share bolt patterns with cast iron, enabling waterworks retrofit.",
 };
@@ -91,7 +92,7 @@ export default function AnsiFlangesPage() {
           <p className="text-gray-300 leading-relaxed mb-6 max-w-3xl">
             Cast iron flanges are not going to win any modern process piping
             competitions. So why does this standard show up so often on
-            quotes? Three reasons.
+            project specs? Three reasons.
           </p>
 
           <div className="grid md:grid-cols-3 gap-6 mt-6">
@@ -209,33 +210,7 @@ export default function AnsiFlangesPage() {
         </div>
       </section>
 
-      <section className="bg-[#B45309] text-white py-16 px-4">
-        <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-3xl font-display font-bold mb-4">
-            Need Class 125 or 125LW Flanges?
-          </h2>
-          <p className="text-lg mb-8 max-w-2xl mx-auto">
-            We stock Class 125LW steel flanges 4 inch through 144 inch in
-            slip-on, weld neck, and blind configurations, and we source cast
-            iron flanges when the spec calls for the real thing. Tell us the
-            mating part and we will match the bolt pattern.
-          </p>
-          <div className="flex flex-wrap gap-4 justify-center">
-            <a
-              href="tel:2814848325"
-              className="bg-white text-[#B45309] px-6 py-3 rounded font-semibold hover:bg-gray-100"
-            >
-              Call (281) 484-8325
-            </a>
-            <a
-              href="mailto:sales@texasflange.com"
-              className="border border-white text-white px-6 py-3 rounded font-semibold hover:bg-white hover:text-[#B45309]"
-            >
-              sales@texasflange.com
-            </a>
-          </div>
-        </div>
-      </section>
+      <CtaBand />
     </>
   );
 }

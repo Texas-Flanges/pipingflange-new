@@ -1,7 +1,8 @@
+import CtaBand from "@/components/CtaBand";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Technical Specifications Overview | Texas Flange",
+  title: "Technical Specifications Overview",
   description:
     "How to read a flange specification sheet. ASME class to DIN PN equivalents, pressure-temperature derating, B7 and B7M bolt material selection, and gasket compatibility for raised face and ring joint flanges.",
 };
@@ -19,7 +20,7 @@ export default function TechnicalSpecsPage() {
           </h1>
           <p className="text-xl text-gray-300 leading-relaxed max-w-3xl">
             A flange specification is a contract between the designer, the
-            supplier, and the fabricator. It carries the geometric data
+            vendor, and the fabricator. It carries the geometric data
             needed to fit the part into a piping system, the metallurgical
             data needed to qualify the part for service, and the
             documentation references that let the project owner verify both.
@@ -140,8 +141,8 @@ export default function TechnicalSpecsPage() {
             pressure-temperature rating table where the actual allowable
             working pressure decreases as temperature increases. A Class 300
             A105 flange holds 740 PSI at 100 degrees F but only about 530
-            PSI at 600 degrees F. The derating curve is published in
-            ASME B16.5 Table 2 for each material group.
+            PSI at 600 degrees F. The derating curve is published in the
+            ASME B16.5 ratings for each material group.
           </p>
           <p className="text-gray-700 leading-relaxed mb-6">
             Material group is the key concept. Carbon steels, low alloy
@@ -225,7 +226,7 @@ export default function TechnicalSpecsPage() {
             the groove.
           </p>
           <p className="text-gray-700 leading-relaxed">
-            For full material data on the flange itself, see our materials
+            For full material data on the flange itself, see the materials
             section covering carbon steel, stainless steel, alloy steel, and
             exotic alloys.
           </p>
@@ -242,12 +243,6 @@ export default function TechnicalSpecsPage() {
             work that follows from the concepts on this page.
           </p>
           <div className="flex flex-wrap gap-4">
-            <Link
-              href="/tools/pressure-temperature-rating"
-              className="inline-block bg-[#B45309] text-white px-6 py-3 font-semibold hover:bg-[#92400e] transition"
-            >
-              P-T Rating Calculator
-            </Link>
             <Link
               href="/tools/bolt-torque-calculator"
               className="inline-block border border-[#B45309] text-[#FDBA74] px-6 py-3 font-semibold hover:bg-[#B45309] hover:text-white transition"
@@ -276,24 +271,7 @@ export default function TechnicalSpecsPage() {
         </div>
       </section>
 
-      <section className="bg-[#B45309] text-white py-16 px-4">
-        <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-3xl font-display font-bold mb-4">
-            Spec Sheet Review?
-          </h2>
-          <p className="text-lg mb-8 max-w-2xl mx-auto">
-            Send the document to sales@texasflange.com or call
-            (281) 484-8325. Our inside sales group reviews specs every day
-            and will flag any items that need clarification before quote.
-          </p>
-          <Link
-            href="/contact"
-            className="inline-block bg-white text-[#B45309] px-8 py-3 font-semibold hover:bg-gray-100 transition"
-          >
-            Contact Us
-          </Link>
-        </div>
-      </section>
+      <CtaBand />
     </main>
   );
 }
