@@ -227,7 +227,7 @@ export default function BlogPostPage({ params }: PageProps) {
             >
               <span className="font-semibold text-[#1B1F23]">Carbon Steel</span>
               <p className="text-gray-600 mt-1">
-                A105 and A350 LF2 forged
+                A105 and A350 LF2
               </p>
             </Link>
           </div>

@@ -1,6 +1,6 @@
 # Piping Flange
 
-> Industrial pipe flange reference covering the full pressure spectrum, from Class 125LW lightweight (86 PSI) through API 6BX wellhead (20,000 PSI). Carbon, stainless, alloy, and exotic materials.
+> Industrial pipe flange reference covering the full pressure spectrum, from AWWA C207 Class B (86 PSI) through API 6BX wellhead (20,000 PSI). Carbon, stainless, alloy, and exotic materials.
 
 ## Contact
 

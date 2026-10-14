@@ -38,8 +38,9 @@ export default function AwwaFlangesPage() {
           <p className="text-gray-700 leading-relaxed mb-8 max-w-3xl">
             C207 organizes steel flanges into four pressure classes. The class
             determines working pressure, flange thickness, and where the
-            flange is appropriate in the system. All four classes are
-            defined across the full 4 inch through 144 inch size range.
+            flange is appropriate in the system. Classes B, D and E are
+            defined from 4 inch through 144 inch. Class F covers 4 inch
+            through 48 inch.
           </p>
 
           <div className="overflow-x-auto">
@@ -76,7 +77,7 @@ export default function AwwaFlangesPage() {
                 <tr>
                   <td className="p-4 font-bold">Class F</td>
                   <td className="p-4">300 psi</td>
-                  <td className="p-4">4&quot; - 144&quot;</td>
+                  <td className="p-4">4&quot; - 48&quot;</td>
                   <td className="p-4">High-pressure industrial water</td>
                 </tr>
               </tbody>

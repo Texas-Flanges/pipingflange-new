@@ -169,12 +169,7 @@ export default function DomesticVsImportPage() {
           </p>
           <p className="text-gray-300 leading-relaxed mb-4 max-w-3xl">
             Availability of unusual sizes and exotic alloys is the second
-            benefit. Several import mills run regular
-            production of duplex, super duplex, and nickel alloy flanges in
-            sizes that domestic mills make only on a per-order basis. When the
-            project needs a 16 inch Class 600 super duplex weld neck on a
-            tight schedule, the import route is sometimes the only one with
-            material available.
+            benefit.
           </p>
           <p className="text-gray-300 leading-relaxed max-w-3xl">
             Lead time flexibility runs both directions. Import supply can

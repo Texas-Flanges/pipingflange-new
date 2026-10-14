@@ -16,7 +16,7 @@ export default function MaterialsHubPage() {
             Materials Catalog
           </p>
           <h1 className="text-5xl font-display font-bold text-white mb-6">
-            50+ Material Grades. One Source.
+            50+ Material Grades in One Reference
           </h1>
           <p className="text-xl text-gray-300 leading-relaxed max-w-3xl">
             From waterworks-grade A36 plate through API-spec A694 high yield

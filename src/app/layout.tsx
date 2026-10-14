@@ -50,17 +50,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               url: "https://pipingflange.com",
               logo: "https://pipingflange.com/logo.png",
               description:
-                "Industrial piping flange reference. Lightweight to high-pressure API. Carbon, stainless, alloy materials.",
-              telephone: "+1-281-484-8325",
-              email: "sales@texasflange.com",
-              address: {
-                "@type": "PostalAddress",
-                postOfficeBoxNumber: "PO Box 2889",
-                addressLocality: "Pearland",
-                addressRegion: "TX",
-                postalCode: "77588",
-                addressCountry: "US"
-              }
+                "Industrial piping flange reference. Lightweight to high-pressure API. Carbon, stainless, alloy materials."
             })
           }}
         />

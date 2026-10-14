@@ -202,7 +202,7 @@ export const posts: BlogPost[] = [
         paragraphs: [
           "Almost every full-stream project has both. A wellhead produces into a Christmas tree (API 6A) that pipes into a flowline (often API 5L or API 6D fittings) that runs to a separator or production manifold. The separator outlet typically transitions to ASME B16.5 piping for downstream gathering or refinery service.",
           "The transition is usually a flange spool or a manifold block that has API 6A on the wellhead side and ASME B16.5 on the process side. The spool is built to the higher of the two qualifications, with full traceability through the API portion, and the gasket and bolting are sized to the specific facing on each end.",
-          "Sourcing both standards under one PO is common in oilfield projects. A typical oilfield package pairs API 6A 6B and 6BX flanges in 2K through 15K classes with ASME B16.5 and B16.47 flanges across the standard pressure classes and materials. For projects that need NACE MR0175 documentation, the material certs and PSL traceability should be specified with the flange.",
+          "Sourcing both standards under one PO is common in oilfield projects. For projects that need NACE MR0175 documentation, the material certs and PSL traceability should be specified with the flange.",
         ],
       },
       {
@@ -318,7 +318,7 @@ export const posts: BlogPost[] = [
         heading: "Pulling It Together",
         paragraphs: [
           "Torque is one input in a system. The system has to deliver enough clamp load to seat the gasket and maintain it through all operational conditions. Getting there requires the right stud material at the right grade, the right gasket for the service, a correctly characterized K factor, a documented assembly procedure with cross pattern and multiple passes, and where appropriate, a re-torque after the first thermal cycle.",
-          "The [bolt torque calculator](/tools/bolt-torque-calculator) walks through the calculation for standard B7, B7M, B8, and B16 studs across the common sizes and pressure classes, with K factor inputs for dry, lubricated, and heavily lubricated conditions. For deeper background on stud dimensions and material selection, the bolt-dimensions reference on [texasflange.com](https://texasflange.com/blog/bolt-dimensions-explained-a-complete-guide-to-measuring-diameter-threads-and-length/?ref=pipingflange) is a good companion piece.",
+          "The [bolt torque calculator](/tools/bolt-torque-calculator) works through the calculation for A193 B7, B7M and B8 Class 1 and A320 L7 studs across the common sizes, with nut factor (K) options from molybdenum disulfide to dry. For deeper background on stud dimensions and material selection, the bolt-dimensions reference on [texasflange.com](https://texasflange.com/blog/bolt-dimensions-explained-a-complete-guide-to-measuring-diameter-threads-and-length/?ref=pipingflange) is a good companion piece.",
           "Common stud grades include A193 B7, B7M, B8 Class 1 and 2, B8M, and B16 across the common sizes, with NACE-qualified material when sour service applies.",
         ],
       },

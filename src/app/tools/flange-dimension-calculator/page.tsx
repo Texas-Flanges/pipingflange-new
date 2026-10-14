@@ -413,13 +413,15 @@ export default function FlangeDimensionCalculator() {
                       </tr>
                       <tr className="border-t border-gray-200 bg-gray-50">
                         <td className="px-4 py-3 font-semibold">
-                          Raised Face Thickness
+                          {standard === "awwa" ? "Facing" : "Raised Face Thickness"}
                         </td>
                         <td className="px-4 py-3">
-                          {standard === "b16.5" &&
-                          (klass === "150" || klass === "300")
-                            ? '1/16"'
-                            : '1/4"'}
+                          {standard === "awwa"
+                            ? "Flat face"
+                            : standard === "b16.5" &&
+                                (klass === "150" || klass === "300")
+                              ? '1/16"'
+                              : '1/4"'}
                         </td>
                       </tr>
                     </tbody>

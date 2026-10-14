@@ -246,3 +246,14 @@ page,before,after
 [site-wide nav/footer],[footer] Mon - Fri: 8am - 5pm CST,(deleted)
 [site-wide nav/footer],[footer] About -> /about,(deleted)
 [site-wide nav/footer],[footer] Contact -> /contact,(deleted)
+/blog/api-6a-vs-asme-b16-5-where-the-spec-actually-changes,A typical oilfield package pairs API 6A 6B and 6BX flanges in 2K through 15K classes with ASME B16.5 and B16.47 flanges across the standard pressure classes and materials.,(deleted)
+/resources/domestic-vs-import,"Several import mills run regular production of duplex, super duplex, and nickel alloy flanges in sizes that domestic mills make only on a per-order basis.",(deleted)
+/resources/domestic-vs-import,"When the project needs a 16 inch Class 600 super duplex weld neck on a tight schedule, the import route is sometimes the only one with material available.",(deleted)
+/blog/the-bolt-torque-question-that-isnt-actually-about-bolts,"The bolt torque calculator walks through the calculation for standard B7, B7M, B8, and B16 studs across the common sizes and pressure classes, with K factor inputs for dry, lubricated, and heavily lubricated conditions.","The bolt torque calculator works through the calculation for A193 B7, B7M and B8 Class 1 and A320 L7 studs across the common sizes, with nut factor (K) options from molybdenum disulfide to dry."
+/standards/awwa-flanges,"[table] Class F size range: 4"" - 144""","[table] Class F size range: 4"" - 48"""
+/standards/awwa-flanges,All four classes are defined across the full 4 inch through 144 inch size range.,"Classes B, D and E are defined from 4 inch through 144 inch. Class F covers 4 inch through 48 inch."
+/tools/flange-dimension-calculator,"[AWWA rows] Raised Face Thickness: 1/4""",[AWWA rows] Facing: Flat face
+/llms.txt,"from Class 125LW lightweight (86 PSI) through API 6BX wellhead (20,000 PSI)","from AWWA C207 Class B (86 PSI) through API 6BX wellhead (20,000 PSI)"
+/materials,[H1] 50+ Material Grades. One Source.,[H1] 50+ Material Grades in One Reference
+/blog/[all posts],A105 and A350 LF2 forged,A105 and A350 LF2
+[site-wide JSON-LD],"[Organization schema] telephone +1-281-484-8325; email sales@texasflange.com; address PO Box 2889, Pearland, TX 77588, US","(deleted; name, url, logo and description kept)"
