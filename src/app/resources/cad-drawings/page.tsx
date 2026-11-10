@@ -122,7 +122,7 @@ export default function CadDrawingsPage() {
                 API 6BX
               </h3>
               <p className="text-sm text-gray-300 leading-relaxed">
-                2,000 through 20,000 PSI wellhead flanges with BX ring groove
+                10,000 through 20,000 PSI wellhead flanges with BX ring groove
                 detail. R-number called out in the title block.
               </p>
             </div>

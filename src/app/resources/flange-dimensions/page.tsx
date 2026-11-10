@@ -19,8 +19,10 @@ export default function FlangeDimensionsPage() {
             Flange Dimensions Reference
           </h1>
           <p className="text-xl text-gray-300 leading-relaxed max-w-3xl">
-            A flange is a stack of dimensions. Get any one of them wrong and
-            the joint either will not bolt up or will not seal. The pages of
+            Flange dimensions vary between the different styles available. A
+            weld neck flange will have some of the same dimensions as a slip
+            on, but other dimensions will not apply. A comparison between
+            types is required. The pages of
             ASME B16.5 and the parallel tables in B16.47, AWWA C207, and API 6A
             exist to give every vendor and every fabricator the same numbers
             for the same part. Below is an orientation to what those tables
@@ -156,7 +158,7 @@ export default function FlangeDimensionsPage() {
             API 6BX Ring Joint Callouts
           </h2>
           <p className="text-gray-300 leading-relaxed mb-6 max-w-3xl">
-            API 6BX flanges run from 2,000 PSI through 20,000 PSI working
+            API 6BX flanges run from 10,000 PSI through 20,000 PSI working
             pressure for wellhead and surface equipment service. The
             dimensional set adds an octagonal RTJ groove machined into a
             recessed face. The groove is specified by its R-number, which

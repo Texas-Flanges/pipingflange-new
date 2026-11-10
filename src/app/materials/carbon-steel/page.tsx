@@ -87,7 +87,9 @@ export default function CarbonSteelPage() {
                 is the typical base material for cut-plate ring flanges,
                 blinds, and the large-diameter AWWA ring and hub flanges
                 used in waterworks. A516-70 is also routinely used as a
-                substitute for A105 on cut-plate fabrications.
+                substitute for A105 on cut-plate fabrications. For less
+                critical applications, ASTM A36 plate carbon steel is also
+                used when A516-70 isn't necessary or available.
               </p>
             </div>
           </div>

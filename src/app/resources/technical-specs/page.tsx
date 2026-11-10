@@ -83,7 +83,7 @@ export default function TechnicalSpecsPage() {
               <thead className="border-b border-gray-600">
                 <tr>
                   <th className="text-left py-3">ASME Class</th>
-                  <th className="text-left py-3">Approx PN</th>
+                  <th className="text-left py-3">Rough PN Range</th>
                   <th className="text-left py-3">CWP (psi)</th>
                   <th className="text-left py-3">Typical Service</th>
                 </tr>
@@ -91,25 +91,25 @@ export default function TechnicalSpecsPage() {
               <tbody className="text-sm">
                 <tr className="border-b border-gray-700">
                   <td className="py-3">Class 150</td>
-                  <td>PN 20</td>
+                  <td>PN 10 / PN 16</td>
                   <td>285</td>
                   <td>General process, utilities</td>
                 </tr>
                 <tr className="border-b border-gray-700">
                   <td className="py-3">Class 300</td>
-                  <td>PN 50</td>
+                  <td>PN 25 / PN 40</td>
                   <td>740</td>
                   <td>Process, steam</td>
                 </tr>
                 <tr className="border-b border-gray-700">
                   <td className="py-3">Class 600</td>
-                  <td>PN 100</td>
+                  <td>PN 63 / PN 100</td>
                   <td>1480</td>
                   <td>Refining, gas service</td>
                 </tr>
                 <tr className="border-b border-gray-700">
                   <td className="py-3">Class 900</td>
-                  <td>PN 150</td>
+                  <td>PN 160</td>
                   <td>2220</td>
                   <td>High pressure process</td>
                 </tr>
@@ -121,7 +121,7 @@ export default function TechnicalSpecsPage() {
                 </tr>
                 <tr>
                   <td className="py-3">Class 2500</td>
-                  <td>PN 420</td>
+                  <td>PN 400</td>
                   <td>6170</td>
                   <td>Very high pressure process</td>
                 </tr>
