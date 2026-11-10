@@ -159,7 +159,11 @@ export default function FlangeDimensionsPage() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-6 max-w-3xl">
             API 6BX flanges run from 10,000 PSI through 20,000 PSI working
-            pressure for wellhead and surface equipment service. The
+            pressure for wellhead and surface equipment service, and 6BX is
+            the only flange type used at those ratings. The type also carries
+            the 5,000 PSI rating from 13-5/8 inch up, and 2,000 and 3,000 PSI
+            at 26-3/4 and 30 inch. Below that, 2,000 through 5,000 PSI is
+            Type 6B. The
             dimensional set adds an octagonal RTJ groove machined into a
             recessed face. The groove is specified by its R-number, which
             indexes into a table of mean diameter, width, and depth values.

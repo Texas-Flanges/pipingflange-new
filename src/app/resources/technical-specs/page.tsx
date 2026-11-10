@@ -218,8 +218,10 @@ export default function TechnicalSpecsPage() {
             Ring joint flanges use solid metal ring gaskets seated in the
             machined groove. R-series oval and octagonal rings cover most
             API 6B and ASME B16.5 RTJ flanges. BX-series rings are pressure
-            energized and cover API 6BX flanges from 5,000 PSI through
-            20,000 PSI working pressure. The ring number and material must
+            energized and cover API 6BX flanges at 10,000 PSI through 20,000
+            PSI working pressure, plus the 5,000 PSI sizes from 13-5/8 inch up
+            and the 2,000 and 3,000 PSI sizes at 26-3/4 and 30 inch. The ring
+            number and material must
             match the groove specification. Soft iron, low carbon steel,
             stainless, and Inconel are common ring materials, with the
             choice driven by service media and hardness compatibility with

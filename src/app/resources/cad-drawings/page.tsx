@@ -123,7 +123,9 @@ export default function CadDrawingsPage() {
               </h3>
               <p className="text-sm text-gray-300 leading-relaxed">
                 10,000 through 20,000 PSI wellhead flanges with BX ring groove
-                detail. R-number called out in the title block.
+                detail, plus the 5,000 PSI rating from 13-5/8 inch up and 2,000
+                and 3,000 PSI at 26-3/4 and 30 inch. R-number called out in
+                the title block.
               </p>
             </div>
             <div className="bg-[#2a2f35] p-6">
