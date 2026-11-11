@@ -89,7 +89,7 @@ export default function HomePage() {
           <h2 className="text-4xl font-display font-bold mb-12 text-center text-white">Every Class, One Reference</h2>
           <div className="grid md:grid-cols-4 gap-6">
             <SpectrumCard tier="Lightweight" range="86 - 300 PSI" desc="Class 125LW, AWWA C207 B/D/E/F. Waterworks, cooling loops, large diameter up to 144&quot;." href="/standards/awwa-flanges" />
-            <SpectrumCard tier="Standard" range="150 - 600 Class" desc="ASME B16.5 and B16.47. The industrial workhorse range. Process piping, refining, utilities." href="/standards/asme-flanges" />
+            <SpectrumCard tier="Standard" range="75 - 600 Class" desc="ASME B16.5 and B16.47. The industrial workhorse range. Process piping, refining, utilities." href="/standards/asme-flanges" />
             <SpectrumCard tier="High Pressure" range="900 - 2500 Class" desc="Heavy-wall ASME for steam, high-temp hydrocarbon, and critical service." href="/standards/asme-flanges" />
             <SpectrumCard tier="API Service" range="2K - 20K PSI" desc="API 6A and 6BX for wellhead, BOP, and drilling. RTJ facings with proper ring gaskets." href="/standards/asme-flanges" />
           </div>

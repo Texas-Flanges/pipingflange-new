@@ -176,7 +176,7 @@ export default function StandardsHubPage() {
           <ul className="text-gray-700 leading-relaxed space-y-3 max-w-3xl">
             <li>
               <strong>ASME B16.5 Class 150</strong> roughly aligns with{" "}
-              <strong>DIN PN 20</strong>. Roughly. Bolt patterns do not match.
+              <strong>DIN PN 10 / PN 16</strong>. Roughly. Bolt patterns do not match.
             </li>
             <li>
               <strong>AWWA Class D (175 psi)</strong> shares its bolt circle and
