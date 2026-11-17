@@ -1,4 +1,5 @@
 import CtaBand from "@/components/CtaBand";
+import RelatedResources from "@/components/RelatedResources";
 import Link from "next/link";
 import { QUOTE_URL } from "@/components/CtaBand";
 
@@ -311,6 +312,7 @@ export default function HomePage() {
       </section>
 
       <CtaBand />
+      <RelatedResources />
     </>
   );
 }

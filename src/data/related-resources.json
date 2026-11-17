@@ -1,0 +1,31 @@
+{
+  "site": "pipingflange.com",
+  "heading": "Related resources",
+  "links": [
+    {
+      "url": "https://texasflange.com/?ref=pipingflange",
+      "label": "Texas Flange & Fitting Supply",
+      "note": "Stock, pricing and quotes on piping flanges"
+    },
+    {
+      "url": "https://pvfplanet.com/",
+      "label": "PVF resource hub (PVFPlanet.com)",
+      "note": "Pipe, valve and fitting information in one place"
+    },
+    {
+      "url": "https://usapvf.com/",
+      "label": "Domestic pipe, valves and fittings (USAPVF.com)",
+      "note": "Domestic PVF supply information"
+    },
+    {
+      "url": "https://awwaflange.com/",
+      "label": "AWWA waterworks flange reference (AWWAFlange.com)",
+      "note": "AWWA C207 ring and plate flanges for water lines"
+    },
+    {
+      "url": "https://apiflange.com/",
+      "label": "API flange resource (APIFlange.com)",
+      "note": "API 6A flange data for oil & gas piping"
+    }
+  ]
+}
