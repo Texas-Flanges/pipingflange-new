@@ -1,0 +1,2 @@
+url,check,old_text,new_text,file:line
+https://pipingflange.com/,content rule 12,"""label"": ""Texas Flange & Fitting Supply"",","""label"": ""Texas Flange"",",src/data/related-resources.json:7
